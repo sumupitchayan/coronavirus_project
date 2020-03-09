@@ -143,8 +143,10 @@ def create_virus_table():
 
 def create_environment_table():
     TOKEN = '1e50020499453cb7462d5da1ab16c69cb0fb86a7'
-    GMAPTOKEN = 'AIzaSyCXLcz9z9nFS0WfIstI6pQstTvCha37WkQ'
-    WEATHER_TOKEN = '14b0624bebe45d27050896aa495452f2'
+    # GMAP =
+    # put google api key above
+    # WEATHER_TOKEN =
+    # put weather api key here
     exclude_weather = '[currently, minutely, hourly]'
 
     gmaps = GoogleMaps(GMAPTOKEN)
