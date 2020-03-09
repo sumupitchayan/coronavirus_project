@@ -143,7 +143,7 @@ def create_virus_table():
 
 def create_environment_table():
     TOKEN = '1e50020499453cb7462d5da1ab16c69cb0fb86a7'
-    # GMAP =
+    # GMAPTOKEN =
     # put google api key above
     # WEATHER_TOKEN =
     # put weather api key here
@@ -205,7 +205,7 @@ def create_environment_table():
 
 
     conn.commit()
-    print('environment table created!')
+    print('Environment table created!')
 
 create_virus_table()
 create_environment_table()
