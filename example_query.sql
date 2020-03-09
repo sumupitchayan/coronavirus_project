@@ -1,3 +1,3 @@
 SELECT id, city, gender, age, aqi FROM virus_data
-JOIN pollution
+JOIN environment
 ON location == city

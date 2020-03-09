@@ -141,14 +141,16 @@ def create_virus_table():
     print('Virus table created!')
 
 
-def create_pollution_table():
+def create_environment_table():
     TOKEN = '1e50020499453cb7462d5da1ab16c69cb0fb86a7'
-
     GMAPTOKEN = 'AIzaSyCXLcz9z9nFS0WfIstI6pQstTvCha37WkQ'
+    WEATHER_TOKEN = '14b0624bebe45d27050896aa495452f2'
+    exclude_weather = '[currently, minutely, hourly]'
 
     gmaps = GoogleMaps(GMAPTOKEN)
 
-    URL = 'https://api.waqi.info/feed/'
+    URL_AQI = 'https://api.waqi.info/feed/'
+    URL_WEATHER = 'https://api.darksky.net/forecast/'
 
     df = pd.read_csv('data/virus_data.csv')
 
@@ -157,23 +159,22 @@ def create_pollution_table():
     conn = sqlite3.connect('data/data.db')
     c = conn.cursor()
 
-    c.execute('DROP TABLE IF EXISTS "pollution";')
+    c.execute('DROP TABLE IF EXISTS "environment";')
 
-    create_pollution_table_command = '''
-    CREATE TABLE IF NOT EXISTS pollution (
+    create_environment_table_command = '''
+    CREATE TABLE IF NOT EXISTS environment (
     	location VARCHAR(30) NOT NULL,
     	aqi INTEGER NOT NULL,
+        temp REAL NOT NULL,
     	PRIMARY KEY (location)
     );
     '''
 
-    c.execute(create_pollution_table_command)
+    c.execute(create_environment_table_command)
 
     conn.commit()
 
     for loc in range(len(locations)):
-
-        # print(locations[loc])
 
         if type(locations[loc]) == float:
             continue
@@ -182,20 +183,27 @@ def create_pollution_table():
 
         if len(geocode_result) == 0:
             continue
+
         lat = geocode_result[0]['geometry']['location']['lat']
         lng = geocode_result[0]['geometry']['location']['lng']
-        req = requests.get(URL+'geo:'+str(lat)+';'+str(lng)+'/?token='+TOKEN)
+
+        req = requests.get(URL_AQI+'geo:'+str(lat)+';'+str(lng)+'/?token='+TOKEN)
         res = req.json()
 
-        # print(res['status'])
+        req_weather = requests.get(URL_WEATHER+WEATHER_TOKEN+'/'+str(lat)+","+str(lng)+"?exclude="+exclude_weather)
+        res_weather = req_weather.json()
+        temp_min = res_weather['daily']['data'][0]['temperatureMin']
+        temp_max = res_weather['daily']['data'][0]['temperatureMax']
+        avg_temp = (temp_min + temp_max)/2.0
+
         if res['status'] == 'error' or res['status'] == 'nope':
             continue
 
-        c.execute('''INSERT INTO pollution VALUES (?, ?);''', (locations[loc], res['data']['aqi'])) # insert into pollution
+        c.execute('''INSERT INTO environment VALUES (?, ?, ?);''', (locations[loc], res['data']['aqi'], avg_temp)) # insert into environment
 
 
     conn.commit()
-    print('Pollution table created!')
+    print('environment table created!')
 
 create_virus_table()
-create_pollution_table()
+create_environment_table()
