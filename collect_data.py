@@ -106,7 +106,7 @@ def get_coronavirus_data():
 
 def create_virus_table():
     # Create connection to database
-    conn = sqlite3.connect('../data/data.db')
+    conn = sqlite3.connect('data/data.db')
     c = conn.cursor()
 
     # Delete tables if they exist
