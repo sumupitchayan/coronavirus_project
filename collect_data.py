@@ -32,10 +32,12 @@ def get_coronavirus_data():
         data_entry["id"] = entry_id
 
         # 2. Reporting Date:
-        report_date = s.cell_value(i, 2)
-        if len(str(report_date)) == 0:
+        report_date_raw = s.cell_value(i, 2)
+        if len(str(report_date_raw)) > 2:
+            report_date = xlrd.xldate_as_tuple(report_date_raw, wb.datemode)
+            data_entry["report_date"] = report_date
+        else:
             good_data = False
-        data_entry["report_date"] = report_date
 
         # 3. Summary:
         summary = s.cell_value(i, 3)
@@ -116,7 +118,7 @@ def create_virus_table():
     create_virus_table_command = '''
     CREATE TABLE IF NOT EXISTS virus_data (
     	id INT NOT NULL,
-    	report_date FLOAT NOT NULL,
+    	report_date DATE NOT NULL,
     	summary VARCHAR(200),
         city VARCHAR(50) NOT NULL,
         country VARCHAR(50) NOT NULL,
@@ -134,7 +136,9 @@ def create_virus_table():
 
     # Fills in tables with data from stock information
     for i in get_coronavirus_data():
-        c.execute('''INSERT INTO virus_data VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);''', (i["id"], i["report_date"], i['summary'], i['city'], i['country'], i['gender'], i['age'], i['visiting_wuhan'], i['from_wuhan'], i['death']))
+        cur_date = i["report_date"]
+        date = datetime.date(cur_date[0], cur_date[1], cur_date[2])
+        c.execute('''INSERT INTO virus_data VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);''', (i["id"], date, i['summary'], i['city'], i['country'], i['gender'], i['age'], i['visiting_wuhan'], i['from_wuhan'], i['death']))
 
     # Commits out changes to the database.
     conn.commit()
@@ -208,4 +212,4 @@ def create_environment_table():
     print('Environment table created!')
 
 create_virus_table()
-create_environment_table()
+# create_environment_table()
