@@ -1,0 +1,50 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STENCIL</title>
+</head>
+
+<body>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <div class="page-header center">
+            <h1>panic! || Data Deliverable</h1>
+        </div>
+        <h1> Tech Report</h1>
+
+        <h3> Data Used</h3>
+        <li><a  href="https://docs.google.com/spreadsheets/d/1jS24DjSPVWa4iuxuD4OAXrE3QeI8c9BC1hSlqr-NMiU/edit#gid=1187587451">Coronavirus Patient Info - DXY.cn</a></li>
+        <li><a href="https://darksky.net/dev">Weather Information API</a></li>
+        <li><a href="http://waqi.info/">Air Quality Index API</a></li>
+        <li><a href="https://developers.google.com/maps/documentation/geocoding/start">Geolocation API</a></li>
+
+        <h3> Data Source</h3>
+        <p>Our primary  data was sourced from an existing coronavirus patient dataset aggregated on DXY.cn, a Chinese social website for physicians, health care professionals, pharmacies and facilities. As data on Coronavirus cases around the world is not collated by any official source, we found that this was the most comprehensive and trusted source. All data is also aggregated from publicly available sources. The dataset is also updated daily to keep up with the latest information on the spread of the virus. 
+        </p>
+
+        <p>
+        Pertinent information - location, age, date and death - is available in 70% of the cases and are not biased to any specific regions. Therefore, it is largely representative of all reported Coronavirus cases. Given the locations and date, we used the Geolocation API call to find the latitude and longitude of the cases and subsequently used API calls to find weather information and air quality indices for each case.
+        </p>
+
+
+        
+        <h3> Cleaning Data</h3>
+        <p>
+            The data contains all the information necessary to complete our proposed project. That is, we are able to evaluate coronavirus death rates based on factors such as location, weather, air quality and age. The data split however is disproportianate and potentially skewed to the locations with more cases. For example, China has more reported cases than other countries. Therefore, we would like to measuring the rate of death per each factor. We believe we have adequate cases to do our measurements. There are several missing values, but these are only small proportions of our data as mentioned in the previous section. There are no duplicates and there are no data type issues. 
+        </p>
+
+        <p>Cases from the Grand Princess cruise, where there is no determined location of onset and is a major outlier, is omitted to remove sampling bias.</p>
+        
+        <h3>Challenges</h3>
+        <p>
+            We have not encountered challenges with the data so far. We will try to use the most updated data each time since the number of death cases are increasing day by day. Our next steps are to perform binary logistic regression and multiple regression on our data. 
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
