@@ -1,0 +1,59 @@
+Data Spec - Group Panic
+----------------------------------------------------------------------------
+
+I. Where is the data from 
+A. Virus Data: "https://docs.google.com/spreadsheets/d/1jS24DjSPVWa4iuxuD4OAXrE3QeI8c9BC1hSlqr-NMiU/edit#gid=1187587451 Coronavirus Patient Info - DXY.cn
+coronavirus patient dataset aggregated on DXY.cn, a Chinese social website for physicians, health care professionals, pharmacies and facilities. 
+As data on Coronavirus cases around the world is not collated by any official source, we found that this was the most comprehensive and trusted source. 
+All data is also aggregated from publicly available sources. The dataset is also updated daily to keep up with the latest information on the spread of the virus. 
+B. https://developers.google.com/maps/documentation/geocoding/start  Geolocation API. Location attribute to get relevant AQI and Temperature values from API
+C. Air Quality Data: http://waqi.info/ Air Quality Index API 
+D. Weather Data (Temperature): https://darksky.net/dev Weather Information API
+
+----------------------------------------------------------------------------
+
+II. Format of each entry
+Each Entry represents a person and every attribute is a potentially relevant detail to their case of the virus. 
+
+a. Report_Date
+	A clue that is subjective in most context is considered strongly 
+	subjective (strongsubj), and those that may only have certain 
+	subjective usages are considered weakly subjective (weaksubj).
+
+b. Summary 
+	A textual description of the case including information that is coded in the following attributes
+c. City
+    City of Origin
+d. Country
+    Country of Origin/Nationality
+e. Gender
+    Biological sex: either male or female. 
+f. Age
+    Age in years of the person 
+g. Visiting From Wuhan
+    A binary value that is 1 if this person present in Wuhan in the last 14 days
+h. From Wuhan
+    A binary value that is 1 if this person is orginially from Wuhuan based on their home address on ID card/Passport
+i. Death
+    A binary value that is 1 if this person is deceased (specifically while having the virus)
+j. Location
+    Combines City and Country texts that are inputted into Weather API to find AQI and Temperauture values. 
+k. AQI - Air Quality Index
+
+    From: https://airnow.gov/index.cfm?action=aqibasics.aqi 
+    Values range from 0-300 where:
+        - 0 to 50 is Good
+        - 51-100 is Moderate
+        - 101-150 is Unhealthy for Sensitive Groups
+        - 151-200 is Unhealthy
+        - 201-250 is Very Unhealthy
+        - 251-300 is Hazardous
+l. Temperature 
+    Temperature in the location at the time of report in fahrenheit. 
+
+----------------------------------------------------------------------------
+    
+
+
+
+
