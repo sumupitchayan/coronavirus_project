@@ -1,0 +1,968 @@
+{
+    "Afghanistan": {
+        "max_infections": 7.218390424293906e-06,
+        "median_age": 18,
+        "population": 38928346,
+        "total_infections": 5.178745585543244e-05
+    },
+    "Albania": {
+        "max_infections": 0.00010563636003512409,
+        "median_age": 36,
+        "population": 2877797,
+        "total_infections": 0.0010674832171970435
+    },
+    "Algeria": {
+        "max_infections": 2.6704039247047344e-05,
+        "median_age": 29,
+        "population": 43851044,
+        "total_infections": 0.00017860464165915868
+    },
+    "Angola": {
+        "max_infections": 2.434106308132544e-07,
+        "median_age": 17,
+        "population": 32866272,
+        "total_infections": 2.1906956773192894e-06
+    },
+    "Antigua and Barbuda": {
+        "max_infections": 0.00015317219618294888,
+        "median_age": 34,
+        "population": 97929,
+        "total_infections": 0.0009394561365887531
+    },
+    "Argentina": {
+        "max_infections": 2.7989342543397973e-05,
+        "median_age": 32,
+        "population": 45195774,
+        "total_infections": 0.00022083923156178273
+    },
+    "Armenia": {
+        "max_infections": 0.00024837652531365127,
+        "median_age": 35,
+        "population": 2963243,
+        "total_infections": 0.002048093929522486
+    },
+    "Australia": {
+        "max_infections": 0.00020902055868175714,
+        "median_age": 38,
+        "population": 25499884,
+        "total_infections": 0.002017891532369324
+    },
+    "Austria": {
+        "max_infections": 0.0012795348373456292,
+        "median_age": 43,
+        "population": 9006398,
+        "total_infections": 0.013122338142285073
+    },
+    "Azerbaijan": {
+        "max_infections": 4.369190911648944e-05,
+        "median_age": 32,
+        "population": 10139177,
+        "total_infections": 0.00030870355651153934
+    },
+    "Bahamas": {
+        "max_infections": 6.103081038744393e-05,
+        "median_age": 32,
+        "population": 393244,
+        "total_infections": 0.0004272156727121075
+    },
+    "Bahrain": {
+        "max_infections": 0.0003949282282591129,
+        "median_age": 32,
+        "population": 1701575,
+        "total_infections": 0.005768773048499184
+    },
+    "Bangladesh": {
+        "max_infections": 3.7039424696854927e-07,
+        "median_age": 28,
+        "population": 164689383,
+        "total_infections": 4.353650411089342e-06
+    },
+    "Barbados": {
+        "max_infections": 0.00017746846454980427,
+        "median_age": 40,
+        "population": 287375,
+        "total_infections": 0.001343192692474989
+    },
+    "Belarus": {
+        "max_infections": 3.7145518255646464e-05,
+        "median_age": 40,
+        "population": 9449323,
+        "total_infections": 0.0002418162655673851
+    },
+    "Belgium": {
+        "max_infections": 0.0014469840822259705,
+        "median_age": 42,
+        "population": 11589623,
+        "total_infections": 0.011658446525827457
+    },
+    "Belize": {
+        "max_infections": 1.0059653746718038e-05,
+        "median_age": 25,
+        "population": 397628,
+        "total_infections": 7.041757622702627e-05
+    },
+    "Benin": {
+        "max_infections": 1.3197835554968985e-06,
+        "median_age": 19,
+        "population": 12123200,
+        "total_infections": 9.073511944041177e-06
+    },
+    "Bhutan": {
+        "max_infections": 6.479974287462027e-06,
+        "median_age": 28,
+        "population": 771608,
+        "total_infections": 7.775969144954433e-05
+    },
+    "Bolivia": {
+        "max_infections": 1.1308126662326744e-05,
+        "median_age": 26,
+        "population": 11673021,
+        "total_infections": 9.012234279369496e-05
+    },
+    "Bosnia and Herzegovina": {
+        "max_infections": 0.00017648032396788728,
+        "median_age": 43,
+        "population": 3280819,
+        "total_infections": 0.0013402141355557866
+    },
+    "Botswana": {
+        "max_infections": 1.7009500231116584e-06,
+        "median_age": 24,
+        "population": 2351627,
+        "total_infections": 8.079512609780378e-06
+    },
+    "Brazil": {
+        "max_infections": 4.26045579528476e-05,
+        "median_age": 33,
+        "population": 212559417,
+        "total_infections": 0.0002872984921670161
+    },
+    "Brunei": {
+        "max_infections": 0.0003063004167057162,
+        "median_age": 32,
+        "population": 437479,
+        "total_infections": 0.004768228874986
+    },
+    "Bulgaria": {
+        "max_infections": 6.979978973712823e-05,
+        "median_age": 45,
+        "population": 6948445,
+        "total_infections": 0.0007109504356730175
+    },
+    "Burkina Faso": {
+        "max_infections": 1.4447498245848868e-05,
+        "median_age": 18,
+        "population": 20903273,
+        "total_infections": 0.00013265865111171824
+    },
+    "Burundi": {
+        "max_infections": 2.522962321071512e-07,
+        "median_age": 17,
+        "population": 11890784,
+        "total_infections": 8.409874403571708e-07
+    },
+    "Cabo Verde": {
+        "max_infections": 1.0791619228507142e-05,
+        "median_age": 28,
+        "population": 555987,
+        "total_infections": 0.00012050641471832975
+    },
+    "Cambodia": {
+        "max_infections": 6.818603902813362e-06,
+        "median_age": 26,
+        "population": 16718965,
+        "total_infections": 9.522120537963923e-05
+    },
+    "Cameroon": {
+        "max_infections": 1.9174362498593473e-05,
+        "median_age": 19,
+        "population": 26545863,
+        "total_infections": 7.967343160024596e-05
+    },
+    "Canada": {
+        "max_infections": 0.0003295254425595317,
+        "median_age": 41,
+        "population": 37742154,
+        "total_infections": 0.0022664843135344103
+    },
+    "Central African Republic": {
+        "max_infections": 1.656394604543035e-06,
+        "median_age": 18,
+        "population": 4829767,
+        "total_infections": 1.1387712906233365e-05
+    },
+    "Chad": {
+        "max_infections": 4.870367854013645e-07,
+        "median_age": 17,
+        "population": 16425864,
+        "total_infections": 3.531016694159893e-06
+    },
+    "Chile": {
+        "max_infections": 0.00019548863291403976,
+        "median_age": 35,
+        "population": 19116201,
+        "total_infections": 0.0014560947543918376
+    },
+    "China": {
+        "max_infections": 5.732622595126227e-05,
+        "median_age": 38,
+        "population": 1439323776,
+        "total_infections": 0.0030806821049831666
+    },
+    "Colombia": {
+        "max_infections": 2.4900314724648803e-05,
+        "median_age": 31,
+        "population": 50882891,
+        "total_infections": 0.00018915984942758068
+    },
+    "Costa Rica": {
+        "max_infections": 8.16628118940315e-05,
+        "median_age": 33,
+        "population": 5094118,
+        "total_infections": 0.0008193763866482873
+    },
+    "Croatia": {
+        "max_infections": 0.0002628330873485208,
+        "median_age": 44,
+        "population": 4105267,
+        "total_infections": 0.002308010660451561
+    },
+    "Cuba": {
+        "max_infections": 2.374937050925007e-05,
+        "median_age": 42,
+        "population": 11326616,
+        "total_infections": 0.00015309073778081643
+    },
+    "Cyprus": {
+        "max_infections": 0.0003279886098500943,
+        "median_age": 37,
+        "population": 1207359,
+        "total_infections": 0.002618111100343808
+    },
+    "Denmark": {
+        "max_infections": 0.0006812607709468697,
+        "median_age": 42,
+        "population": 5792202,
+        "total_infections": 0.007516312449047875
+    },
+    "Djibouti": {
+        "max_infections": 4.959514170040486e-05,
+        "median_age": 27,
+        "population": 988000,
+        "total_infections": 0.00025
+    },
+    "Dominican Republic": {
+        "max_infections": 0.00013716927961238617,
+        "median_age": 28,
+        "population": 10847910,
+        "total_infections": 0.000948754183985671
+    },
+    "Ecuador": {
+        "max_infections": 0.00019089665542031443,
+        "median_age": 28,
+        "population": 17643054,
+        "total_infections": 0.0014593845260576768
+    },
+    "Egypt": {
+        "max_infections": 9.625306460963022e-06,
+        "median_age": 25,
+        "population": 102334404,
+        "total_infections": 9.561789210205397e-05
+    },
+    "El Salvador": {
+        "max_infections": 7.0919744288069836e-06,
+        "median_age": 28,
+        "population": 6486205,
+        "total_infections": 4.239767321569392e-05
+    },
+    "Equatorial Guinea": {
+        "max_infections": 1.1404255925758294e-05,
+        "median_age": 22,
+        "population": 1402985,
+        "total_infections": 0.00012544681518334124
+    },
+    "Eritrea": {
+        "max_infections": 6.203437211769274e-06,
+        "median_age": 19,
+        "population": 3546421,
+        "total_infections": 3.496482792088136e-05
+    },
+    "Estonia": {
+        "max_infections": 0.0007244437576091094,
+        "median_age": 42,
+        "population": 1326535,
+        "total_infections": 0.007501498264274972
+    },
+    "Eswatini": {
+        "max_infections": 7.75752393627108e-06,
+        "median_age": 21,
+        "population": 1160164,
+        "total_infections": 8.791860461107222e-05
+    },
+    "Ethiopia": {
+        "max_infections": 3.0444422106937026e-07,
+        "median_age": 19,
+        "population": 114963588,
+        "total_infections": 2.5747282696152454e-06
+    },
+    "Fiji": {
+        "max_infections": 7.808621834022165e-06,
+        "median_age": 28,
+        "population": 896445,
+        "total_infections": 7.362414872078041e-05
+    },
+    "Finland": {
+        "max_infections": 0.00029147836382275227,
+        "median_age": 43,
+        "population": 5540720,
+        "total_infections": 0.0032483142985027216
+    },
+    "France": {
+        "max_infections": 0.000998904440730942,
+        "median_age": 42,
+        "population": 65273511,
+        "total_infections": 0.009095450679832437
+    },
+    "Gabon": {
+        "max_infections": 9.43508972770331e-06,
+        "median_age": 23,
+        "population": 2225734,
+        "total_infections": 6.559633810688968e-05
+    },
+    "Gambia": {
+        "max_infections": 1.655171500595034e-06,
+        "median_age": 18,
+        "population": 2416668,
+        "total_infections": 1.9448265131991652e-05
+    },
+    "Georgia": {
+        "max_infections": 3.8855229675769404e-05,
+        "median_age": 38,
+        "population": 3989167,
+        "total_infections": 0.0004176310492892376
+    },
+    "Germany": {
+        "max_infections": 0.0010880247195817069,
+        "median_age": 46,
+        "population": 83783942,
+        "total_infections": 0.010056616815666181
+    },
+    "Ghana": {
+        "max_infections": 6.597380228584743e-06,
+        "median_age": 22,
+        "population": 31072940,
+        "total_infections": 5.631909951230878e-05
+    },
+    "Greece": {
+        "max_infections": 0.00015475310787030366,
+        "median_age": 46,
+        "population": 10423054,
+        "total_infections": 0.0017251181851307689
+    },
+    "Grenada": {
+        "max_infections": 0.00010664486371675124,
+        "median_age": 32,
+        "population": 112523,
+        "total_infections": 0.0007376269740408627
+    },
+    "Guatemala": {
+        "max_infections": 2.79086881309038e-06,
+        "median_age": 23,
+        "population": 17915568,
+        "total_infections": 2.617834946678777e-05
+    },
+    "Guinea": {
+        "max_infections": 5.558603480827958e-06,
+        "median_age": 18,
+        "population": 13132795,
+        "total_infections": 1.9721620568964945e-05
+    },
+    "Guinea-Bissau": {
+        "max_infections": 7.6219473465714705e-06,
+        "median_age": 19,
+        "population": 1968001,
+        "total_infections": 2.9979659563181115e-05
+    },
+    "Guyana": {
+        "max_infections": 2.924155046328787e-05,
+        "median_age": 27,
+        "population": 786552,
+        "total_infections": 0.0002568170953732239
+    },
+    "Haiti": {
+        "max_infections": 1.5785973075444322e-06,
+        "median_age": 24,
+        "population": 11402528,
+        "total_infections": 1.2804178161193727e-05
+    },
+    "Honduras": {
+        "max_infections": 2.2413812077551387e-05,
+        "median_age": 24,
+        "population": 9904607,
+        "total_infections": 0.00014478111044688598
+    },
+    "Hungary": {
+        "max_infections": 6.449041033809227e-05,
+        "median_age": 43,
+        "population": 9660351,
+        "total_infections": 0.0005429409345478234
+    },
+    "Iceland": {
+        "max_infections": 0.0039971515899227235,
+        "median_age": 37,
+        "population": 341243,
+        "total_infections": 0.04455182963460056
+    },
+    "India": {
+        "max_infections": 1.8601390168771095e-06,
+        "median_age": 28,
+        "population": 1380004385,
+        "total_infections": 1.2641988815129743e-05
+    },
+    "Indonesia": {
+        "max_infections": 7.260799035578701e-06,
+        "median_age": 30,
+        "population": 273523615,
+        "total_infections": 6.370199516411043e-05
+    },
+    "Iran": {
+        "max_infections": 0.0006331841021560036,
+        "median_age": 32,
+        "population": 83992949,
+        "total_infections": 0.00808172600297675
+    },
+    "Iraq": {
+        "max_infections": 2.038660308797866e-05,
+        "median_age": 21,
+        "population": 40222493,
+        "total_infections": 0.0002160234075993251
+    },
+    "Ireland": {
+        "max_infections": 0.0008653675959225451,
+        "median_age": 38,
+        "population": 4937786,
+        "total_infections": 0.007063489588248661
+    },
+    "Israel": {
+        "max_infections": 0.0008581791882304213,
+        "median_age": 30,
+        "population": 8655535,
+        "total_infections": 0.006130528037839371
+    },
+    "Italy": {
+        "max_infections": 0.0019818620760808647,
+        "median_age": 47,
+        "population": 60461826,
+        "total_infections": 0.025747353379634946
+    },
+    "Jamaica": {
+        "max_infections": 1.5872120687553253e-05,
+        "median_age": 31,
+        "population": 2961167,
+        "total_infections": 0.00017560644164952533
+    },
+    "Japan": {
+        "max_infections": 2.069159730837187e-05,
+        "median_age": 48,
+        "population": 126476461,
+        "total_infections": 0.0002982531271174642
+    },
+    "Jordan": {
+        "max_infections": 3.0382821591875596e-05,
+        "median_age": 24,
+        "population": 10203134,
+        "total_infections": 0.00032421410911588535
+    },
+    "Kazakhstan": {
+        "max_infections": 2.4711468310178137e-05,
+        "median_age": 31,
+        "population": 18776707,
+        "total_infections": 0.00017122278150263516
+    },
+    "Kenya": {
+        "max_infections": 2.2688685056056675e-06,
+        "median_age": 20,
+        "population": 53771296,
+        "total_infections": 1.2701944174825171e-05
+    },
+    "Kuwait": {
+        "max_infections": 9.764502217619143e-05,
+        "median_age": 37,
+        "population": 4270571,
+        "total_infections": 0.0012647020737976257
+    },
+    "Kyrgyzstan": {
+        "max_infections": 1.9925829929976034e-05,
+        "median_age": 26,
+        "population": 6524195,
+        "total_infections": 0.0001446921804145952
+    },
+    "Laos": {
+        "max_infections": 1.374464646020375e-06,
+        "median_age": 24,
+        "population": 7275560,
+        "total_infections": 1.0995717168163e-05
+    },
+    "Latvia": {
+        "max_infections": 0.00026137234797195204,
+        "median_age": 44,
+        "population": 1886198,
+        "total_infections": 0.0024780007189064987
+    },
+    "Lebanon": {
+        "max_infections": 7.442738165789922e-05,
+        "median_age": 30,
+        "population": 6825445,
+        "total_infections": 0.0009776651925259086
+    },
+    "Liberia": {
+        "max_infections": 1.3840335125920358e-06,
+        "median_age": 19,
+        "population": 5057681,
+        "total_infections": 1.1863144393646021e-05
+    },
+    "Libya": {
+        "max_infections": 1.6008634184080664e-06,
+        "median_age": 29,
+        "population": 6871292,
+        "total_infections": 9.459647472411302e-06
+    },
+    "Lithuania": {
+        "max_infections": 0.00025566719771486423,
+        "median_age": 45,
+        "population": 2722289,
+        "total_infections": 0.002039092836947143
+    },
+    "Luxembourg": {
+        "max_infections": 0.004172670605037238,
+        "median_age": 40,
+        "population": 625978,
+        "total_infections": 0.03934323570476918
+    },
+    "Madagascar": {
+        "max_infections": 2.527895507489107e-06,
+        "median_age": 20,
+        "population": 27691018,
+        "total_infections": 1.6503546384607457e-05
+    },
+    "Malawi": {
+        "max_infections": 1.5682213943871892e-07,
+        "median_age": 18,
+        "population": 19129952,
+        "total_infections": 3.1364427887743783e-07
+    },
+    "Malaysia": {
+        "max_infections": 0.00010297843734098861,
+        "median_age": 30,
+        "population": 32365999,
+        "total_infections": 0.0011604770796662263
+    },
+    "Maldives": {
+        "max_infections": 3.514977504143974e-05,
+        "median_age": 30,
+        "population": 540544,
+        "total_infections": 0.0006400959033862183
+    },
+    "Mali": {
+        "max_infections": 1.9258467046762964e-06,
+        "median_age": 16,
+        "population": 20250833,
+        "total_infections": 1.0468705163881406e-05
+    },
+    "Malta": {
+        "max_infections": 0.0004574865868103446,
+        "median_age": 43,
+        "population": 441543,
+        "total_infections": 0.005193152195822378
+    },
+    "Mauritania": {
+        "max_infections": 1.2904174887701417e-06,
+        "median_age": 20,
+        "population": 4649658,
+        "total_infections": 1.376445321354818e-05
+    },
+    "Mauritius": {
+        "max_infections": 0.0001462530901862604,
+        "median_age": 37,
+        "population": 1271768,
+        "total_infections": 0.0010670185128105127
+    },
+    "Mexico": {
+        "max_infections": 1.1711531514416666e-05,
+        "median_age": 29,
+        "population": 128932753,
+        "total_infections": 8.554071594205392e-05
+    },
+    "Moldova": {
+        "max_infections": 0.00014650605372434005,
+        "median_age": 38,
+        "population": 4033963,
+        "total_infections": 0.0009536527727200274
+    },
+    "Mongolia": {
+        "max_infections": 4.270519081594368e-06,
+        "median_age": 28,
+        "population": 3278290,
+        "total_infections": 5.856711883329419e-05
+    },
+    "Montenegro": {
+        "max_infections": 0.00027704094792585493,
+        "median_age": 39,
+        "population": 628066,
+        "total_infections": 0.0018198724337888056
+    },
+    "Morocco": {
+        "max_infections": 2.1430181498194556e-05,
+        "median_age": 30,
+        "population": 36910560,
+        "total_infections": 0.00016014387210597727
+    },
+    "Mozambique": {
+        "max_infections": 3.199443552777301e-07,
+        "median_age": 18,
+        "population": 31255435,
+        "total_infections": 2.751521455388479e-06
+    },
+    "Namibia": {
+        "max_infections": 5.509847869164727e-06,
+        "median_age": 22,
+        "population": 2540905,
+        "total_infections": 5.470491812956407e-05
+    },
+    "Nepal": {
+        "max_infections": 2.0592509653082109e-07,
+        "median_age": 25,
+        "population": 29136808,
+        "total_infections": 3.740972586976583e-06
+    },
+    "Netherlands": {
+        "max_infections": 0.0009233217499377877,
+        "median_age": 43,
+        "population": 17134872,
+        "total_infections": 0.00853948602592421
+    },
+    "New Zealand": {
+        "max_infections": 0.00017999959769675168,
+        "median_age": 38,
+        "population": 4822233,
+        "total_infections": 0.0012467253241392525
+    },
+    "Nicaragua": {
+        "max_infections": 7.54767792669514e-07,
+        "median_age": 26,
+        "population": 6624554,
+        "total_infections": 7.245770809627335e-06
+    },
+    "Niger": {
+        "max_infections": 4.957316677189948e-06,
+        "median_age": 15,
+        "population": 24206644,
+        "total_infections": 1.6978809619375572e-05
+    },
+    "Nigeria": {
+        "max_infections": 1.018727169384237e-06,
+        "median_age": 18,
+        "population": 206139589,
+        "total_infections": 6.854578525428223e-06
+    },
+    "North Macedonia": {
+        "max_infections": 0.00020639597115064314,
+        "median_age": 39,
+        "population": 2083374,
+        "total_infections": 0.0017476458859523062
+    },
+    "Norway": {
+        "max_infections": 0.0009905481051294344,
+        "median_age": 40,
+        "population": 5421241,
+        "total_infections": 0.012331309381007042
+    },
+    "Oman": {
+        "max_infections": 4.934765146302079e-05,
+        "median_age": 31,
+        "population": 5106626,
+        "total_infections": 0.0004729149931872826
+    },
+    "Pakistan": {
+        "max_infections": 1.2159769777439997e-05,
+        "median_age": 23,
+        "population": 220892340,
+        "total_infections": 0.00010327202835553283
+    },
+    "Panama": {
+        "max_infections": 0.00034184928178045306,
+        "median_age": 30,
+        "population": 4314767,
+        "total_infections": 0.002616595519526315
+    },
+    "Papua New Guinea": {
+        "max_infections": 1.1176900833170896e-07,
+        "median_age": 22,
+        "population": 8947024,
+        "total_infections": 1.6765351249756343e-06
+    },
+    "Paraguay": {
+        "max_infections": 1.2898634399143755e-05,
+        "median_age": 26,
+        "population": 7132538,
+        "total_infections": 0.00010991879748835548
+    },
+    "Peru": {
+        "max_infections": 4.837459246301406e-05,
+        "median_age": 31,
+        "population": 32971854,
+        "total_infections": 0.0003649779596864647
+    },
+    "Philippines": {
+        "max_infections": 2.7541251236823933e-05,
+        "median_age": 26,
+        "population": 109581078,
+        "total_infections": 0.00017792305346731486
+    },
+    "Poland": {
+        "max_infections": 8.93871316509687e-05,
+        "median_age": 42,
+        "population": 37846611,
+        "total_infections": 0.0006633883282178159
+    },
+    "Portugal": {
+        "max_infections": 0.0009695285017940592,
+        "median_age": 46,
+        "population": 10196709,
+        "total_infections": 0.007266069866267636
+    },
+    "Qatar": {
+        "max_infections": 0.00037312746415980543,
+        "median_age": 32,
+        "population": 2881053,
+        "total_infections": 0.004564997589423034
+    },
+    "Romania": {
+        "max_infections": 0.00016545644693014355,
+        "median_age": 43,
+        "population": 19237691,
+        "total_infections": 0.0012019633749185388
+    },
+    "Russia": {
+        "max_infections": 2.8430570429622033e-05,
+        "median_age": 40,
+        "population": 145934462,
+        "total_infections": 0.00015594671531389206
+    },
+    "Rwanda": {
+        "max_infections": 6.8714099778122945e-06,
+        "median_age": 20,
+        "population": 12952218,
+        "total_infections": 6.439051597185903e-05
+    },
+    "Saint Lucia": {
+        "max_infections": 7.079568908711682e-05,
+        "median_age": 34,
+        "population": 183627,
+        "total_infections": 0.0005718113349344051
+    },
+    "Saudi Arabia": {
+        "max_infections": 5.856860904666419e-05,
+        "median_age": 32,
+        "population": 34813871,
+        "total_infections": 0.0005144501167365157
+    },
+    "Senegal": {
+        "max_infections": 1.2362691261136053e-05,
+        "median_age": 19,
+        "population": 16743927,
+        "total_infections": 0.00012159632564093238
+    },
+    "Serbia": {
+        "max_infections": 0.0001689295326935299,
+        "median_age": 42,
+        "population": 8737371,
+        "total_infections": 0.0010955240426439485
+    },
+    "Seychelles": {
+        "max_infections": 0.00010168078334875492,
+        "median_age": 34,
+        "population": 98347,
+        "total_infections": 0.0014336990452174445
+    },
+    "Sierra Leone": {
+        "max_infections": 2.507213566833476e-07,
+        "median_age": 19,
+        "population": 7976983,
+        "total_infections": 8.775247483917165e-07
+    },
+    "Singapore": {
+        "max_infections": 0.0001904162184022746,
+        "median_age": 42,
+        "population": 5850342,
+        "total_infections": 0.0027839398106982464
+    },
+    "Slovakia": {
+        "max_infections": 8.242298670865233e-05,
+        "median_age": 41,
+        "population": 5459642,
+        "total_infections": 0.0008637929007066764
+    },
+    "Slovenia": {
+        "max_infections": 0.0004492678473335905,
+        "median_age": 45,
+        "population": 2078938,
+        "total_infections": 0.00542632825028933
+    },
+    "Somalia": {
+        "max_infections": 4.4043932690300307e-07,
+        "median_age": 17,
+        "population": 15893222,
+        "total_infections": 2.894315576791163e-06
+    },
+    "South Africa": {
+        "max_infections": 2.5375708011760165e-05,
+        "median_age": 28,
+        "population": 59308690,
+        "total_infections": 0.00024482078427292864
+    },
+    "Spain": {
+        "max_infections": 0.0025494506679082083,
+        "median_age": 45,
+        "population": 46754778,
+        "total_infections": 0.023058156751380576
+    },
+    "Sri Lanka": {
+        "max_infections": 7.4253094427660185e-06,
+        "median_age": 34,
+        "population": 21413249,
+        "total_infections": 9.15788164607809e-05
+    },
+    "Sudan": {
+        "max_infections": 2.2805401961173347e-07,
+        "median_age": 20,
+        "population": 43849260,
+        "total_infections": 1.7788213529715211e-06
+    },
+    "Suriname": {
+        "max_infections": 1.704646183638124e-05,
+        "median_age": 29,
+        "population": 586632,
+        "total_infections": 0.00020114824966929864
+    },
+    "Sweden": {
+        "max_infections": 0.0006070738811190716,
+        "median_age": 41,
+        "population": 10099265,
+        "total_infections": 0.005997169100919721
+    },
+    "Switzerland": {
+        "max_infections": 0.002265379123432543,
+        "median_age": 43,
+        "population": 8654622,
+        "total_infections": 0.024419090747117553
+    },
+    "Syria": {
+        "max_infections": 9.142513384353891e-07,
+        "median_age": 26,
+        "population": 17500658,
+        "total_infections": 5.371226613307911e-06
+    },
+    "Tanzania": {
+        "max_infections": 3.3481646984982713e-07,
+        "median_age": 18,
+        "population": 59734218,
+        "total_infections": 3.7332036388255725e-06
+    },
+    "Thailand": {
+        "max_infections": 2.8338117814306473e-05,
+        "median_age": 40,
+        "population": 69799978,
+        "total_infections": 0.0002883955063710765
+    },
+    "Timor-Leste": {
+        "max_infections": 7.584692573448267e-07,
+        "median_age": 21,
+        "population": 1318445,
+        "total_infections": 9.860100345482748e-06
+    },
+    "Togo": {
+        "max_infections": 4.8316624639256e-06,
+        "median_age": 19,
+        "population": 8278724,
+        "total_infections": 4.747108370806902e-05
+    },
+    "Trinidad and Tobago": {
+        "max_infections": 7.00256093657109e-05,
+        "median_age": 36,
+        "population": 1399488,
+        "total_infections": 0.0007424143686834042
+    },
+    "Tunisia": {
+        "max_infections": 4.1883066033349584e-05,
+        "median_age": 33,
+        "population": 11818619,
+        "total_infections": 0.0003256725680047728
+    },
+    "Turkey": {
+        "max_infections": 0.0002480582337957331,
+        "median_age": 32,
+        "population": 84339067,
+        "total_infections": 0.001345888732679483
+    },
+    "Uganda": {
+        "max_infections": 1.0493866040159545e-06,
+        "median_age": 17,
+        "population": 45741007,
+        "total_infections": 7.60805287911567e-06
+    },
+    "Ukraine": {
+        "max_infections": 2.451195485995465e-05,
+        "median_age": 41,
+        "population": 43733762,
+        "total_infections": 0.00013323802329193632
+    },
+    "United Arab Emirates": {
+        "max_infections": 0.0001278006697806621,
+        "median_age": 33,
+        "population": 9890402,
+        "total_infections": 0.0008995589865811318
+    },
+    "United Kingdom": {
+        "max_infections": 0.0005699112295757074,
+        "median_age": 40,
+        "population": 67886011,
+        "total_infections": 0.003954688102089251
+    },
+    "Uruguay": {
+        "max_infections": 0.00010622587247713554,
+        "median_age": 36,
+        "population": 3473730,
+        "total_infections": 0.0010901825991081633
+    },
+    "Uzbekistan": {
+        "max_infections": 6.7823545125947575e-06,
+        "median_age": 28,
+        "population": 33469203,
+        "total_infections": 5.004600796738423e-05
+    },
+    "Venezuela": {
+        "max_infections": 5.380514939896483e-06,
+        "median_age": 30,
+        "population": 28435940,
+        "total_infections": 6.1119836376079e-05
+    },
+    "Vietnam": {
+        "max_infections": 2.4348002861229358e-06,
+        "median_age": 32,
+        "population": 97338579,
+        "total_infections": 3.716922968435773e-05
+    },
+    "Zambia": {
+        "max_infections": 2.1214151144299473e-06,
+        "median_age": 18,
+        "population": 18383955,
+        "total_infections": 1.6753739878062148e-05
+    },
+    "Zimbabwe": {
+        "max_infections": 6.055336083263293e-07,
+        "median_age": 19,
+        "population": 14862924,
+        "total_infections": 5.315239450864446e-06
+    }
+}
