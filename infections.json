@@ -5,7 +5,7 @@
         "median_age": 36,
         "population": 2877797,
         "total_infections": 0.0010674832171970435,
-        "total_tests": 2571
+        "total_tests": 0.0008933917159549475
     },
     "Algeria": {
         "government_effectiveness": -0.44,
@@ -13,7 +13,7 @@
         "median_age": 29,
         "population": 43851044,
         "total_infections": 0.00017860464165915868,
-        "total_tests": 3359
+        "total_tests": 7.660022871975408e-05
     },
     "Antigua and Barbuda": {
         "government_effectiveness": -0.01,
@@ -21,7 +21,7 @@
         "median_age": 34,
         "population": 97929,
         "total_infections": 0.0009394561365887531,
-        "total_tests": 40
+        "total_tests": 0.00040845918982119697
     },
     "Argentina": {
         "government_effectiveness": 0.03,
@@ -29,7 +29,7 @@
         "median_age": 32,
         "population": 45195774,
         "total_infections": 0.00022083923156178273,
-        "total_tests": 10709
+        "total_tests": 0.00023694693225078964
     },
     "Armenia": {
         "government_effectiveness": -0.02,
@@ -37,7 +37,7 @@
         "median_age": 35,
         "population": 2963243,
         "total_infections": 0.002048093929522486,
-        "total_tests": 5140
+        "total_tests": 0.0017345860599350105
     },
     "Australia": {
         "government_effectiveness": 1.6,
@@ -45,7 +45,7 @@
         "median_age": 38,
         "population": 25499884,
         "total_infections": 0.002017891532369324,
-        "total_tests": 303536
+        "total_tests": 0.011903426697941057
     },
     "Austria": {
         "government_effectiveness": 1.45,
@@ -53,7 +53,7 @@
         "median_age": 43,
         "population": 9006398,
         "total_infections": 0.013122338142285073,
-        "total_tests": 115235
+        "total_tests": 0.01279479321255845
     },
     "Azerbaijan": {
         "government_effectiveness": -0.1,
@@ -61,7 +61,7 @@
         "median_age": 32,
         "population": 10139177,
         "total_infections": 0.00030870355651153934,
-        "total_tests": 45000
+        "total_tests": 0.0044382300456930575
     },
     "Bahrain": {
         "government_effectiveness": 0.18,
@@ -69,7 +69,7 @@
         "median_age": 32,
         "population": 1701575,
         "total_infections": 0.005768773048499184,
-        "total_tests": 47684
+        "total_tests": 0.028023448863552885
     },
     "Bangladesh": {
         "government_effectiveness": -0.75,
@@ -77,7 +77,7 @@
         "median_age": 28,
         "population": 164689383,
         "total_infections": 4.353650411089342e-06,
-        "total_tests": 3610
+        "total_tests": 2.1920052976335456e-05
     },
     "Barbados": {
         "government_effectiveness": 0.43,
@@ -85,7 +85,7 @@
         "median_age": 40,
         "population": 287375,
         "total_infections": 0.001343192692474989,
-        "total_tests": 557
+        "total_tests": 0.0019382340147890388
     },
     "Belarus": {
         "government_effectiveness": -0.3,
@@ -93,7 +93,7 @@
         "median_age": 40,
         "population": 9449323,
         "total_infections": 0.0002418162655673851,
-        "total_tests": 40000
+        "total_tests": 0.004233107493520964
     },
     "Belgium": {
         "government_effectiveness": 1.17,
@@ -101,7 +101,7 @@
         "median_age": 42,
         "population": 11589623,
         "total_infections": 0.011658446525827457,
-        "total_tests": 70000
+        "total_tests": 0.0060398858530601035
     },
     "Belize": {
         "government_effectiveness": -0.59,
@@ -109,7 +109,7 @@
         "median_age": 25,
         "population": 397628,
         "total_infections": 7.041757622702627e-05,
-        "total_tests": 268
+        "total_tests": 0.0006739968010301085
     },
     "Bhutan": {
         "government_effectiveness": 0.36,
@@ -117,7 +117,7 @@
         "median_age": 28,
         "population": 771608,
         "total_infections": 7.775969144954433e-05,
-        "total_tests": 1166
+        "total_tests": 0.0015111300038361448
     },
     "Bolivia": {
         "government_effectiveness": -0.32,
@@ -125,7 +125,7 @@
         "median_age": 26,
         "population": 11673021,
         "total_infections": 9.012234279369496e-05,
-        "total_tests": 591
+        "total_tests": 5.062956710178111e-05
     },
     "Bosnia and Herzegovina": {
         "government_effectiveness": -0.62,
@@ -133,7 +133,7 @@
         "median_age": 43,
         "population": 3280819,
         "total_infections": 0.0013402141355557866,
-        "total_tests": 5934
+        "total_tests": 0.0018086947192149276
     },
     "Botswana": {
         "government_effectiveness": 0.33,
@@ -141,7 +141,7 @@
         "median_age": 24,
         "population": 2351627,
         "total_infections": 8.079512609780378e-06,
-        "total_tests": 966
+        "total_tests": 0.0004107794305814655
     },
     "Brazil": {
         "government_effectiveness": -0.45,
@@ -149,7 +149,7 @@
         "median_age": 33,
         "population": 212559417,
         "total_infections": 0.0002872984921670161,
-        "total_tests": 54824
+        "total_tests": 0.00025792317637002174
     },
     "Brunei": {
         "government_effectiveness": 1.25,
@@ -157,7 +157,7 @@
         "median_age": 32,
         "population": 437479,
         "total_infections": 0.004768228874986,
-        "total_tests": 8261
+        "total_tests": 0.018883192107506875
     },
     "Bulgaria": {
         "government_effectiveness": 0.27,
@@ -165,7 +165,7 @@
         "median_age": 45,
         "population": 6948445,
         "total_infections": 0.0007109504356730175,
-        "total_tests": 15899
+        "total_tests": 0.0022881378495476327
     },
     "Cambodia": {
         "government_effectiveness": -0.57,
@@ -173,7 +173,7 @@
         "median_age": 26,
         "population": 16718965,
         "total_infections": 9.522120537963923e-05,
-        "total_tests": 5768
+        "total_tests": 0.00034499743255638133
     },
     "Canada": {
         "government_effectiveness": 1.72,
@@ -181,7 +181,7 @@
         "median_age": 41,
         "population": 37742154,
         "total_infections": 0.0022664843135344103,
-        "total_tests": 330901
+        "total_tests": 0.008767411632097098
     },
     "Chile": {
         "government_effectiveness": 1.08,
@@ -189,7 +189,7 @@
         "median_age": 35,
         "population": 19116201,
         "total_infections": 0.0014560947543918376,
-        "total_tests": 54864
+        "total_tests": 0.0028700263195600424
     },
     "Colombia": {
         "government_effectiveness": -0.09,
@@ -197,7 +197,7 @@
         "median_age": 31,
         "population": 50882891,
         "total_infections": 0.00018915984942758068,
-        "total_tests": 27685
+        "total_tests": 0.0005440925123535139
     },
     "Costa Rica": {
         "government_effectiveness": 0.38,
@@ -205,7 +205,7 @@
         "median_age": 33,
         "population": 5094118,
         "total_infections": 0.0008193763866482873,
-        "total_tests": 5363
+        "total_tests": 0.0010527828369896418
     },
     "Croatia": {
         "government_effectiveness": 0.46,
@@ -213,7 +213,7 @@
         "median_age": 44,
         "population": 4105267,
         "total_infections": 0.002308010660451561,
-        "total_tests": 11464
+        "total_tests": 0.002792510207009678
     },
     "Cuba": {
         "government_effectiveness": -0.24,
@@ -221,7 +221,7 @@
         "median_age": 42,
         "population": 11326616,
         "total_infections": 0.00015309073778081643,
-        "total_tests": 5234
+        "total_tests": 0.0004620974172692003
     },
     "Cyprus": {
         "government_effectiveness": 0.92,
@@ -229,7 +229,15 @@
         "median_age": 37,
         "population": 1207359,
         "total_infections": 0.002618111100343808,
-        "total_tests": 11664
+        "total_tests": 0.009660755417402777
+    },
+    "Czechia": {
+        "government_effectiveness": 0.92,
+        "max_infections": 0.0003820158052386123,
+        "median_age": 43,
+        "population": 10708981,
+        "total_infections": 0.003496224337310898,
+        "total_tests": 0.008520605275142425
     },
     "Denmark": {
         "government_effectiveness": 1.87,
@@ -237,7 +245,7 @@
         "median_age": 42,
         "population": 5792202,
         "total_infections": 0.007516312449047875,
-        "total_tests": 52936
+        "total_tests": 0.009139184027076403
     },
     "Dominican Republic": {
         "government_effectiveness": -0.4,
@@ -245,7 +253,7 @@
         "median_age": 28,
         "population": 10847910,
         "total_infections": 0.000948754183985671,
-        "total_tests": 4542
+        "total_tests": 0.00041869816397813034
     },
     "Ecuador": {
         "government_effectiveness": -0.26,
@@ -253,7 +261,7 @@
         "median_age": 28,
         "population": 17643054,
         "total_infections": 0.0014593845260576768,
-        "total_tests": 13039
+        "total_tests": 0.0007390443853994892
     },
     "Equatorial Guinea": {
         "government_effectiveness": -1.29,
@@ -261,7 +269,7 @@
         "median_age": 22,
         "population": 1402985,
         "total_infections": 0.00012544681518334124,
-        "total_tests": 854
+        "total_tests": 0.000608702160037349
     },
     "Estonia": {
         "government_effectiveness": 1.19,
@@ -269,7 +277,7 @@
         "median_age": 42,
         "population": 1326535,
         "total_infections": 0.007501498264274972,
-        "total_tests": 23546
+        "total_tests": 0.017750002826913726
     },
     "Ethiopia": {
         "government_effectiveness": -0.61,
@@ -277,7 +285,7 @@
         "median_age": 19,
         "population": 114963588,
         "total_infections": 2.5747282696152454e-06,
-        "total_tests": 1843
+        "total_tests": 1.603116284088141e-05
     },
     "Finland": {
         "government_effectiveness": 1.98,
@@ -285,7 +293,7 @@
         "median_age": 43,
         "population": 5540720,
         "total_infections": 0.0032483142985027216,
-        "total_tests": 32800
+        "total_tests": 0.005919808255966733
     },
     "France": {
         "government_effectiveness": 1.48,
@@ -293,7 +301,7 @@
         "median_age": 42,
         "population": 65273511,
         "total_infections": 0.009095450679832437,
-        "total_tests": 224254
+        "total_tests": 0.0034356049883696315
     },
     "Georgia": {
         "government_effectiveness": 0.61,
@@ -301,7 +309,7 @@
         "median_age": 38,
         "population": 3989167,
         "total_infections": 0.0004176310492892376,
-        "total_tests": 2762
+        "total_tests": 0.0006923751249320974
     },
     "Germany": {
         "government_effectiveness": 1.62,
@@ -309,7 +317,7 @@
         "median_age": 46,
         "population": 83783942,
         "total_infections": 0.010056616815666181,
-        "total_tests": 918460
+        "total_tests": 0.01096224381516926
     },
     "Greece": {
         "government_effectiveness": 0.34,
@@ -317,7 +325,7 @@
         "median_age": 46,
         "population": 10423054,
         "total_infections": 0.0017251181851307689,
-        "total_tests": 26193
+        "total_tests": 0.0025129870765324635
     },
     "Grenada": {
         "government_effectiveness": -0.25,
@@ -325,7 +333,7 @@
         "median_age": 32,
         "population": 112523,
         "total_infections": 0.0007376269740408627,
-        "total_tests": 45
+        "total_tests": 0.00039991823893781715
     },
     "Guatemala": {
         "government_effectiveness": -0.68,
@@ -333,7 +341,7 @@
         "median_age": 23,
         "population": 17915568,
         "total_infections": 2.617834946678777e-05,
-        "total_tests": 1134
+        "total_tests": 6.329690468088982e-05
     },
     "Guyana": {
         "government_effectiveness": -0.27,
@@ -341,7 +349,7 @@
         "median_age": 27,
         "population": 786552,
         "total_infections": 0.0002568170953732239,
-        "total_tests": 115
+        "total_tests": 0.00014620775231643935
     },
     "Haiti": {
         "government_effectiveness": -1.91,
@@ -349,7 +357,7 @@
         "median_age": 24,
         "population": 11402528,
         "total_infections": 1.2804178161193727e-05,
-        "total_tests": 247
+        "total_tests": 2.1661863053526376e-05
     },
     "Hungary": {
         "government_effectiveness": 0.49,
@@ -357,7 +365,7 @@
         "median_age": 43,
         "population": 9660351,
         "total_infections": 0.0005429409345478234,
-        "total_tests": 23746
+        "total_tests": 0.0024580887381835297
     },
     "Iceland": {
         "government_effectiveness": 1.47,
@@ -365,7 +373,7 @@
         "median_age": 37,
         "population": 341243,
         "total_infections": 0.04455182963460056,
-        "total_tests": 27880
+        "total_tests": 0.08170130962393368
     },
     "India": {
         "government_effectiveness": 0.28,
@@ -373,7 +381,7 @@
         "median_age": 28,
         "population": 1380004385,
         "total_infections": 1.2641988815129743e-05,
-        "total_tests": 140293
+        "total_tests": 0.00010166127117052603
     },
     "Indonesia": {
         "government_effectiveness": 0.18,
@@ -381,7 +389,7 @@
         "median_age": 30,
         "population": 273523615,
         "total_infections": 6.370199516411043e-05,
-        "total_tests": 13186
+        "total_tests": 4.820790336512626e-05
     },
     "Ireland": {
         "government_effectiveness": 1.42,
@@ -389,7 +397,7 @@
         "median_age": 38,
         "population": 4937786,
         "total_infections": 0.007063489588248661,
-        "total_tests": 30213
+        "total_tests": 0.006118734185726153
     },
     "Israel": {
         "government_effectiveness": 1.21,
@@ -397,7 +405,7 @@
         "median_age": 30,
         "population": 8655535,
         "total_infections": 0.006130528037839371,
-        "total_tests": 109724
+        "total_tests": 0.012676743840790893
     },
     "Italy": {
         "government_effectiveness": 0.41,
@@ -405,7 +413,7 @@
         "median_age": 47,
         "population": 60461826,
         "total_infections": 0.025747353379634946,
-        "total_tests": 721732
+        "total_tests": 0.011936986487970112
     },
     "Jamaica": {
         "government_effectiveness": 0.5,
@@ -413,7 +421,7 @@
         "median_age": 31,
         "population": 2961167,
         "total_infections": 0.00017560644164952533,
-        "total_tests": 540
+        "total_tests": 0.00018236053555912248
     },
     "Japan": {
         "government_effectiveness": 1.68,
@@ -421,7 +429,7 @@
         "median_age": 48,
         "population": 126476461,
         "total_infections": 0.0002982531271174642,
-        "total_tests": 46172
+        "total_tests": 0.0003650639781895858
     },
     "Jordan": {
         "government_effectiveness": 0.11,
@@ -429,7 +437,7 @@
         "median_age": 24,
         "population": 10203134,
         "total_infections": 0.00032421410911588535,
-        "total_tests": 17000
+        "total_tests": 0.0016661547324576939
     },
     "Kazakhstan": {
         "government_effectiveness": 0.02,
@@ -437,7 +445,7 @@
         "median_age": 31,
         "population": 18776707,
         "total_infections": 0.00017122278150263516,
-        "total_tests": 5093
+        "total_tests": 0.0002712403191890889
     },
     "Kenya": {
         "government_effectiveness": -0.41,
@@ -445,7 +453,7 @@
         "median_age": 20,
         "population": 53771296,
         "total_infections": 1.2701944174825171e-05,
-        "total_tests": 4277
+        "total_tests": 7.95405786760282e-05
     },
     "Laos": {
         "government_effectiveness": -0.67,
@@ -453,7 +461,7 @@
         "median_age": 24,
         "population": 7275560,
         "total_infections": 1.0995717168163e-05,
-        "total_tests": 765
+        "total_tests": 0.00010514654542055869
     },
     "Latvia": {
         "government_effectiveness": 1.04,
@@ -461,7 +469,7 @@
         "median_age": 44,
         "population": 1886198,
         "total_infections": 0.0024780007189064987,
-        "total_tests": 22575
+        "total_tests": 0.01196852080216393
     },
     "Lebanon": {
         "government_effectiveness": -0.64,
@@ -469,7 +477,7 @@
         "median_age": 30,
         "population": 6825445,
         "total_infections": 0.0009776651925259086,
-        "total_tests": 9653
+        "total_tests": 0.0014142667620939
     },
     "Libya": {
         "government_effectiveness": -1.85,
@@ -477,7 +485,7 @@
         "median_age": 29,
         "population": 6871292,
         "total_infections": 9.459647472411302e-06,
-        "total_tests": 312
+        "total_tests": 4.540630786757425e-05
     },
     "Lithuania": {
         "government_effectiveness": 1.07,
@@ -485,7 +493,7 @@
         "median_age": 45,
         "population": 2722289,
         "total_infections": 0.002039092836947143,
-        "total_tests": 27807
+        "total_tests": 0.010214565756978778
     },
     "Luxembourg": {
         "government_effectiveness": 1.78,
@@ -493,7 +501,7 @@
         "median_age": 40,
         "population": 625978,
         "total_infections": 0.03934323570476918,
-        "total_tests": 24291
+        "total_tests": 0.038804878126707326
     },
     "Malaysia": {
         "government_effectiveness": 1.08,
@@ -501,7 +509,7 @@
         "median_age": 30,
         "population": 32365999,
         "total_infections": 0.0011604770796662263,
-        "total_tests": 55566
+        "total_tests": 0.001716801634950307
     },
     "Malta": {
         "government_effectiveness": 0.97,
@@ -509,7 +517,7 @@
         "median_age": 43,
         "population": 441543,
         "total_infections": 0.005193152195822378,
-        "total_tests": 10923
+        "total_tests": 0.024738247464006904
     },
     "Mauritania": {
         "government_effectiveness": -0.73,
@@ -517,7 +525,7 @@
         "median_age": 20,
         "population": 4649658,
         "total_infections": 1.376445321354818e-05,
-        "total_tests": 67
+        "total_tests": 1.440966195793325e-05
     },
     "Mauritius": {
         "government_effectiveness": 0.88,
@@ -525,7 +533,7 @@
         "median_age": 37,
         "population": 1271768,
         "total_infections": 0.0010670185128105127,
-        "total_tests": 4913
+        "total_tests": 0.0038631259789521357
     },
     "Mexico": {
         "government_effectiveness": -0.15,
@@ -533,7 +541,7 @@
         "median_age": 29,
         "population": 128932753,
         "total_infections": 8.554071594205392e-05,
-        "total_tests": 20475
+        "total_tests": 0.00015880371374680878
     },
     "Montenegro": {
         "government_effectiveness": 0.13,
@@ -541,7 +549,7 @@
         "median_age": 39,
         "population": 628066,
         "total_infections": 0.0018198724337888056,
-        "total_tests": 1722
+        "total_tests": 0.002741750070852426
     },
     "Morocco": {
         "government_effectiveness": -0.21,
@@ -549,7 +557,7 @@
         "median_age": 30,
         "population": 36910560,
         "total_infections": 0.00016014387210597727,
-        "total_tests": 5272
+        "total_tests": 0.00014283175329770126
     },
     "Mozambique": {
         "government_effectiveness": -0.87,
@@ -557,7 +565,7 @@
         "median_age": 18,
         "population": 31255435,
         "total_infections": 2.751521455388479e-06,
-        "total_tests": 363
+        "total_tests": 1.1613980096581603e-05
     },
     "Namibia": {
         "government_effectiveness": 0.11,
@@ -565,7 +573,7 @@
         "median_age": 22,
         "population": 2540905,
         "total_infections": 5.470491812956407e-05,
-        "total_tests": 362
+        "total_tests": 0.00014246892347411652
     },
     "Nepal": {
         "government_effectiveness": -0.9,
@@ -573,7 +581,7 @@
         "median_age": 25,
         "population": 29136808,
         "total_infections": 3.740972586976583e-06,
-        "total_tests": 1656
+        "total_tests": 5.683532664250662e-05
     },
     "Netherlands": {
         "government_effectiveness": 1.85,
@@ -581,7 +589,7 @@
         "median_age": 43,
         "population": 17134872,
         "total_infections": 0.00853948602592421,
-        "total_tests": 86589
+        "total_tests": 0.005053378863874793
     },
     "New Zealand": {
         "government_effectiveness": 1.67,
@@ -589,7 +597,7 @@
         "median_age": 38,
         "population": 4822233,
         "total_infections": 0.0012467253241392525,
-        "total_tests": 42826
+        "total_tests": 0.008880947892812314
     },
     "Niger": {
         "government_effectiveness": -0.77,
@@ -597,7 +605,7 @@
         "median_age": 15,
         "population": 24206644,
         "total_infections": 1.6978809619375572e-05,
-        "total_tests": 4081
+        "total_tests": 0.00016859007799676815
     },
     "Nigeria": {
         "government_effectiveness": -1.02,
@@ -605,7 +613,7 @@
         "median_age": 18,
         "population": 206139589,
         "total_infections": 6.854578525428223e-06,
-        "total_tests": 5000
+        "total_tests": 2.4255408794862785e-05
     },
     "Norway": {
         "government_effectiveness": 1.89,
@@ -613,7 +621,7 @@
         "median_age": 40,
         "population": 5421241,
         "total_infections": 0.012331309381007042,
-        "total_tests": 111299
+        "total_tests": 0.020530170121564415
     },
     "Pakistan": {
         "government_effectiveness": -0.63,
@@ -621,7 +629,7 @@
         "median_age": 23,
         "population": 220892340,
         "total_infections": 0.00010327202835553283,
-        "total_tests": 39183
+        "total_tests": 0.0001773850555433475
     },
     "Panama": {
         "government_effectiveness": -0.02,
@@ -629,7 +637,7 @@
         "median_age": 30,
         "population": 4314767,
         "total_infections": 0.002616595519526315,
-        "total_tests": 10297
+        "total_tests": 0.002386455630164966
     },
     "Papua New Guinea": {
         "government_effectiveness": -0.68,
@@ -637,7 +645,7 @@
         "median_age": 22,
         "population": 8947024,
         "total_infections": 1.6765351249756343e-06,
-        "total_tests": 72
+        "total_tests": 8.047368599883044e-06
     },
     "Paraguay": {
         "government_effectiveness": -0.52,
@@ -645,7 +653,7 @@
         "median_age": 26,
         "population": 7132538,
         "total_infections": 0.00010991879748835548,
-        "total_tests": 2039
+        "total_tests": 0.0002858729949984143
     },
     "Peru": {
         "government_effectiveness": -0.25,
@@ -653,7 +661,7 @@
         "median_age": 31,
         "population": 32971854,
         "total_infections": 0.0003649779596864647,
-        "total_tests": 20414
+        "total_tests": 0.0006191341257303881
     },
     "Philippines": {
         "government_effectiveness": 0.05,
@@ -661,7 +669,7 @@
         "median_age": 26,
         "population": 109581078,
         "total_infections": 0.00017792305346731486,
-        "total_tests": 22958
+        "total_tests": 0.0002095069734575891
     },
     "Poland": {
         "government_effectiveness": 0.66,
@@ -669,7 +677,7 @@
         "median_age": 42,
         "population": 37846611,
         "total_infections": 0.0006633883282178159,
-        "total_tests": 85467
+        "total_tests": 0.002258247112271162
     },
     "Portugal": {
         "government_effectiveness": 1.21,
@@ -677,7 +685,7 @@
         "median_age": 46,
         "population": 10196709,
         "total_infections": 0.007266069866267636,
-        "total_tests": 110000
+        "total_tests": 0.010787794375616682
     },
     "Qatar": {
         "government_effectiveness": 0.63,
@@ -685,7 +693,7 @@
         "median_age": 32,
         "population": 2881053,
         "total_infections": 0.004564997589423034,
-        "total_tests": 38108
+        "total_tests": 0.01322710828297848
     },
     "Romania": {
         "government_effectiveness": -0.25,
@@ -693,7 +701,7 @@
         "median_age": 43,
         "population": 19237691,
         "total_infections": 0.0012019633749185388,
-        "total_tests": 40987
+        "total_tests": 0.0021305571443059356
     },
     "Russia": {
         "government_effectiveness": -0.06,
@@ -701,7 +709,7 @@
         "median_age": 40,
         "population": 145934462,
         "total_infections": 0.00015594671531389206,
-        "total_tests": 795000
+        "total_tests": 0.0054476508776933035
     },
     "Serbia": {
         "government_effectiveness": 0.11,
@@ -709,7 +717,7 @@
         "median_age": 42,
         "population": 8737371,
         "total_infections": 0.0010955240426439485,
-        "total_tests": 8552
+        "total_tests": 0.000978784121676875
     },
     "Singapore": {
         "government_effectiveness": 2.23,
@@ -717,7 +725,7 @@
         "median_age": 42,
         "population": 5850342,
         "total_infections": 0.0027839398106982464,
-        "total_tests": 65000
+        "total_tests": 0.011110461576434335
     },
     "Slovenia": {
         "government_effectiveness": 1.13,
@@ -725,7 +733,7 @@
         "median_age": 45,
         "population": 2078938,
         "total_infections": 0.00542632825028933,
-        "total_tests": 28253
+        "total_tests": 0.013590111874428193
     },
     "South Africa": {
         "government_effectiveness": 0.34,
@@ -733,7 +741,15 @@
         "median_age": 28,
         "population": 59308690,
         "total_infections": 0.00024482078427292864,
-        "total_tests": 58098
+        "total_tests": 0.0009795866339317224
+    },
+    "South Korea": {
+        "government_effectiveness": 1.18,
+        "max_infections": 0.00019625823972040904,
+        "median_age": 44,
+        "population": 51269185,
+        "total_infections": 0.005598041006503224,
+        "total_tests": 0.008996300604349377
     },
     "Spain": {
         "government_effectiveness": 1.0,
@@ -741,7 +757,7 @@
         "median_age": 45,
         "population": 46754778,
         "total_infections": 0.023058156751380576,
-        "total_tests": 355000
+        "total_tests": 0.007592806878475607
     },
     "Sri Lanka": {
         "government_effectiveness": -0.24,
@@ -749,7 +765,7 @@
         "median_age": 34,
         "population": 21413249,
         "total_infections": 9.15788164607809e-05,
-        "total_tests": 3248
+        "total_tests": 0.00015168179289373602
     },
     "Sweden": {
         "government_effectiveness": 1.83,
@@ -757,7 +773,7 @@
         "median_age": 41,
         "population": 10099265,
         "total_infections": 0.005997169100919721,
-        "total_tests": 36900
+        "total_tests": 0.003653731236877139
     },
     "Switzerland": {
         "government_effectiveness": 2.04,
@@ -765,7 +781,7 @@
         "median_age": 43,
         "population": 8654622,
         "total_infections": 0.024419090747117553,
-        "total_tests": 162500
+        "total_tests": 0.0187760944383244
     },
     "Thailand": {
         "government_effectiveness": 0.35,
@@ -773,7 +789,7 @@
         "median_age": 40,
         "population": 69799978,
         "total_infections": 0.0002883955063710765,
-        "total_tests": 25071
+        "total_tests": 0.0003591834942985226
     },
     "Togo": {
         "government_effectiveness": -1.06,
@@ -781,7 +797,7 @@
         "median_age": 19,
         "population": 8278724,
         "total_infections": 4.747108370806902e-05,
-        "total_tests": 1467
+        "total_tests": 0.0001772012208644714
     },
     "Trinidad and Tobago": {
         "government_effectiveness": 0.19,
@@ -789,7 +805,7 @@
         "median_age": 36,
         "population": 1399488,
         "total_infections": 0.0007424143686834042,
-        "total_tests": 833
+        "total_tests": 0.0005952176796085425
     },
     "Tunisia": {
         "government_effectiveness": -0.11,
@@ -797,7 +813,7 @@
         "median_age": 33,
         "population": 11818619,
         "total_infections": 0.0003256725680047728,
-        "total_tests": 7725
+        "total_tests": 0.000653629666884092
     },
     "Turkey": {
         "government_effectiveness": 0.01,
@@ -805,7 +821,7 @@
         "median_age": 32,
         "population": 84339067,
         "total_infections": 0.001345888732679483,
-        "total_tests": 202845
+        "total_tests": 0.0024051131606661
     },
     "US": {
         "government_effectiveness": 1.58,
@@ -813,7 +829,7 @@
         "median_age": 38,
         "population": 331002651,
         "total_infections": 0.005496569270679346,
-        "total_tests": 1933423
+        "total_tests": 0.005841110317874766
     },
     "Uganda": {
         "government_effectiveness": -0.61,
@@ -821,7 +837,7 @@
         "median_age": 17,
         "population": 45741007,
         "total_infections": 7.60805287911567e-06,
-        "total_tests": 3160
+        "total_tests": 6.9084618097717e-05
     },
     "Ukraine": {
         "government_effectiveness": -0.42,
@@ -829,7 +845,7 @@
         "median_age": 41,
         "population": 43733762,
         "total_infections": 0.00013323802329193632,
-        "total_tests": 6385
+        "total_tests": 0.00014599704457165152
     },
     "United Arab Emirates": {
         "government_effectiveness": 1.43,
@@ -837,7 +853,7 @@
         "median_age": 33,
         "population": 9890402,
         "total_infections": 0.0008995589865811318,
-        "total_tests": 220000
+        "total_tests": 0.0222437874618241
     },
     "United Kingdom": {
         "government_effectiveness": 1.34,
@@ -845,7 +861,7 @@
         "median_age": 40,
         "population": 67886011,
         "total_infections": 0.003954688102089251,
-        "total_tests": 252958
+        "total_tests": 0.0037262168784670526
     },
     "Uruguay": {
         "government_effectiveness": 0.56,
@@ -853,7 +869,7 @@
         "median_age": 36,
         "population": 3473730,
         "total_infections": 0.0010901825991081633,
-        "total_tests": 5385
+        "total_tests": 0.0015502068381825875
     },
     "Vietnam": {
         "government_effectiveness": 0.0,
@@ -861,7 +877,7 @@
         "median_age": 32,
         "population": 97338579,
         "total_infections": 3.716922968435773e-05,
-        "total_tests": 94305
+        "total_tests": 0.000968834772079424
     },
     "Zambia": {
         "government_effectiveness": -0.56,
@@ -869,7 +885,7 @@
         "median_age": 18,
         "population": 18383955,
         "total_infections": 1.6753739878062148e-05,
-        "total_tests": 619
+        "total_tests": 3.367066553415737e-05
     },
     "Zimbabwe": {
         "government_effectiveness": -1.2,
@@ -877,6 +893,6 @@
         "median_age": 19,
         "population": 14862924,
         "total_infections": 5.315239450864446e-06,
-        "total_tests": 316
+        "total_tests": 2.1260957803457785e-05
     }
 }

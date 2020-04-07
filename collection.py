@@ -7,6 +7,7 @@ import json
 import plotly.express as px
 import math
 
+print("Running..")
 df = pd.read_csv("time_series_covid19_confirmed_global.csv")
 
 countries = df["Country/Region"].unique()
@@ -16,18 +17,25 @@ for c in range(len(countries)):
     vals = df[df["Country/Region"] == countries[c]].values
     matrix = np.array(vals)[:, 4:]
     total = np.sum(matrix, axis = 0)
-    infections[countries[c]] = {"total_infections": np.sum(total), "max_infections": np.max(total)}
+    country = countries[c]
+    if country == "Korea, South":
+        country = "South Korea"
+    infections[country] = {"total_infections": np.sum(total), "max_infections": np.max(total)}
 
-aliases = {  # value is value in database/ key is value that may be from other sources
+aliases = {  # value is name of country in database/ key is name that may be from other sources
     "USA": "US", 
-    "S. Korea": "Korea, South", 
+    "S. Korea": "South Korea", 
     "UK": "United Kingdom",
     "Burma": "Myanmar", 
     "United States": "US", 
     "Russian Federation": "Russia",
     "Lao PDR": "Laos",
     "UAE": "United Arab Emirates",
-    "Brunei Darussalam": "Brunei"
+    "Brunei Darussalam": "Brunei",
+    "Korea, Rep.": "South Korea",
+    "Czech Republic": "Czechia",
+    "Czech Republic (Czechia)": "Czechia",
+    "Saint Kitts & Nevis": "Saint Kitts and Nevis"
     }
 
 res = requests.get("https://www.worldometers.info/world-population/population-by-country/")  #scraping population
@@ -63,12 +71,10 @@ for row in items[1:]:
     country = information[0].text.strip()
     test = information[10]
     info = ''.join(test.text.strip().split(","))
-
     if country in aliases:
         country = aliases[country]
     if not info or country not in infections:
         continue
-    
     infections[country]['total_tests'] = int(info)/infections[country]['population']
 
 
@@ -95,7 +101,7 @@ for i in range(len(keys)):
         #print(keys[i], infections[keys[i]]) #UNCOMMENT THIS LINE IF YOU WANT TO SEE WHICH VALUES ARE MISSING FROM WHAT COUNTRIES
         del infections[keys[i]]
 
-# print(len(infections)) # 110 here - lot of countries have missing testing data
+#print(len(infections)) # 112 here - lot of countries have missing testing data
 with open('infections.json', 'w') as outfile:
     json.dump(infections, outfile, indent=4, sort_keys=True)
 
@@ -103,7 +109,8 @@ with open('infections.json', 'w') as outfile:
 
 # ---------------------GRAPHING---------------------------
 
+print("Graphing..")
 data = [list(infections.keys()), [infections[k]["total_infections"] for k in infections], [infections[k]["total_tests"] for k in infections]]
-fig = px.scatter(data, x = data[1], y = data[2], text = data[0], log_x = True)
+fig = px.scatter(data, x = data[1], y = data[2], text = data[0], log_x = True, log_y = True)
 fig.update_traces(textposition='top center')
 fig.show()
