@@ -10,6 +10,7 @@ import math
 print("Running..")
 df = pd.read_csv("time_series_covid19_confirmed_global.csv")
 
+
 countries = df["Country/Region"].unique()
 infections = {}
 
@@ -20,6 +21,10 @@ for c in range(len(countries)):
     country = countries[c]
     if country == "Korea, South":
         country = "South Korea"
+    if country == "Taiwan*":
+        country = "Taiwan"
+    if country == "Czechia":
+        country = "Czech Republic"
     infections[country] = {"total_infections": np.sum(total), "max_infections": np.max(total)}
 
 aliases = {  # value is name of country in database/ key is name that may be from other sources
@@ -33,9 +38,28 @@ aliases = {  # value is name of country in database/ key is name that may be fro
     "UAE": "United Arab Emirates",
     "Brunei Darussalam": "Brunei",
     "Korea, Rep.": "South Korea",
-    "Czech Republic": "Czechia",
-    "Czech Republic (Czechia)": "Czechia",
-    "Saint Kitts & Nevis": "Saint Kitts and Nevis"
+    "Korea, South": "South Korea",
+    "Dominican Rep.": "Dominican Republic",
+    "Czechia": "Czech Republic",
+    "Czech Republic (Czechia)": "Czech Republic",
+    "Czech Rep.": "Czech Republic",
+    "Saint Kitts & Nevis": "Saint Kitts and Nevis",
+    "Congo, Rep. Of": "Congo (Brazzaville)",
+    "Congo, Dem. R.": "Congo (Kinshasa)",
+    "C?te d'Ivoire": "Cote d'Ivoire",
+    "Gambia, The":"Gambia",
+    "Pap. New Guinea":"Papua New Guinea",
+    "Myanmar":"Burma",
+    "Taiwan, China":"Taiwan",
+    "Egypt, Arab Rep.":"Egypt",
+    "Iran, Islamic Rep.": "Iran",
+    "Kyrgyz Republic": "Kyrgyzstan",
+    "Macedonia, FYR":"North Macedonia",
+    "Slovak Republic": "Slovakia",
+    "Venezuela, RB":"Venezuela"
+
+
+
     }
 
 res = requests.get("https://www.worldometers.info/world-population/population-by-country/")  #scraping population
@@ -59,6 +83,9 @@ for row in items[1:]:
     if age != "N.A.":
         infections[country]['median_age'] = int(age.strip())
 
+infections['Liechtenstein']['median_age'] = float(43.4) #sourced from UN indicators
+infections['Dominica']['median_age'] = float(34) #sourced from UN indicators
+
 
 res = requests.get("https://www.worldometers.info/coronavirus/")  #scraping testing
 soup = BeautifulSoup(res.text, 'html.parser')
@@ -79,7 +106,6 @@ for row in items[1:]:
 
 
 df = pd.read_csv("gov_effect.csv")
-
 for row in df.values:
     country = row[0]
 
@@ -90,18 +116,38 @@ for row in df.values:
         continue
 
     infections[country]['government_effectiveness'] = float(row[1])
+    infections[country]['law_enforcement_ability'] = float(row[2])
+    infections[country]['corruption_level'] = float(row[3])
 
-# print(len(infections)) # 181 here
+df = pd.read_csv("hfi_cc_2019.csv")
 
+for row in df.values:
+    country = row[2]
+
+    if country in aliases:
+        country = aliases[country]
+    
+    if country not in infections or row[4] =='-':
+        continue
+    
+
+    infections[country]['human_freedom'] = float(row[4])
+
+
+
+print(len(infections)) #181 here
 removed_countries = []
+countries_without_freedom = []
 keys = list(infections.keys())  # data cleaning - remove countries with no population/median age/gov_effect/testing estimate
 for i in range(len(keys)):
-    if len(list(infections[keys[i]].keys())) != 6:
+    if 'human_freedom' not in infections[keys[i]]:
+        countries_without_freedom.append(keys[i])
+    if len(list(infections[keys[i]].keys())) != 9:
+        print(keys[i])
         removed_countries.append(keys[i])
-        #print(keys[i], infections[keys[i]]) #UNCOMMENT THIS LINE IF YOU WANT TO SEE WHICH VALUES ARE MISSING FROM WHAT COUNTRIES
         del infections[keys[i]]
 
-#print(len(infections)) # 112 here - lot of countries have missing testing data
+print(len(infections)) # 122 here - lot of countries have missing testing data 
 with open('infections.json', 'w') as outfile:
     json.dump(infections, outfile, indent=4, sort_keys=True)
 
@@ -113,4 +159,4 @@ print("Graphing..")
 data = [list(infections.keys()), [infections[k]["total_infections"] for k in infections], [infections[k]["total_tests"] for k in infections]]
 fig = px.scatter(data, x = data[1], y = data[2], text = data[0], log_x = True, log_y = True, color = [infections[k]["government_effectiveness"] for k in infections])
 fig.update_traces(textposition='top center')
-fig.show()
+# fig.show()

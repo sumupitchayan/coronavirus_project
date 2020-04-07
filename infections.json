@@ -1,14 +1,20 @@
 {
     "Albania": {
+        "corruption_level": -0.52,
         "government_effectiveness": 0.11,
+        "human_freedom": 7.68,
+        "law_enforcement_ability": -0.39,
         "max_infections": 0.00010563636003512409,
         "median_age": 36,
         "population": 2877797,
         "total_infections": 0.0010674832171970435,
-        "total_tests": 0.0008933917159549475
+        "total_tests": 0.0009566345367654494
     },
     "Algeria": {
+        "corruption_level": -0.64,
         "government_effectiveness": -0.44,
+        "human_freedom": 5.29,
+        "law_enforcement_ability": -0.78,
         "max_infections": 2.6704039247047344e-05,
         "median_age": 29,
         "population": 43851044,
@@ -16,7 +22,10 @@
         "total_tests": 7.660022871975408e-05
     },
     "Antigua and Barbuda": {
+        "corruption_level": 0.28,
         "government_effectiveness": -0.01,
+        "human_freedom": 6.86,
+        "law_enforcement_ability": 0.39,
         "max_infections": 0.00015317219618294888,
         "median_age": 34,
         "population": 97929,
@@ -24,15 +33,21 @@
         "total_tests": 0.00040845918982119697
     },
     "Argentina": {
+        "corruption_level": -0.08,
         "government_effectiveness": 0.03,
+        "human_freedom": 7.1,
+        "law_enforcement_ability": -0.24,
         "max_infections": 2.7989342543397973e-05,
         "median_age": 32,
         "population": 45195774,
         "total_infections": 0.00022083923156178273,
-        "total_tests": 0.00023694693225078964
+        "total_tests": 0.0002605995861471473
     },
     "Armenia": {
+        "corruption_level": -0.35,
         "government_effectiveness": -0.02,
+        "human_freedom": 7.42,
+        "law_enforcement_ability": -0.15,
         "max_infections": 0.00024837652531365127,
         "median_age": 35,
         "population": 2963243,
@@ -40,15 +55,21 @@
         "total_tests": 0.0017345860599350105
     },
     "Australia": {
+        "corruption_level": 1.81,
         "government_effectiveness": 1.6,
+        "human_freedom": 8.73,
+        "law_enforcement_ability": 1.72,
         "max_infections": 0.00020902055868175714,
         "median_age": 38,
         "population": 25499884,
         "total_infections": 0.002017891532369324,
-        "total_tests": 0.011903426697941057
+        "total_tests": 0.012184369152424379
     },
     "Austria": {
+        "corruption_level": 1.6,
         "government_effectiveness": 1.45,
+        "human_freedom": 8.42,
+        "law_enforcement_ability": 1.88,
         "max_infections": 0.0012795348373456292,
         "median_age": 43,
         "population": 9006398,
@@ -56,15 +77,21 @@
         "total_tests": 0.01279479321255845
     },
     "Azerbaijan": {
+        "corruption_level": -0.83,
         "government_effectiveness": -0.1,
+        "human_freedom": 6.44,
+        "law_enforcement_ability": -0.6,
         "max_infections": 4.369190911648944e-05,
         "median_age": 32,
         "population": 10139177,
         "total_infections": 0.00030870355651153934,
-        "total_tests": 0.0044382300456930575
+        "total_tests": 0.005256836920787555
     },
     "Bahrain": {
+        "corruption_level": -0.15,
         "government_effectiveness": 0.18,
+        "human_freedom": 7.15,
+        "law_enforcement_ability": 0.41,
         "max_infections": 0.0003949282282591129,
         "median_age": 32,
         "population": 1701575,
@@ -72,7 +99,10 @@
         "total_tests": 0.028023448863552885
     },
     "Bangladesh": {
+        "corruption_level": -0.91,
         "government_effectiveness": -0.75,
+        "human_freedom": 5.8,
+        "law_enforcement_ability": -0.64,
         "max_infections": 3.7039424696854927e-07,
         "median_age": 28,
         "population": 164689383,
@@ -80,7 +110,10 @@
         "total_tests": 2.60429659876739e-05
     },
     "Barbados": {
+        "corruption_level": 1.41,
         "government_effectiveness": 0.43,
+        "human_freedom": 7.21,
+        "law_enforcement_ability": 0.39,
         "max_infections": 0.00017746846454980427,
         "median_age": 40,
         "population": 287375,
@@ -88,23 +121,32 @@
         "total_tests": 0.0019382340147890388
     },
     "Belarus": {
+        "corruption_level": -0.19,
         "government_effectiveness": -0.3,
+        "human_freedom": 6.16,
+        "law_enforcement_ability": -0.83,
         "max_infections": 3.7145518255646464e-05,
         "median_age": 40,
         "population": 9449323,
         "total_infections": 0.0002418162655673851,
-        "total_tests": 0.004233107493520964
+        "total_tests": 0.0045505905555350366
     },
     "Belgium": {
+        "corruption_level": 1.51,
         "government_effectiveness": 1.17,
+        "human_freedom": 8.28,
+        "law_enforcement_ability": 1.37,
         "max_infections": 0.0014469840822259705,
         "median_age": 42,
         "population": 11589623,
         "total_infections": 0.011658446525827457,
-        "total_tests": 0.0060398858530601035
+        "total_tests": 0.006946904140022501
     },
     "Belize": {
+        "corruption_level": -0.14,
         "government_effectiveness": -0.59,
+        "human_freedom": 7.37,
+        "law_enforcement_ability": -0.82,
         "max_infections": 1.0059653746718038e-05,
         "median_age": 25,
         "population": 397628,
@@ -112,7 +154,10 @@
         "total_tests": 0.0006739968010301085
     },
     "Bhutan": {
+        "corruption_level": 1.65,
         "government_effectiveness": 0.36,
+        "human_freedom": 6.85,
+        "law_enforcement_ability": 0.55,
         "max_infections": 6.479974287462027e-06,
         "median_age": 28,
         "population": 771608,
@@ -120,7 +165,10 @@
         "total_tests": 0.0015111300038361448
     },
     "Bolivia": {
+        "corruption_level": -0.63,
         "government_effectiveness": -0.32,
+        "human_freedom": 6.75,
+        "law_enforcement_ability": -1.15,
         "max_infections": 1.1308126662326744e-05,
         "median_age": 26,
         "population": 11673021,
@@ -128,7 +176,10 @@
         "total_tests": 5.062956710178111e-05
     },
     "Bosnia and Herzegovina": {
+        "corruption_level": -0.57,
         "government_effectiveness": -0.62,
+        "human_freedom": 7.27,
+        "law_enforcement_ability": -0.23,
         "max_infections": 0.00017648032396788728,
         "median_age": 43,
         "population": 3280819,
@@ -136,15 +187,21 @@
         "total_tests": 0.0018086947192149276
     },
     "Botswana": {
+        "corruption_level": 0.75,
         "government_effectiveness": 0.33,
+        "human_freedom": 6.81,
+        "law_enforcement_ability": 0.47,
         "max_infections": 1.7009500231116584e-06,
         "median_age": 24,
         "population": 2351627,
         "total_infections": 8.079512609780378e-06,
-        "total_tests": 0.0004107794305814655
+        "total_tests": 0.0004907240816677135
     },
     "Brazil": {
+        "corruption_level": -0.42,
         "government_effectiveness": -0.45,
+        "human_freedom": 7.05,
+        "law_enforcement_ability": -0.28,
         "max_infections": 4.26045579528476e-05,
         "median_age": 33,
         "population": 212559417,
@@ -152,23 +209,43 @@
         "total_tests": 0.00025792317637002174
     },
     "Brunei": {
+        "corruption_level": 0.8,
         "government_effectiveness": 1.25,
+        "human_freedom": 6.66,
+        "law_enforcement_ability": 0.63,
         "max_infections": 0.0003063004167057162,
         "median_age": 32,
         "population": 437479,
         "total_infections": 0.004768228874986,
-        "total_tests": 0.018883192107506875
+        "total_tests": 0.020218113326582535
     },
     "Bulgaria": {
+        "corruption_level": -0.15,
         "government_effectiveness": 0.27,
+        "human_freedom": 7.78,
+        "law_enforcement_ability": -0.03,
         "max_infections": 6.979978973712823e-05,
         "median_age": 45,
         "population": 6948445,
         "total_infections": 0.0007109504356730175,
         "total_tests": 0.0022881378495476327
     },
+    "Burma": {
+        "corruption_level": -0.59,
+        "government_effectiveness": -1.07,
+        "human_freedom": 4.81,
+        "law_enforcement_ability": -1.03,
+        "max_infections": 3.6758084021628456e-07,
+        "median_age": 29,
+        "population": 54409800,
+        "total_infections": 2.021694621189565e-06,
+        "total_tests": 2.2900286345474527e-05
+    },
     "Cambodia": {
+        "corruption_level": -1.33,
         "government_effectiveness": -0.57,
+        "human_freedom": 7.22,
+        "law_enforcement_ability": -1.11,
         "max_infections": 6.818603902813362e-06,
         "median_age": 26,
         "population": 16718965,
@@ -176,7 +253,10 @@
         "total_tests": 0.00034499743255638133
     },
     "Canada": {
+        "corruption_level": 1.87,
         "government_effectiveness": 1.72,
+        "human_freedom": 8.69,
+        "law_enforcement_ability": 1.77,
         "max_infections": 0.0003295254425595317,
         "median_age": 41,
         "population": 37742154,
@@ -184,15 +264,21 @@
         "total_tests": 0.008767411632097098
     },
     "Chile": {
+        "corruption_level": 1.01,
         "government_effectiveness": 1.08,
+        "human_freedom": 8.11,
+        "law_enforcement_ability": 1.12,
         "max_infections": 0.00019548863291403976,
         "median_age": 35,
         "population": 19116201,
         "total_infections": 0.0014560947543918376,
-        "total_tests": 0.0028700263195600424
+        "total_tests": 0.0029881460233652075
     },
     "Colombia": {
+        "corruption_level": -0.3,
         "government_effectiveness": -0.09,
+        "human_freedom": 6.78,
+        "law_enforcement_ability": -0.41,
         "max_infections": 2.4900314724648803e-05,
         "median_age": 31,
         "population": 50882891,
@@ -200,7 +286,10 @@
         "total_tests": 0.0005440925123535139
     },
     "Costa Rica": {
+        "corruption_level": 0.55,
         "government_effectiveness": 0.38,
+        "human_freedom": 7.81,
+        "law_enforcement_ability": 0.48,
         "max_infections": 8.16628118940315e-05,
         "median_age": 33,
         "population": 5094118,
@@ -208,31 +297,43 @@
         "total_tests": 0.0010527828369896418
     },
     "Croatia": {
+        "corruption_level": 0.13,
         "government_effectiveness": 0.46,
+        "human_freedom": 7.46,
+        "law_enforcement_ability": 0.32,
         "max_infections": 0.0002628330873485208,
         "median_age": 44,
         "population": 4105267,
         "total_infections": 0.002308010660451561,
-        "total_tests": 0.002792510207009678
+        "total_tests": 0.003001510011407297
     },
     "Cuba": {
+        "corruption_level": 0.17,
         "government_effectiveness": -0.24,
+        "human_freedom": 6.2,
+        "law_enforcement_ability": -0.44,
         "max_infections": 2.374937050925007e-05,
         "median_age": 42,
         "population": 11326616,
         "total_infections": 0.00015309073778081643,
-        "total_tests": 0.0004620974172692003
+        "total_tests": 0.0006227808906031599
     },
     "Cyprus": {
+        "corruption_level": 0.64,
         "government_effectiveness": 0.92,
+        "human_freedom": 8.39,
+        "law_enforcement_ability": 0.75,
         "max_infections": 0.0003279886098500943,
         "median_age": 37,
         "population": 1207359,
         "total_infections": 0.002618111100343808,
         "total_tests": 0.009660755417402777
     },
-    "Czechia": {
+    "Czech Republic": {
+        "corruption_level": 0.5,
         "government_effectiveness": 0.92,
+        "human_freedom": 8.3,
+        "law_enforcement_ability": 1.05,
         "max_infections": 0.0003820158052386123,
         "median_age": 43,
         "population": 10708981,
@@ -240,15 +341,32 @@
         "total_tests": 0.008520605275142425
     },
     "Denmark": {
+        "corruption_level": 2.15,
         "government_effectiveness": 1.87,
+        "human_freedom": 8.73,
+        "law_enforcement_ability": 1.83,
         "max_infections": 0.0006812607709468697,
         "median_age": 42,
         "population": 5792202,
         "total_infections": 0.007516312449047875,
         "total_tests": 0.009139184027076403
     },
+    "Dominica": {
+        "corruption_level": 0.55,
+        "government_effectiveness": -0.29,
+        "human_freedom": 8.48,
+        "law_enforcement_ability": 0.62,
+        "max_infections": 0.00016669908037673993,
+        "median_age": 34.0,
+        "population": 71986,
+        "total_infections": 0.0015975328536104243,
+        "total_tests": 0.004070235879198733
+    },
     "Dominican Republic": {
+        "corruption_level": -0.75,
         "government_effectiveness": -0.4,
+        "human_freedom": 6.6,
+        "law_enforcement_ability": -0.4,
         "max_infections": 0.00013716927961238617,
         "median_age": 28,
         "population": 10847910,
@@ -256,15 +374,32 @@
         "total_tests": 0.00041869816397813034
     },
     "Ecuador": {
+        "corruption_level": -0.56,
         "government_effectiveness": -0.26,
+        "human_freedom": 6.7,
+        "law_enforcement_ability": -0.63,
         "max_infections": 0.00019089665542031443,
         "median_age": 28,
         "population": 17643054,
         "total_infections": 0.0014593845260576768,
         "total_tests": 0.0007390443853994892
     },
+    "Egypt": {
+        "corruption_level": -0.59,
+        "government_effectiveness": -0.58,
+        "human_freedom": 5.82,
+        "law_enforcement_ability": -0.41,
+        "max_infections": 9.625306460963022e-06,
+        "median_age": 25,
+        "population": 102334404,
+        "total_infections": 9.561789210205397e-05,
+        "total_tests": 0.0002442971182985538
+    },
     "Equatorial Guinea": {
+        "corruption_level": -1.56,
         "government_effectiveness": -1.29,
+        "human_freedom": 4.48,
+        "law_enforcement_ability": -1.42,
         "max_infections": 1.1404255925758294e-05,
         "median_age": 22,
         "population": 1402985,
@@ -272,7 +407,10 @@
         "total_tests": 0.000608702160037349
     },
     "Estonia": {
+        "corruption_level": 1.51,
         "government_effectiveness": 1.19,
+        "human_freedom": 8.44,
+        "law_enforcement_ability": 1.24,
         "max_infections": 0.0007244437576091094,
         "median_age": 42,
         "population": 1326535,
@@ -280,23 +418,32 @@
         "total_tests": 0.017750002826913726
     },
     "Ethiopia": {
+        "corruption_level": -0.49,
         "government_effectiveness": -0.61,
+        "human_freedom": 5.33,
+        "law_enforcement_ability": -0.43,
         "max_infections": 3.0444422106937026e-07,
         "median_age": 19,
         "population": 114963588,
         "total_infections": 2.5747282696152454e-06,
-        "total_tests": 1.603116284088141e-05
+        "total_tests": 1.9754080744243995e-05
     },
     "Finland": {
+        "corruption_level": 2.21,
         "government_effectiveness": 1.98,
+        "human_freedom": 8.7,
+        "law_enforcement_ability": 2.05,
         "max_infections": 0.00029147836382275227,
         "median_age": 43,
         "population": 5540720,
         "total_infections": 0.0032483142985027216,
-        "total_tests": 0.005919808255966733
+        "total_tests": 0.006298820369915823
     },
     "France": {
+        "corruption_level": 1.32,
         "government_effectiveness": 1.48,
+        "human_freedom": 8.25,
+        "law_enforcement_ability": 1.44,
         "max_infections": 0.000998904440730942,
         "median_age": 42,
         "population": 65273511,
@@ -304,7 +451,10 @@
         "total_tests": 0.0034356049883696315
     },
     "Georgia": {
+        "corruption_level": 0.71,
         "government_effectiveness": 0.61,
+        "human_freedom": 7.48,
+        "law_enforcement_ability": 0.33,
         "max_infections": 3.8855229675769404e-05,
         "median_age": 38,
         "population": 3989167,
@@ -312,7 +462,10 @@
         "total_tests": 0.0006923751249320974
     },
     "Germany": {
+        "corruption_level": 1.95,
         "government_effectiveness": 1.62,
+        "human_freedom": 8.42,
+        "law_enforcement_ability": 1.63,
         "max_infections": 0.0010880247195817069,
         "median_age": 46,
         "population": 83783942,
@@ -320,7 +473,10 @@
         "total_tests": 0.01096224381516926
     },
     "Greece": {
+        "corruption_level": -0.07,
         "government_effectiveness": 0.34,
+        "human_freedom": 7.77,
+        "law_enforcement_ability": 0.15,
         "max_infections": 0.00015475310787030366,
         "median_age": 46,
         "population": 10423054,
@@ -328,7 +484,10 @@
         "total_tests": 0.0025129870765324635
     },
     "Grenada": {
+        "corruption_level": 0.38,
         "government_effectiveness": -0.25,
+        "human_freedom": 8.04,
+        "law_enforcement_ability": 0.31,
         "max_infections": 0.00010664486371675124,
         "median_age": 32,
         "population": 112523,
@@ -336,7 +495,10 @@
         "total_tests": 0.00039991823893781715
     },
     "Guatemala": {
+        "corruption_level": -0.82,
         "government_effectiveness": -0.68,
+        "human_freedom": 7.21,
+        "law_enforcement_ability": -1.05,
         "max_infections": 2.79086881309038e-06,
         "median_age": 23,
         "population": 17915568,
@@ -344,7 +506,10 @@
         "total_tests": 6.329690468088982e-05
     },
     "Guyana": {
+        "corruption_level": -0.23,
         "government_effectiveness": -0.27,
+        "human_freedom": 6.68,
+        "law_enforcement_ability": -0.32,
         "max_infections": 2.924155046328787e-05,
         "median_age": 27,
         "population": 786552,
@@ -352,15 +517,21 @@
         "total_tests": 0.00014620775231643935
     },
     "Haiti": {
+        "corruption_level": -1.27,
         "government_effectiveness": -1.91,
+        "human_freedom": 7.04,
+        "law_enforcement_ability": -1.03,
         "max_infections": 1.5785973075444322e-06,
         "median_age": 24,
         "population": 11402528,
         "total_infections": 1.2804178161193727e-05,
-        "total_tests": 2.1661863053526376e-05
+        "total_tests": 2.2538861557717726e-05
     },
     "Hungary": {
+        "corruption_level": 0.05,
         "government_effectiveness": 0.49,
+        "human_freedom": 8.11,
+        "law_enforcement_ability": 0.56,
         "max_infections": 6.449041033809227e-05,
         "median_age": 43,
         "population": 9660351,
@@ -368,15 +539,21 @@
         "total_tests": 0.0024580887381835297
     },
     "Iceland": {
+        "corruption_level": 1.84,
         "government_effectiveness": 1.47,
+        "human_freedom": 8.22,
+        "law_enforcement_ability": 1.72,
         "max_infections": 0.0039971515899227235,
         "median_age": 37,
         "population": 341243,
         "total_infections": 0.04455182963460056,
-        "total_tests": 0.08170130962393368
+        "total_tests": 0.08495705406411266
     },
     "India": {
+        "corruption_level": -0.19,
         "government_effectiveness": 0.28,
+        "human_freedom": 6.8,
+        "law_enforcement_ability": 0.03,
         "max_infections": 1.8601390168771095e-06,
         "median_age": 28,
         "population": 1380004385,
@@ -384,15 +561,43 @@
         "total_tests": 0.00010166127117052603
     },
     "Indonesia": {
+        "corruption_level": -0.25,
         "government_effectiveness": 0.18,
+        "human_freedom": 6.81,
+        "law_enforcement_ability": -0.31,
         "max_infections": 7.260799035578701e-06,
         "median_age": 30,
         "population": 273523615,
         "total_infections": 6.370199516411043e-05,
-        "total_tests": 4.820790336512626e-05
+        "total_tests": 5.2478101388064795e-05
+    },
+    "Iran": {
+        "corruption_level": -0.96,
+        "government_effectiveness": -0.43,
+        "human_freedom": 5.29,
+        "law_enforcement_ability": -0.69,
+        "max_infections": 0.0006331841021560036,
+        "median_age": 32,
+        "population": 83992949,
+        "total_infections": 0.00808172600297675,
+        "total_tests": 0.0025137348136210816
+    },
+    "Iraq": {
+        "corruption_level": -1.4,
+        "government_effectiveness": -1.32,
+        "human_freedom": 4.28,
+        "law_enforcement_ability": -1.76,
+        "max_infections": 2.038660308797866e-05,
+        "median_age": 21,
+        "population": 40222493,
+        "total_infections": 0.0002160234075993251,
+        "total_tests": 0.000654633714523861
     },
     "Ireland": {
+        "corruption_level": 1.55,
         "government_effectiveness": 1.42,
+        "human_freedom": 8.48,
+        "law_enforcement_ability": 1.46,
         "max_infections": 0.0008653675959225451,
         "median_age": 38,
         "population": 4937786,
@@ -400,7 +605,10 @@
         "total_tests": 0.006118734185726153
     },
     "Israel": {
+        "corruption_level": 0.79,
         "government_effectiveness": 1.21,
+        "human_freedom": 7.41,
+        "law_enforcement_ability": 0.99,
         "max_infections": 0.0008581791882304213,
         "median_age": 30,
         "population": 8655535,
@@ -408,7 +616,10 @@
         "total_tests": 0.012676743840790893
     },
     "Italy": {
+        "corruption_level": 0.24,
         "government_effectiveness": 0.41,
+        "human_freedom": 8.01,
+        "law_enforcement_ability": 0.25,
         "max_infections": 0.0019818620760808647,
         "median_age": 47,
         "population": 60461826,
@@ -416,7 +627,10 @@
         "total_tests": 0.011936986487970112
     },
     "Jamaica": {
+        "corruption_level": -0.16,
         "government_effectiveness": 0.5,
+        "human_freedom": 7.16,
+        "law_enforcement_ability": -0.24,
         "max_infections": 1.5872120687553253e-05,
         "median_age": 31,
         "population": 2961167,
@@ -424,7 +638,10 @@
         "total_tests": 0.00018236053555912248
     },
     "Japan": {
+        "corruption_level": 1.42,
         "government_effectiveness": 1.68,
+        "human_freedom": 8.31,
+        "law_enforcement_ability": 1.53,
         "max_infections": 2.069159730837187e-05,
         "median_age": 48,
         "population": 126476461,
@@ -432,7 +649,10 @@
         "total_tests": 0.0003650639781895858
     },
     "Jordan": {
+        "corruption_level": 0.15,
         "government_effectiveness": 0.11,
+        "human_freedom": 6.59,
+        "law_enforcement_ability": 0.23,
         "max_infections": 3.0382821591875596e-05,
         "median_age": 24,
         "population": 10203134,
@@ -440,23 +660,43 @@
         "total_tests": 0.0016661547324576939
     },
     "Kazakhstan": {
+        "corruption_level": -0.5,
         "government_effectiveness": 0.02,
+        "human_freedom": 6.91,
+        "law_enforcement_ability": -0.43,
         "max_infections": 2.4711468310178137e-05,
         "median_age": 31,
         "population": 18776707,
         "total_infections": 0.00017122278150263516,
-        "total_tests": 0.0002712403191890889
+        "total_tests": 0.0029167521227231163
     },
     "Kenya": {
+        "corruption_level": -0.85,
         "government_effectiveness": -0.41,
+        "human_freedom": 6.61,
+        "law_enforcement_ability": -0.41,
         "max_infections": 2.2688685056056675e-06,
         "median_age": 20,
         "population": 53771296,
         "total_infections": 1.2701944174825171e-05,
-        "total_tests": 7.95405786760282e-05
+        "total_tests": 9.248428752768019e-05
+    },
+    "Kyrgyzstan": {
+        "corruption_level": -0.95,
+        "government_effectiveness": -0.61,
+        "human_freedom": 6.65,
+        "law_enforcement_ability": -0.91,
+        "max_infections": 1.9925829929976034e-05,
+        "median_age": 26,
+        "population": 6524195,
+        "total_infections": 0.0001446921804145952,
+        "total_tests": 0.0014742048635885347
     },
     "Laos": {
+        "corruption_level": -0.98,
         "government_effectiveness": -0.67,
+        "human_freedom": 6.2,
+        "law_enforcement_ability": -0.84,
         "max_infections": 1.374464646020375e-06,
         "median_age": 24,
         "population": 7275560,
@@ -464,7 +704,10 @@
         "total_tests": 0.00010514654542055869
     },
     "Latvia": {
+        "corruption_level": 0.33,
         "government_effectiveness": 1.04,
+        "human_freedom": 8.16,
+        "law_enforcement_ability": 0.96,
         "max_infections": 0.00026137234797195204,
         "median_age": 44,
         "population": 1886198,
@@ -472,23 +715,43 @@
         "total_tests": 0.01196852080216393
     },
     "Lebanon": {
+        "corruption_level": -1.11,
         "government_effectiveness": -0.64,
+        "human_freedom": 6.72,
+        "law_enforcement_ability": -0.76,
         "max_infections": 7.442738165789922e-05,
         "median_age": 30,
         "population": 6825445,
         "total_infections": 0.0009776651925259086,
-        "total_tests": 0.0014142667620939
+        "total_tests": 0.001497484779380685
     },
     "Libya": {
+        "corruption_level": -1.55,
         "government_effectiveness": -1.85,
+        "human_freedom": 4.98,
+        "law_enforcement_ability": -1.79,
         "max_infections": 1.6008634184080664e-06,
         "median_age": 29,
         "population": 6871292,
         "total_infections": 9.459647472411302e-06,
-        "total_tests": 4.540630786757425e-05
+        "total_tests": 4.7443770400093606e-05
+    },
+    "Liechtenstein": {
+        "corruption_level": 2.01,
+        "government_effectiveness": 1.74,
+        "human_freedom": 8.0,
+        "law_enforcement_ability": 1.68,
+        "max_infections": 0.001967058329836341,
+        "median_age": 43.4,
+        "population": 38128,
+        "total_infections": 0.023919429290809903,
+        "total_tests": 0.023604699958036088
     },
     "Lithuania": {
+        "corruption_level": 0.5,
         "government_effectiveness": 1.07,
+        "human_freedom": 7.94,
+        "law_enforcement_ability": 0.96,
         "max_infections": 0.00025566719771486423,
         "median_age": 45,
         "population": 2722289,
@@ -496,7 +759,10 @@
         "total_tests": 0.010214565756978778
     },
     "Luxembourg": {
+        "corruption_level": 2.09,
         "government_effectiveness": 1.78,
+        "human_freedom": 8.46,
+        "law_enforcement_ability": 1.81,
         "max_infections": 0.004172670605037238,
         "median_age": 40,
         "population": 625978,
@@ -504,7 +770,10 @@
         "total_tests": 0.038804878126707326
     },
     "Malaysia": {
+        "corruption_level": 0.31,
         "government_effectiveness": 1.08,
+        "human_freedom": 6.38,
+        "law_enforcement_ability": 0.62,
         "max_infections": 0.00010297843734098861,
         "median_age": 30,
         "population": 32365999,
@@ -512,7 +781,10 @@
         "total_tests": 0.001716801634950307
     },
     "Malta": {
+        "corruption_level": 0.58,
         "government_effectiveness": 0.97,
+        "human_freedom": 8.42,
+        "law_enforcement_ability": 1.05,
         "max_infections": 0.0004574865868103446,
         "median_age": 43,
         "population": 441543,
@@ -520,7 +792,10 @@
         "total_tests": 0.024738247464006904
     },
     "Mauritania": {
+        "corruption_level": -0.81,
         "government_effectiveness": -0.73,
+        "human_freedom": 5.52,
+        "law_enforcement_ability": -0.69,
         "max_infections": 1.2904174887701417e-06,
         "median_age": 20,
         "population": 4649658,
@@ -528,7 +803,10 @@
         "total_tests": 1.440966195793325e-05
     },
     "Mauritius": {
+        "corruption_level": 0.27,
         "government_effectiveness": 0.88,
+        "human_freedom": 8.18,
+        "law_enforcement_ability": 0.78,
         "max_infections": 0.0001462530901862604,
         "median_age": 37,
         "population": 1271768,
@@ -536,7 +814,10 @@
         "total_tests": 0.0038631259789521357
     },
     "Mexico": {
+        "corruption_level": -0.86,
         "government_effectiveness": -0.15,
+        "human_freedom": 6.94,
+        "law_enforcement_ability": -0.67,
         "max_infections": 1.1711531514416666e-05,
         "median_age": 29,
         "population": 128932753,
@@ -544,7 +825,10 @@
         "total_tests": 0.00015880371374680878
     },
     "Montenegro": {
+        "corruption_level": 0.02,
         "government_effectiveness": 0.13,
+        "human_freedom": 7.67,
+        "law_enforcement_ability": 0.1,
         "max_infections": 0.00027704094792585493,
         "median_age": 39,
         "population": 628066,
@@ -552,7 +836,10 @@
         "total_tests": 0.002741750070852426
     },
     "Morocco": {
+        "corruption_level": -0.22,
         "government_effectiveness": -0.21,
+        "human_freedom": 6.24,
+        "law_enforcement_ability": -0.14,
         "max_infections": 2.1430181498194556e-05,
         "median_age": 30,
         "population": 36910560,
@@ -560,7 +847,10 @@
         "total_tests": 0.00014283175329770126
     },
     "Mozambique": {
+        "corruption_level": -0.78,
         "government_effectiveness": -0.87,
+        "human_freedom": 6.14,
+        "law_enforcement_ability": -1.04,
         "max_infections": 3.199443552777301e-07,
         "median_age": 18,
         "population": 31255435,
@@ -568,7 +858,10 @@
         "total_tests": 1.1613980096581603e-05
     },
     "Namibia": {
+        "corruption_level": 0.34,
         "government_effectiveness": 0.11,
+        "human_freedom": 6.97,
+        "law_enforcement_ability": 0.24,
         "max_infections": 5.509847869164727e-06,
         "median_age": 22,
         "population": 2540905,
@@ -576,7 +869,10 @@
         "total_tests": 0.00014246892347411652
     },
     "Nepal": {
+        "corruption_level": -0.67,
         "government_effectiveness": -0.9,
+        "human_freedom": 6.83,
+        "law_enforcement_ability": -0.48,
         "max_infections": 2.0592509653082109e-07,
         "median_age": 25,
         "population": 29136808,
@@ -584,7 +880,10 @@
         "total_tests": 5.683532664250662e-05
     },
     "Netherlands": {
+        "corruption_level": 2.01,
         "government_effectiveness": 1.85,
+        "human_freedom": 8.49,
+        "law_enforcement_ability": 1.82,
         "max_infections": 0.0009233217499377877,
         "median_age": 43,
         "population": 17134872,
@@ -592,7 +891,10 @@
         "total_tests": 0.005053378863874793
     },
     "New Zealand": {
+        "corruption_level": 2.17,
         "government_effectiveness": 1.67,
+        "human_freedom": 8.94,
+        "law_enforcement_ability": 1.88,
         "max_infections": 0.00017999959769675168,
         "median_age": 38,
         "population": 4822233,
@@ -600,7 +902,10 @@
         "total_tests": 0.008880947892812314
     },
     "Niger": {
+        "corruption_level": -0.58,
         "government_effectiveness": -0.77,
+        "human_freedom": 6.0,
+        "law_enforcement_ability": -0.58,
         "max_infections": 4.957316677189948e-06,
         "median_age": 15,
         "population": 24206644,
@@ -608,15 +913,32 @@
         "total_tests": 0.00016859007799676815
     },
     "Nigeria": {
+        "corruption_level": -1.04,
         "government_effectiveness": -1.02,
+        "human_freedom": 6.1,
+        "law_enforcement_ability": -0.88,
         "max_infections": 1.018727169384237e-06,
         "median_age": 18,
         "population": 206139589,
         "total_infections": 6.854578525428223e-06,
         "total_tests": 2.4255408794862785e-05
     },
+    "North Macedonia": {
+        "corruption_level": -0.36,
+        "government_effectiveness": 0.09,
+        "human_freedom": 7.55,
+        "law_enforcement_ability": -0.28,
+        "max_infections": 0.00020639597115064314,
+        "median_age": 39,
+        "population": 2083374,
+        "total_infections": 0.0017476458859523062,
+        "total_tests": 0.002821864917196816
+    },
     "Norway": {
+        "corruption_level": 2.09,
         "government_effectiveness": 1.89,
+        "human_freedom": 8.61,
+        "law_enforcement_ability": 1.97,
         "max_infections": 0.0009905481051294344,
         "median_age": 40,
         "population": 5421241,
@@ -624,7 +946,10 @@
         "total_tests": 0.020530170121564415
     },
     "Pakistan": {
+        "corruption_level": -0.79,
         "government_effectiveness": -0.63,
+        "human_freedom": 5.44,
+        "law_enforcement_ability": -0.67,
         "max_infections": 1.2159769777439997e-05,
         "median_age": 23,
         "population": 220892340,
@@ -632,7 +957,10 @@
         "total_tests": 0.0001773850555433475
     },
     "Panama": {
+        "corruption_level": -0.57,
         "government_effectiveness": -0.02,
+        "human_freedom": 7.53,
+        "law_enforcement_ability": -0.06,
         "max_infections": 0.00034184928178045306,
         "median_age": 30,
         "population": 4314767,
@@ -640,7 +968,10 @@
         "total_tests": 0.002386455630164966
     },
     "Papua New Guinea": {
+        "corruption_level": -0.88,
         "government_effectiveness": -0.68,
+        "human_freedom": 6.99,
+        "law_enforcement_ability": -0.77,
         "max_infections": 1.1176900833170896e-07,
         "median_age": 22,
         "population": 8947024,
@@ -648,7 +979,10 @@
         "total_tests": 8.047368599883044e-06
     },
     "Paraguay": {
+        "corruption_level": -0.85,
         "government_effectiveness": -0.52,
+        "human_freedom": 7.02,
+        "law_enforcement_ability": -0.54,
         "max_infections": 1.2898634399143755e-05,
         "median_age": 26,
         "population": 7132538,
@@ -656,7 +990,10 @@
         "total_tests": 0.0002858729949984143
     },
     "Peru": {
+        "corruption_level": -0.54,
         "government_effectiveness": -0.25,
+        "human_freedom": 7.46,
+        "law_enforcement_ability": -0.52,
         "max_infections": 4.837459246301406e-05,
         "median_age": 31,
         "population": 32971854,
@@ -664,7 +1001,10 @@
         "total_tests": 0.0006191341257303881
     },
     "Philippines": {
+        "corruption_level": -0.54,
         "government_effectiveness": 0.05,
+        "human_freedom": 6.92,
+        "law_enforcement_ability": -0.48,
         "max_infections": 2.7541251236823933e-05,
         "median_age": 26,
         "population": 109581078,
@@ -672,23 +1012,32 @@
         "total_tests": 0.0002095069734575891
     },
     "Poland": {
+        "corruption_level": 0.64,
         "government_effectiveness": 0.66,
+        "human_freedom": 8.02,
+        "law_enforcement_ability": 0.43,
         "max_infections": 8.93871316509687e-05,
         "median_age": 42,
         "population": 37846611,
         "total_infections": 0.0006633883282178159,
-        "total_tests": 0.002258247112271162
+        "total_tests": 0.00243654577156195
     },
     "Portugal": {
+        "corruption_level": 0.85,
         "government_effectiveness": 1.21,
+        "human_freedom": 8.11,
+        "law_enforcement_ability": 1.14,
         "max_infections": 0.0009695285017940592,
         "median_age": 46,
         "population": 10196709,
         "total_infections": 0.007266069866267636,
-        "total_tests": 0.010787794375616682
+        "total_tests": 0.01189167995281615
     },
     "Qatar": {
+        "corruption_level": 0.72,
         "government_effectiveness": 0.63,
+        "human_freedom": 6.22,
+        "law_enforcement_ability": 0.73,
         "max_infections": 0.00037312746415980543,
         "median_age": 32,
         "population": 2881053,
@@ -696,15 +1045,21 @@
         "total_tests": 0.01322710828297848
     },
     "Romania": {
+        "corruption_level": -0.12,
         "government_effectiveness": -0.25,
+        "human_freedom": 8.0,
+        "law_enforcement_ability": 0.33,
         "max_infections": 0.00016545644693014355,
         "median_age": 43,
         "population": 19237691,
         "total_infections": 0.0012019633749185388,
-        "total_tests": 0.0021305571443059356
+        "total_tests": 0.0022652406673961028
     },
     "Russia": {
+        "corruption_level": -0.85,
         "government_effectiveness": -0.06,
+        "human_freedom": 6.49,
+        "law_enforcement_ability": -0.82,
         "max_infections": 2.8430570429622033e-05,
         "median_age": 40,
         "population": 145934462,
@@ -712,31 +1067,54 @@
         "total_tests": 0.0054476508776933035
     },
     "Serbia": {
+        "corruption_level": -0.37,
         "government_effectiveness": 0.11,
+        "human_freedom": 7.19,
+        "law_enforcement_ability": -0.15,
         "max_infections": 0.0001689295326935299,
         "median_age": 42,
         "population": 8737371,
         "total_infections": 0.0010955240426439485,
-        "total_tests": 0.000978784121676875
+        "total_tests": 0.001101704391401029
     },
     "Singapore": {
+        "corruption_level": 2.17,
         "government_effectiveness": 2.23,
+        "human_freedom": 8.1,
+        "law_enforcement_ability": 1.84,
         "max_infections": 0.0001904162184022746,
         "median_age": 42,
         "population": 5850342,
         "total_infections": 0.0027839398106982464,
         "total_tests": 0.011110461576434335
     },
+    "Slovakia": {
+        "corruption_level": 0.36,
+        "government_effectiveness": 0.71,
+        "human_freedom": 7.33,
+        "law_enforcement_ability": 0.53,
+        "max_infections": 8.242298670865233e-05,
+        "median_age": 41,
+        "population": 5459642,
+        "total_infections": 0.0008637929007066764,
+        "total_tests": 0.0032307979167864854
+    },
     "Slovenia": {
+        "corruption_level": 0.87,
         "government_effectiveness": 1.13,
+        "human_freedom": 7.88,
+        "law_enforcement_ability": 1.06,
         "max_infections": 0.0004492678473335905,
         "median_age": 45,
         "population": 2078938,
         "total_infections": 0.00542632825028933,
-        "total_tests": 0.013590111874428193
+        "total_tests": 0.014168291695086627
     },
     "South Africa": {
+        "corruption_level": -0.02,
         "government_effectiveness": 0.34,
+        "human_freedom": 6.78,
+        "law_enforcement_ability": -0.1,
         "max_infections": 2.5375708011760165e-05,
         "median_age": 28,
         "population": 59308690,
@@ -744,7 +1122,10 @@
         "total_tests": 0.0009795866339317224
     },
     "South Korea": {
+        "corruption_level": 0.6,
         "government_effectiveness": 1.18,
+        "human_freedom": 8.15,
+        "law_enforcement_ability": 1.24,
         "max_infections": 0.00019625823972040904,
         "median_age": 44,
         "population": 51269185,
@@ -752,7 +1133,10 @@
         "total_tests": 0.008996300604349377
     },
     "Spain": {
+        "corruption_level": 0.61,
         "government_effectiveness": 1.0,
+        "human_freedom": 8.22,
+        "law_enforcement_ability": 0.97,
         "max_infections": 0.0025494506679082083,
         "median_age": 45,
         "population": 46754778,
@@ -760,7 +1144,10 @@
         "total_tests": 0.007592806878475607
     },
     "Sri Lanka": {
+        "corruption_level": -0.34,
         "government_effectiveness": -0.24,
+        "human_freedom": 5.69,
+        "law_enforcement_ability": 0.03,
         "max_infections": 7.4253094427660185e-06,
         "median_age": 34,
         "population": 21413249,
@@ -768,31 +1155,54 @@
         "total_tests": 0.00015168179289373602
     },
     "Sweden": {
+        "corruption_level": 2.14,
         "government_effectiveness": 1.83,
+        "human_freedom": 8.48,
+        "law_enforcement_ability": 1.9,
         "max_infections": 0.0006070738811190716,
         "median_age": 41,
         "population": 10099265,
         "total_infections": 0.005997169100919721,
-        "total_tests": 0.003653731236877139
+        "total_tests": 0.005416235735966925
     },
     "Switzerland": {
+        "corruption_level": 2.01,
         "government_effectiveness": 2.04,
+        "human_freedom": 8.83,
+        "law_enforcement_ability": 1.93,
         "max_infections": 0.002265379123432543,
         "median_age": 43,
         "population": 8654622,
         "total_infections": 0.024419090747117553,
-        "total_tests": 0.0187760944383244
+        "total_tests": 0.019345616712087482
+    },
+    "Taiwan": {
+        "corruption_level": 1.03,
+        "government_effectiveness": 1.36,
+        "human_freedom": 7.79,
+        "law_enforcement_ability": 1.11,
+        "max_infections": 1.4611550052431532e-05,
+        "median_age": 42,
+        "population": 23816775,
+        "total_infections": 0.0002334908903493441,
+        "total_tests": 0.0016379631583201336
     },
     "Thailand": {
+        "corruption_level": -0.4,
         "government_effectiveness": 0.35,
+        "human_freedom": 7.11,
+        "law_enforcement_ability": 0.02,
         "max_infections": 2.8338117814306473e-05,
         "median_age": 40,
         "population": 69799978,
         "total_infections": 0.0002883955063710765,
-        "total_tests": 0.0003591834942985226
+        "total_tests": 0.001029513218471215
     },
     "Togo": {
+        "corruption_level": -0.73,
         "government_effectiveness": -1.06,
+        "human_freedom": 5.67,
+        "law_enforcement_ability": -0.59,
         "max_infections": 4.8316624639256e-06,
         "median_age": 19,
         "population": 8278724,
@@ -800,15 +1210,21 @@
         "total_tests": 0.0001772012208644714
     },
     "Trinidad and Tobago": {
+        "corruption_level": -0.32,
         "government_effectiveness": 0.19,
+        "human_freedom": 6.81,
+        "law_enforcement_ability": -0.12,
         "max_infections": 7.00256093657109e-05,
         "median_age": 36,
         "population": 1399488,
         "total_infections": 0.0007424143686834042,
-        "total_tests": 0.0005952176796085425
+        "total_tests": 0.0006216559198792701
     },
     "Tunisia": {
+        "corruption_level": -0.05,
         "government_effectiveness": -0.11,
+        "human_freedom": 6.1,
+        "law_enforcement_ability": 0.04,
         "max_infections": 4.1883066033349584e-05,
         "median_age": 33,
         "population": 11818619,
@@ -816,7 +1232,10 @@
         "total_tests": 0.000653629666884092
     },
     "Turkey": {
+        "corruption_level": -0.34,
         "government_effectiveness": 0.01,
+        "human_freedom": 6.96,
+        "law_enforcement_ability": -0.32,
         "max_infections": 0.0002480582337957331,
         "median_age": 32,
         "population": 84339067,
@@ -824,15 +1243,21 @@
         "total_tests": 0.0024051131606661
     },
     "US": {
+        "corruption_level": 1.32,
         "government_effectiveness": 1.58,
+        "human_freedom": 8.39,
+        "law_enforcement_ability": 1.45,
         "max_infections": 0.0008325794345375197,
         "median_age": 38,
         "population": 331002651,
         "total_infections": 0.005496569270679346,
-        "total_tests": 0.005841110317874766
+        "total_tests": 0.005907505556503836
     },
     "Uganda": {
+        "corruption_level": -1.04,
         "government_effectiveness": -0.61,
+        "human_freedom": 6.4,
+        "law_enforcement_ability": -0.29,
         "max_infections": 1.0493866040159545e-06,
         "median_age": 17,
         "population": 45741007,
@@ -840,7 +1265,10 @@
         "total_tests": 6.9084618097717e-05
     },
     "Ukraine": {
+        "corruption_level": -0.87,
         "government_effectiveness": -0.42,
+        "human_freedom": 6.81,
+        "law_enforcement_ability": -0.72,
         "max_infections": 2.451195485995465e-05,
         "median_age": 41,
         "population": 43733762,
@@ -848,7 +1276,10 @@
         "total_tests": 0.00014599704457165152
     },
     "United Arab Emirates": {
+        "corruption_level": 1.15,
         "government_effectiveness": 1.43,
+        "human_freedom": 6.56,
+        "law_enforcement_ability": 0.81,
         "max_infections": 0.0001278006697806621,
         "median_age": 33,
         "population": 9890402,
@@ -856,31 +1287,54 @@
         "total_tests": 0.0222437874618241
     },
     "United Kingdom": {
+        "corruption_level": 1.83,
         "government_effectiveness": 1.34,
+        "human_freedom": 8.55,
+        "law_enforcement_ability": 1.64,
         "max_infections": 0.0005699112295757074,
         "median_age": 40,
         "population": 67886011,
         "total_infections": 0.003954688102089251,
-        "total_tests": 0.0037262168784670526
+        "total_tests": 0.00392855606142479
     },
     "Uruguay": {
+        "corruption_level": 1.27,
         "government_effectiveness": 0.56,
+        "human_freedom": 7.93,
+        "law_enforcement_ability": 0.6,
         "max_infections": 0.00010622587247713554,
         "median_age": 36,
         "population": 3473730,
         "total_infections": 0.0010901825991081633,
         "total_tests": 0.0015502068381825875
     },
+    "Venezuela": {
+        "corruption_level": -1.47,
+        "government_effectiveness": -1.58,
+        "human_freedom": 5.27,
+        "law_enforcement_ability": -2.34,
+        "max_infections": 5.380514939896483e-06,
+        "median_age": 30,
+        "population": 28435940,
+        "total_infections": 6.1119836376079e-05,
+        "total_tests": 6.256167371291402e-05
+    },
     "Vietnam": {
+        "corruption_level": -0.49,
         "government_effectiveness": 0.0,
+        "human_freedom": 6.31,
+        "law_enforcement_ability": 0.0,
         "max_infections": 2.4348002861229358e-06,
         "median_age": 32,
         "population": 97338579,
         "total_infections": 3.716922968435773e-05,
-        "total_tests": 0.000968834772079424
+        "total_tests": 0.0010930815006041951
     },
     "Zambia": {
+        "corruption_level": -0.66,
         "government_effectiveness": -0.56,
+        "human_freedom": 6.67,
+        "law_enforcement_ability": -0.34,
         "max_infections": 2.1214151144299473e-06,
         "median_age": 18,
         "population": 18383955,
@@ -888,7 +1342,10 @@
         "total_tests": 3.367066553415737e-05
     },
     "Zimbabwe": {
+        "corruption_level": -1.24,
         "government_effectiveness": -1.2,
+        "human_freedom": 4.96,
+        "law_enforcement_ability": -1.27,
         "max_infections": 6.055336083263293e-07,
         "median_age": 19,
         "population": 14862924,
