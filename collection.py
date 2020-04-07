@@ -159,4 +159,4 @@ print("Graphing..")
 data = [list(infections.keys()), [infections[k]["total_infections"] for k in infections], [infections[k]["total_tests"] for k in infections]]
 fig = px.scatter(data, x = data[1], y = data[2], text = data[0], log_x = True, log_y = True, color = [infections[k]["government_effectiveness"] for k in infections])
 fig.update_traces(textposition='top center')
-# fig.show()
+fig.show()
