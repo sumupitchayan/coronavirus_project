@@ -17,6 +17,9 @@ Variables:
 4) government effectiveness measure (between -2.5 and 2.5)
 5) median age
 6) total tests per capita
+7) law_enforcement_ability
+8) corruption level
+9) human freedom
 
 Instructions:
 
