@@ -184,7 +184,7 @@
         "median_age": 43,
         "population": 3280819,
         "total_infections": 0.0013402141355557866,
-        "total_tests": 0.0018086947192149276
+        "total_tests": 0.002106486215789411
     },
     "Botswana": {
         "corruption_level": 0.75,
@@ -261,7 +261,7 @@
         "median_age": 41,
         "population": 37742154,
         "total_infections": 0.0022664843135344103,
-        "total_tests": 0.008767411632097098
+        "total_tests": 0.009180901545788827
     },
     "Chile": {
         "corruption_level": 1.01,
@@ -283,7 +283,7 @@
         "median_age": 31,
         "population": 50882891,
         "total_infections": 0.00018915984942758068,
-        "total_tests": 0.0005440925123535139
+        "total_tests": 0.0005983347133322279
     },
     "Costa Rica": {
         "corruption_level": 0.55,
@@ -294,7 +294,7 @@
         "median_age": 33,
         "population": 5094118,
         "total_infections": 0.0008193763866482873,
-        "total_tests": 0.0010527828369896418
+        "total_tests": 0.001084584220467606
     },
     "Croatia": {
         "corruption_level": 0.13,
@@ -327,7 +327,7 @@
         "median_age": 37,
         "population": 1207359,
         "total_infections": 0.002618111100343808,
-        "total_tests": 0.009660755417402777
+        "total_tests": 0.010781383167723932
     },
     "Czech Republic": {
         "corruption_level": 0.5,
@@ -349,7 +349,7 @@
         "median_age": 42,
         "population": 5792202,
         "total_infections": 0.007516312449047875,
-        "total_tests": 0.009139184027076403
+        "total_tests": 0.010085801565622193
     },
     "Dominica": {
         "corruption_level": 0.55,
@@ -382,7 +382,7 @@
         "median_age": 28,
         "population": 17643054,
         "total_infections": 0.0014593845260576768,
-        "total_tests": 0.0007390443853994892
+        "total_tests": 0.0008165253022520931
     },
     "Egypt": {
         "corruption_level": -0.59,
@@ -481,7 +481,7 @@
         "median_age": 46,
         "population": 10423054,
         "total_infections": 0.0017251181851307689,
-        "total_tests": 0.0025129870765324635
+        "total_tests": 0.0027423824149812523
     },
     "Grenada": {
         "corruption_level": 0.38,
@@ -514,7 +514,7 @@
         "median_age": 27,
         "population": 786552,
         "total_infections": 0.0002568170953732239,
-        "total_tests": 0.00014620775231643935
+        "total_tests": 0.0001678210722240869
     },
     "Haiti": {
         "corruption_level": -1.27,
@@ -602,7 +602,7 @@
         "median_age": 38,
         "population": 4937786,
         "total_infections": 0.007063489588248661,
-        "total_tests": 0.006118734185726153
+        "total_tests": 0.008603856060185678
     },
     "Israel": {
         "corruption_level": 0.79,
@@ -613,7 +613,7 @@
         "median_age": 30,
         "population": 8655535,
         "total_infections": 0.006130528037839371,
-        "total_tests": 0.012676743840790893
+        "total_tests": 0.013556527701638316
     },
     "Italy": {
         "corruption_level": 0.24,
@@ -624,7 +624,7 @@
         "median_age": 47,
         "population": 60461826,
         "total_infections": 0.025747353379634946,
-        "total_tests": 0.011936986487970112
+        "total_tests": 0.012494577983800886
     },
     "Jamaica": {
         "corruption_level": -0.16,
@@ -646,7 +646,7 @@
         "median_age": 48,
         "population": 126476461,
         "total_infections": 0.0002982531271174642,
-        "total_tests": 0.0003650639781895858
+        "total_tests": 0.00043732248327220353
     },
     "Jordan": {
         "corruption_level": 0.15,
@@ -767,7 +767,7 @@
         "median_age": 40,
         "population": 625978,
         "total_infections": 0.03934323570476918,
-        "total_tests": 0.038804878126707326
+        "total_tests": 0.04105895095354789
     },
     "Malaysia": {
         "corruption_level": 0.31,
@@ -824,6 +824,17 @@
         "total_infections": 8.554071594205392e-05,
         "total_tests": 0.00015880371374680878
     },
+    "Moldova": {
+        "corruption_level": -0.73,
+        "government_effectiveness": -0.47,
+        "human_freedom": 7.17,
+        "law_enforcement_ability": -0.41,
+        "max_infections": 0.00014650605372434005,
+        "median_age": 38,
+        "population": 4033963,
+        "total_infections": 0.0009536527727200274,
+        "total_tests": 0.0012662485997020796
+    },
     "Montenegro": {
         "corruption_level": 0.02,
         "government_effectiveness": 0.13,
@@ -833,7 +844,7 @@
         "median_age": 39,
         "population": 628066,
         "total_infections": 0.0018198724337888056,
-        "total_tests": 0.002741750070852426
+        "total_tests": 0.003206669362773976
     },
     "Morocco": {
         "corruption_level": -0.22,
@@ -844,7 +855,7 @@
         "median_age": 30,
         "population": 36910560,
         "total_infections": 0.00016014387210597727,
-        "total_tests": 0.00014283175329770126
+        "total_tests": 0.00014730201871767862
     },
     "Mozambique": {
         "corruption_level": -0.78,
@@ -855,7 +866,7 @@
         "median_age": 18,
         "population": 31255435,
         "total_infections": 2.751521455388479e-06,
-        "total_tests": 1.1613980096581603e-05
+        "total_tests": 1.3565640663775757e-05
     },
     "Namibia": {
         "corruption_level": 0.34,
@@ -877,7 +888,7 @@
         "median_age": 25,
         "population": 29136808,
         "total_infections": 3.740972586976583e-06,
-        "total_tests": 5.683532664250662e-05
+        "total_tests": 6.486640540720864e-05
     },
     "Netherlands": {
         "corruption_level": 2.01,
@@ -910,7 +921,7 @@
         "median_age": 15,
         "population": 24206644,
         "total_infections": 1.6978809619375572e-05,
-        "total_tests": 0.00016859007799676815
+        "total_tests": 0.00017346477272933827
     },
     "Nigeria": {
         "corruption_level": -1.04,
@@ -943,7 +954,7 @@
         "median_age": 40,
         "population": 5421241,
         "total_infections": 0.012331309381007042,
-        "total_tests": 0.020530170121564415
+        "total_tests": 0.021009211728458484
     },
     "Pakistan": {
         "corruption_level": -0.79,
@@ -998,7 +1009,7 @@
         "median_age": 31,
         "population": 32971854,
         "total_infections": 0.0003649779596864647,
-        "total_tests": 0.0006191341257303881
+        "total_tests": 0.0006537393984578483
     },
     "Philippines": {
         "corruption_level": -0.54,
@@ -1042,7 +1053,7 @@
         "median_age": 32,
         "population": 2881053,
         "total_infections": 0.004564997589423034,
-        "total_tests": 0.01322710828297848
+        "total_tests": 0.014514831903474181
     },
     "Romania": {
         "corruption_level": -0.12,
@@ -1065,6 +1076,17 @@
         "population": 145934462,
         "total_infections": 0.00015594671531389206,
         "total_tests": 0.0054476508776933035
+    },
+    "Rwanda": {
+        "corruption_level": 0.58,
+        "government_effectiveness": 0.21,
+        "human_freedom": 7.0,
+        "law_enforcement_ability": 0.12,
+        "max_infections": 6.8714099778122945e-06,
+        "median_age": 20,
+        "population": 12952218,
+        "total_infections": 6.439051597185903e-05,
+        "total_tests": 6.222872406872707e-05
     },
     "Serbia": {
         "corruption_level": -0.37,
@@ -1130,7 +1152,7 @@
         "median_age": 44,
         "population": 51269185,
         "total_infections": 0.005598041006503224,
-        "total_tests": 0.008996300604349377
+        "total_tests": 0.009309763749901622
     },
     "Spain": {
         "corruption_level": 0.61,
@@ -1185,7 +1207,7 @@
         "median_age": 42,
         "population": 23816775,
         "total_infections": 0.0002334908903493441,
-        "total_tests": 0.0016379631583201336
+        "total_tests": 0.0017089635351553683
     },
     "Thailand": {
         "corruption_level": -0.4,
@@ -1207,7 +1229,7 @@
         "median_age": 19,
         "population": 8278724,
         "total_infections": 4.747108370806902e-05,
-        "total_tests": 0.0001772012208644714
+        "total_tests": 0.00019531995510419238
     },
     "Trinidad and Tobago": {
         "corruption_level": -0.32,
@@ -1218,7 +1240,7 @@
         "median_age": 36,
         "population": 1399488,
         "total_infections": 0.0007424143686834042,
-        "total_tests": 0.0006216559198792701
+        "total_tests": 0.000627372296154022
     },
     "Tunisia": {
         "corruption_level": -0.05,
@@ -1229,7 +1251,7 @@
         "median_age": 33,
         "population": 11818619,
         "total_infections": 0.0003256725680047728,
-        "total_tests": 0.000653629666884092
+        "total_tests": 0.0007000817946665343
     },
     "Turkey": {
         "corruption_level": -0.34,
@@ -1240,7 +1262,7 @@
         "median_age": 32,
         "population": 84339067,
         "total_infections": 0.001345888732679483,
-        "total_tests": 0.0024051131606661
+        "total_tests": 0.00271366530530863
     },
     "US": {
         "corruption_level": 1.32,
@@ -1251,7 +1273,7 @@
         "median_age": 38,
         "population": 331002651,
         "total_infections": 0.005496569270679346,
-        "total_tests": 0.005907505556503836
+        "total_tests": 0.006271064578271308
     },
     "Uganda": {
         "corruption_level": -1.04,
@@ -1262,7 +1284,7 @@
         "median_age": 17,
         "population": 45741007,
         "total_infections": 7.60805287911567e-06,
-        "total_tests": 6.9084618097717e-05
+        "total_tests": 7.236395123526686e-05
     },
     "Ukraine": {
         "corruption_level": -0.87,
@@ -1306,7 +1328,7 @@
         "median_age": 36,
         "population": 3473730,
         "total_infections": 0.0010901825991081633,
-        "total_tests": 0.0015502068381825875
+        "total_tests": 0.001648660085844323
     },
     "Venezuela": {
         "corruption_level": -1.47,
@@ -1350,6 +1372,6 @@
         "median_age": 19,
         "population": 14862924,
         "total_infections": 5.315239450864446e-06,
-        "total_tests": 2.1260957803457785e-05
+        "total_tests": 2.496144096545202e-05
     }
 }

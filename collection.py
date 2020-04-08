@@ -8,7 +8,7 @@ import plotly.express as px
 import math
 
 print("Running..")
-df = pd.read_csv("time_series_covid19_confirmed_global.csv")
+df = pd.read_csv("data/time_series_covid19_confirmed_global.csv")
 
 
 countries = df["Country/Region"].unique()
@@ -28,11 +28,11 @@ for c in range(len(countries)):
     infections[country] = {"total_infections": np.sum(total), "max_infections": np.max(total)}
 
 aliases = {  # value is name of country in database/ key is name that may be from other sources
-    "USA": "US", 
-    "S. Korea": "South Korea", 
+    "USA": "US",
+    "S. Korea": "South Korea",
     "UK": "United Kingdom",
-    "Burma": "Myanmar", 
-    "United States": "US", 
+    "Burma": "Myanmar",
+    "United States": "US",
     "Russian Federation": "Russia",
     "Lao PDR": "Laos",
     "UAE": "United Arab Emirates",
@@ -105,7 +105,7 @@ for row in items[1:]:
     infections[country]['total_tests'] = int(info)/infections[country]['population']
 
 
-df = pd.read_csv("gov_effect.csv")
+df = pd.read_csv("data/gov_effect.csv")
 for row in df.values:
     country = row[0]
 
@@ -119,17 +119,17 @@ for row in df.values:
     infections[country]['law_enforcement_ability'] = float(row[2])
     infections[country]['corruption_level'] = float(row[3])
 
-df = pd.read_csv("hfi_cc_2019.csv")
+df = pd.read_csv("data/hfi_cc_2019.csv")
 
 for row in df.values:
     country = row[2]
 
     if country in aliases:
         country = aliases[country]
-    
+
     if country not in infections or row[4] =='-':
         continue
-    
+
 
     infections[country]['human_freedom'] = float(row[4])
 
@@ -147,7 +147,7 @@ for i in range(len(keys)):
         removed_countries.append(keys[i])
         del infections[keys[i]]
 
-print(len(infections)) # 122 here - lot of countries have missing testing data 
+print(len(infections)) # 122 here - lot of countries have missing testing data
 with open('infections.json', 'w') as outfile:
     json.dump(infections, outfile, indent=4, sort_keys=True)
 
