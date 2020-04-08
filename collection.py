@@ -104,7 +104,6 @@ for row in items[1:]:
         continue
     infections[country]['total_tests'] = int(info)/infections[country]['population']
 
-
 df = pd.read_csv("data/gov_effect.csv")
 for row in df.values:
     country = row[0]
@@ -130,10 +129,34 @@ for row in df.values:
     if country not in infections or row[4] =='-':
         continue
 
-
     infections[country]['human_freedom'] = float(row[4])
 
+# Government health expenditure as % of GDP -- latest numbers are from 2016:
+df = pd.read_csv("data/gov_healthexp_pct_gdp.csv")
 
+for row in df.values:
+    country = row[0]
+
+    if country in aliases:
+        country = aliases[country]
+
+    if country not in infections or row[1] != row[1]:
+        continue
+
+    infections[country]['gov_healthexp_pct_gdp'] = float(row[60])
+
+# Government health expenditure per capita (in USD) -- latest numbers are from 2016:
+df = pd.read_csv("data/gov_healthexp_percap.csv")
+for row in df.values:
+    country = row[0]
+
+    if country in aliases:
+        country = aliases[country]
+
+    if country not in infections or row[1] != row[1]:
+        continue
+
+    infections[country]['gov_healthexp_per_capita'] = float(row[60])
 
 print(len(infections)) #181 here
 removed_countries = []
@@ -142,7 +165,7 @@ keys = list(infections.keys())  # data cleaning - remove countries with no popul
 for i in range(len(keys)):
     if 'human_freedom' not in infections[keys[i]]:
         countries_without_freedom.append(keys[i])
-    if len(list(infections[keys[i]].keys())) != 9:
+    if len(list(infections[keys[i]].keys())) != 11:
         print(keys[i])
         removed_countries.append(keys[i])
         del infections[keys[i]]

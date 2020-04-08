@@ -1,6 +1,8 @@
 {
     "Albania": {
         "corruption_level": -0.52,
+        "gov_healthexp_pct_gdp": 2.77003546,
+        "gov_healthexp_per_capita": 112.301534,
         "government_effectiveness": 0.11,
         "human_freedom": 7.68,
         "law_enforcement_ability": -0.39,
@@ -12,6 +14,8 @@
     },
     "Algeria": {
         "corruption_level": -0.64,
+        "gov_healthexp_pct_gdp": 4.50014952,
+        "gov_healthexp_per_capita": 176.2653157,
         "government_effectiveness": -0.44,
         "human_freedom": 5.29,
         "law_enforcement_ability": -0.78,
@@ -23,6 +27,8 @@
     },
     "Antigua and Barbuda": {
         "corruption_level": 0.28,
+        "gov_healthexp_pct_gdp": 2.60925041,
+        "gov_healthexp_per_capita": 377.31699710000004,
         "government_effectiveness": -0.01,
         "human_freedom": 6.86,
         "law_enforcement_ability": 0.39,
@@ -34,6 +40,8 @@
     },
     "Argentina": {
         "corruption_level": -0.08,
+        "gov_healthexp_pct_gdp": 5.61809585,
+        "gov_healthexp_per_capita": 710.9350107999999,
         "government_effectiveness": 0.03,
         "human_freedom": 7.1,
         "law_enforcement_ability": -0.24,
@@ -45,6 +53,8 @@
     },
     "Armenia": {
         "corruption_level": -0.35,
+        "gov_healthexp_pct_gdp": 1.63330003,
+        "gov_healthexp_per_capita": 59.03871069,
         "government_effectiveness": -0.02,
         "human_freedom": 7.42,
         "law_enforcement_ability": -0.15,
@@ -56,6 +66,8 @@
     },
     "Australia": {
         "corruption_level": 1.81,
+        "gov_healthexp_pct_gdp": 6.31986614,
+        "gov_healthexp_per_capita": 3416.9823090000004,
         "government_effectiveness": 1.6,
         "human_freedom": 8.73,
         "law_enforcement_ability": 1.72,
@@ -63,10 +75,12 @@
         "median_age": 38,
         "population": 25499884,
         "total_infections": 0.002017891532369324,
-        "total_tests": 0.012184369152424379
+        "total_tests": 0.012473154779841351
     },
     "Austria": {
         "corruption_level": 1.6,
+        "gov_healthexp_pct_gdp": 7.56836059,
+        "gov_healthexp_per_capita": 3399.4891420000004,
         "government_effectiveness": 1.45,
         "human_freedom": 8.42,
         "law_enforcement_ability": 1.88,
@@ -78,6 +92,8 @@
     },
     "Azerbaijan": {
         "corruption_level": -0.83,
+        "gov_healthexp_pct_gdp": 1.37563334,
+        "gov_healthexp_per_capita": 53.53440392,
         "government_effectiveness": -0.1,
         "human_freedom": 6.44,
         "law_enforcement_ability": -0.6,
@@ -89,6 +105,8 @@
     },
     "Bahrain": {
         "corruption_level": -0.15,
+        "gov_healthexp_pct_gdp": 2.98811374,
+        "gov_healthexp_per_capita": 674.6148282,
         "government_effectiveness": 0.18,
         "human_freedom": 7.15,
         "law_enforcement_ability": 0.41,
@@ -100,6 +118,8 @@
     },
     "Bangladesh": {
         "corruption_level": -0.91,
+        "gov_healthexp_pct_gdp": 0.42468448,
+        "gov_healthexp_per_capita": 6.14438538,
         "government_effectiveness": -0.75,
         "human_freedom": 5.8,
         "law_enforcement_ability": -0.64,
@@ -111,6 +131,8 @@
     },
     "Barbados": {
         "corruption_level": 1.41,
+        "gov_healthexp_pct_gdp": 3.19484936,
+        "gov_healthexp_per_capita": 534.0517884999999,
         "government_effectiveness": 0.43,
         "human_freedom": 7.21,
         "law_enforcement_ability": 0.39,
@@ -122,6 +144,8 @@
     },
     "Belarus": {
         "corruption_level": -0.19,
+        "gov_healthexp_pct_gdp": 3.88144189,
+        "gov_healthexp_per_capita": 195.3959526,
         "government_effectiveness": -0.3,
         "human_freedom": 6.16,
         "law_enforcement_ability": -0.83,
@@ -133,6 +157,8 @@
     },
     "Belgium": {
         "corruption_level": 1.51,
+        "gov_healthexp_pct_gdp": 8.44288611,
+        "gov_healthexp_per_capita": 3489.871404,
         "government_effectiveness": 1.17,
         "human_freedom": 8.28,
         "law_enforcement_ability": 1.37,
@@ -144,6 +170,8 @@
     },
     "Belize": {
         "corruption_level": -0.14,
+        "gov_healthexp_pct_gdp": 4.06011333,
+        "gov_healthexp_per_capita": 201.37145980000003,
         "government_effectiveness": -0.59,
         "human_freedom": 7.37,
         "law_enforcement_ability": -0.82,
@@ -155,6 +183,8 @@
     },
     "Bhutan": {
         "corruption_level": 1.65,
+        "gov_healthexp_pct_gdp": 2.55447091,
+        "gov_healthexp_per_capita": 67.54524033,
         "government_effectiveness": 0.36,
         "human_freedom": 6.85,
         "law_enforcement_ability": 0.55,
@@ -166,6 +196,8 @@
     },
     "Bolivia": {
         "corruption_level": -0.63,
+        "gov_healthexp_pct_gdp": 4.50729231,
+        "gov_healthexp_per_capita": 139.9493316,
         "government_effectiveness": -0.32,
         "human_freedom": 6.75,
         "law_enforcement_ability": -1.15,
@@ -177,6 +209,8 @@
     },
     "Bosnia and Herzegovina": {
         "corruption_level": -0.57,
+        "gov_healthexp_pct_gdp": 6.533311599999999,
+        "gov_healthexp_per_capita": 314.140536,
         "government_effectiveness": -0.62,
         "human_freedom": 7.27,
         "law_enforcement_ability": -0.23,
@@ -188,6 +222,8 @@
     },
     "Botswana": {
         "corruption_level": 0.75,
+        "gov_healthexp_pct_gdp": 3.05569285,
+        "gov_healthexp_per_capita": 212.49957719999998,
         "government_effectiveness": 0.33,
         "human_freedom": 6.81,
         "law_enforcement_ability": 0.47,
@@ -199,6 +235,8 @@
     },
     "Brazil": {
         "corruption_level": -0.42,
+        "gov_healthexp_pct_gdp": 3.91095827,
+        "gov_healthexp_per_capita": 337.533552,
         "government_effectiveness": -0.45,
         "human_freedom": 7.05,
         "law_enforcement_ability": -0.28,
@@ -210,6 +248,8 @@
     },
     "Brunei": {
         "corruption_level": 0.8,
+        "gov_healthexp_pct_gdp": 2.22223139,
+        "gov_healthexp_per_capita": 598.6464062000001,
         "government_effectiveness": 1.25,
         "human_freedom": 6.66,
         "law_enforcement_ability": 0.63,
@@ -221,6 +261,8 @@
     },
     "Bulgaria": {
         "corruption_level": -0.15,
+        "gov_healthexp_pct_gdp": 4.16140856,
+        "gov_healthexp_per_capita": 309.68866210000004,
         "government_effectiveness": 0.27,
         "human_freedom": 7.78,
         "law_enforcement_ability": -0.03,
@@ -232,6 +274,8 @@
     },
     "Burma": {
         "corruption_level": -0.59,
+        "gov_healthexp_pct_gdp": 1.02208923,
+        "gov_healthexp_per_capita": 12.47704064,
         "government_effectiveness": -1.07,
         "human_freedom": 4.81,
         "law_enforcement_ability": -1.03,
@@ -243,6 +287,8 @@
     },
     "Cambodia": {
         "corruption_level": -1.33,
+        "gov_healthexp_pct_gdp": 1.32628594,
+        "gov_healthexp_per_capita": 16.93820917,
         "government_effectiveness": -0.57,
         "human_freedom": 7.22,
         "law_enforcement_ability": -1.11,
@@ -254,6 +300,8 @@
     },
     "Canada": {
         "corruption_level": 1.87,
+        "gov_healthexp_pct_gdp": 7.73706577,
+        "gov_healthexp_per_capita": 3274.2888510000002,
         "government_effectiveness": 1.72,
         "human_freedom": 8.69,
         "law_enforcement_ability": 1.77,
@@ -261,10 +309,12 @@
         "median_age": 41,
         "population": 37742154,
         "total_infections": 0.0022664843135344103,
-        "total_tests": 0.009180901545788827
+        "total_tests": 0.009223241471591684
     },
     "Chile": {
         "corruption_level": 1.01,
+        "gov_healthexp_pct_gdp": 4.98680197,
+        "gov_healthexp_per_capita": 696.1040916000001,
         "government_effectiveness": 1.08,
         "human_freedom": 8.11,
         "law_enforcement_ability": 1.12,
@@ -276,6 +326,8 @@
     },
     "Colombia": {
         "corruption_level": -0.3,
+        "gov_healthexp_pct_gdp": 3.74948167,
+        "gov_healthexp_per_capita": 215.8524725,
         "government_effectiveness": -0.09,
         "human_freedom": 6.78,
         "law_enforcement_ability": -0.41,
@@ -287,6 +339,8 @@
     },
     "Costa Rica": {
         "corruption_level": 0.55,
+        "gov_healthexp_pct_gdp": 5.64846699,
+        "gov_healthexp_per_capita": 664.4844497,
         "government_effectiveness": 0.38,
         "human_freedom": 7.81,
         "law_enforcement_ability": 0.48,
@@ -298,6 +352,8 @@
     },
     "Croatia": {
         "corruption_level": 0.13,
+        "gov_healthexp_pct_gdp": 5.61816563,
+        "gov_healthexp_per_capita": 692.0838371,
         "government_effectiveness": 0.46,
         "human_freedom": 7.46,
         "law_enforcement_ability": 0.32,
@@ -309,6 +365,8 @@
     },
     "Cuba": {
         "corruption_level": 0.17,
+        "gov_healthexp_pct_gdp": 10.92339535,
+        "gov_healthexp_per_capita": 869.7039027000001,
         "government_effectiveness": -0.24,
         "human_freedom": 6.2,
         "law_enforcement_ability": -0.44,
@@ -320,6 +378,8 @@
     },
     "Cyprus": {
         "corruption_level": 0.64,
+        "gov_healthexp_pct_gdp": 2.90331575,
+        "gov_healthexp_per_capita": 689.7529479,
         "government_effectiveness": 0.92,
         "human_freedom": 8.39,
         "law_enforcement_ability": 0.75,
@@ -331,6 +391,8 @@
     },
     "Czech Republic": {
         "corruption_level": 0.5,
+        "gov_healthexp_pct_gdp": 5.85397147,
+        "gov_healthexp_per_capita": 1082.120393,
         "government_effectiveness": 0.92,
         "human_freedom": 8.3,
         "law_enforcement_ability": 1.05,
@@ -342,6 +404,8 @@
     },
     "Denmark": {
         "corruption_level": 2.15,
+        "gov_healthexp_pct_gdp": 8.70670385,
+        "gov_healthexp_per_capita": 4681.911653,
         "government_effectiveness": 1.87,
         "human_freedom": 8.73,
         "law_enforcement_ability": 1.83,
@@ -353,6 +417,8 @@
     },
     "Dominica": {
         "corruption_level": 0.55,
+        "gov_healthexp_pct_gdp": 3.40812007,
+        "gov_healthexp_per_capita": 269.469386,
         "government_effectiveness": -0.29,
         "human_freedom": 8.48,
         "law_enforcement_ability": 0.62,
@@ -364,6 +430,8 @@
     },
     "Dominican Republic": {
         "corruption_level": -0.75,
+        "gov_healthexp_pct_gdp": 2.81725198,
+        "gov_healthexp_per_capita": 189.3820608,
         "government_effectiveness": -0.4,
         "human_freedom": 6.6,
         "law_enforcement_ability": -0.4,
@@ -375,6 +443,8 @@
     },
     "Ecuador": {
         "corruption_level": -0.56,
+        "gov_healthexp_pct_gdp": 4.29349231,
+        "gov_healthexp_per_capita": 258.4050616,
         "government_effectiveness": -0.26,
         "human_freedom": 6.7,
         "law_enforcement_ability": -0.63,
@@ -386,6 +456,8 @@
     },
     "Egypt": {
         "corruption_level": -0.59,
+        "gov_healthexp_pct_gdp": 1.35885288,
+        "gov_healthexp_per_capita": 38.37808087,
         "government_effectiveness": -0.58,
         "human_freedom": 5.82,
         "law_enforcement_ability": -0.41,
@@ -397,6 +469,8 @@
     },
     "Equatorial Guinea": {
         "corruption_level": -1.56,
+        "gov_healthexp_pct_gdp": 0.79394826,
+        "gov_healthexp_per_capita": 66.16160298,
         "government_effectiveness": -1.29,
         "human_freedom": 4.48,
         "law_enforcement_ability": -1.42,
@@ -408,6 +482,8 @@
     },
     "Estonia": {
         "corruption_level": 1.51,
+        "gov_healthexp_pct_gdp": 5.0403614999999995,
+        "gov_healthexp_per_capita": 893.8944789999999,
         "government_effectiveness": 1.19,
         "human_freedom": 8.44,
         "law_enforcement_ability": 1.24,
@@ -419,6 +495,8 @@
     },
     "Ethiopia": {
         "corruption_level": -0.49,
+        "gov_healthexp_pct_gdp": 1.09749129,
+        "gov_healthexp_per_capita": 7.60112056,
         "government_effectiveness": -0.61,
         "human_freedom": 5.33,
         "law_enforcement_ability": -0.43,
@@ -430,6 +508,8 @@
     },
     "Finland": {
         "corruption_level": 2.21,
+        "gov_healthexp_pct_gdp": 7.34383511,
+        "gov_healthexp_per_capita": 3185.112983,
         "government_effectiveness": 1.98,
         "human_freedom": 8.7,
         "law_enforcement_ability": 2.05,
@@ -441,6 +521,8 @@
     },
     "France": {
         "corruption_level": 1.32,
+        "gov_healthexp_pct_gdp": 9.56559676,
+        "gov_healthexp_per_capita": 3534.149827,
         "government_effectiveness": 1.48,
         "human_freedom": 8.25,
         "law_enforcement_ability": 1.44,
@@ -452,6 +534,8 @@
     },
     "Georgia": {
         "corruption_level": 0.71,
+        "gov_healthexp_pct_gdp": 3.0835446,
+        "gov_healthexp_per_capita": 112.5910845,
         "government_effectiveness": 0.61,
         "human_freedom": 7.48,
         "law_enforcement_ability": 0.33,
@@ -463,6 +547,8 @@
     },
     "Germany": {
         "corruption_level": 1.95,
+        "gov_healthexp_pct_gdp": 9.43162482,
+        "gov_healthexp_per_capita": 3991.603439,
         "government_effectiveness": 1.62,
         "human_freedom": 8.42,
         "law_enforcement_ability": 1.63,
@@ -474,6 +560,8 @@
     },
     "Greece": {
         "corruption_level": -0.07,
+        "gov_healthexp_pct_gdp": 5.13545281,
+        "gov_healthexp_per_capita": 917.6352402000001,
         "government_effectiveness": 0.34,
         "human_freedom": 7.77,
         "law_enforcement_ability": 0.15,
@@ -485,6 +573,8 @@
     },
     "Grenada": {
         "corruption_level": 0.38,
+        "gov_healthexp_pct_gdp": 2.16904519,
+        "gov_healthexp_per_capita": 213.4940781,
         "government_effectiveness": -0.25,
         "human_freedom": 8.04,
         "law_enforcement_ability": 0.31,
@@ -496,6 +586,8 @@
     },
     "Guatemala": {
         "corruption_level": -0.82,
+        "gov_healthexp_pct_gdp": 2.16600154,
+        "gov_healthexp_per_capita": 89.81812607,
         "government_effectiveness": -0.68,
         "human_freedom": 7.21,
         "law_enforcement_ability": -1.05,
@@ -507,6 +599,8 @@
     },
     "Guyana": {
         "corruption_level": -0.23,
+        "gov_healthexp_pct_gdp": 2.50079162,
+        "gov_healthexp_per_capita": 113.3169584,
         "government_effectiveness": -0.27,
         "human_freedom": 6.68,
         "law_enforcement_ability": -0.32,
@@ -518,6 +612,8 @@
     },
     "Haiti": {
         "corruption_level": -1.27,
+        "gov_healthexp_pct_gdp": 0.82592345,
+        "gov_healthexp_per_capita": 5.78500642,
         "government_effectiveness": -1.91,
         "human_freedom": 7.04,
         "law_enforcement_ability": -1.03,
@@ -529,6 +625,8 @@
     },
     "Hungary": {
         "corruption_level": 0.05,
+        "gov_healthexp_pct_gdp": 4.85070112,
+        "gov_healthexp_per_capita": 620.8227966,
         "government_effectiveness": 0.49,
         "human_freedom": 8.11,
         "law_enforcement_ability": 0.56,
@@ -536,10 +634,12 @@
         "median_age": 43,
         "population": 9660351,
         "total_infections": 0.0005429409345478234,
-        "total_tests": 0.0024580887381835297
+        "total_tests": 0.0026653275848879613
     },
     "Iceland": {
         "corruption_level": 1.84,
+        "gov_healthexp_pct_gdp": 6.75842081,
+        "gov_healthexp_per_capita": 4127.349484,
         "government_effectiveness": 1.47,
         "human_freedom": 8.22,
         "law_enforcement_ability": 1.72,
@@ -551,6 +651,8 @@
     },
     "India": {
         "corruption_level": -0.19,
+        "gov_healthexp_pct_gdp": 0.93019386,
+        "gov_healthexp_per_capita": 15.94651501,
         "government_effectiveness": 0.28,
         "human_freedom": 6.8,
         "law_enforcement_ability": 0.03,
@@ -562,6 +664,8 @@
     },
     "Indonesia": {
         "corruption_level": -0.25,
+        "gov_healthexp_pct_gdp": 1.39761319,
+        "gov_healthexp_per_capita": 49.89876877,
         "government_effectiveness": 0.18,
         "human_freedom": 6.81,
         "law_enforcement_ability": -0.31,
@@ -573,6 +677,8 @@
     },
     "Iran": {
         "corruption_level": -0.96,
+        "gov_healthexp_pct_gdp": 4.41807148,
+        "gov_healthexp_per_capita": 226.4938859,
         "government_effectiveness": -0.43,
         "human_freedom": 5.29,
         "law_enforcement_ability": -0.69,
@@ -584,6 +690,8 @@
     },
     "Iraq": {
         "corruption_level": -1.4,
+        "gov_healthexp_pct_gdp": 0.69960952,
+        "gov_healthexp_per_capita": 32.24182336,
         "government_effectiveness": -1.32,
         "human_freedom": 4.28,
         "law_enforcement_ability": -1.76,
@@ -595,6 +703,8 @@
     },
     "Ireland": {
         "corruption_level": 1.55,
+        "gov_healthexp_pct_gdp": 5.31728824,
+        "gov_healthexp_per_capita": 3429.354062,
         "government_effectiveness": 1.42,
         "human_freedom": 8.48,
         "law_enforcement_ability": 1.46,
@@ -606,6 +716,8 @@
     },
     "Israel": {
         "corruption_level": 0.79,
+        "gov_healthexp_pct_gdp": 4.571548,
+        "gov_healthexp_per_capita": 1773.2281670000002,
         "government_effectiveness": 1.21,
         "human_freedom": 7.41,
         "law_enforcement_ability": 0.99,
@@ -617,6 +729,8 @@
     },
     "Italy": {
         "corruption_level": 0.24,
+        "gov_healthexp_pct_gdp": 6.65374499,
+        "gov_healthexp_per_capita": 2039.3560969999999,
         "government_effectiveness": 0.41,
         "human_freedom": 8.01,
         "law_enforcement_ability": 0.25,
@@ -628,6 +742,8 @@
     },
     "Jamaica": {
         "corruption_level": -0.16,
+        "gov_healthexp_pct_gdp": 3.67747593,
+        "gov_healthexp_per_capita": 179.4084002,
         "government_effectiveness": 0.5,
         "human_freedom": 7.16,
         "law_enforcement_ability": -0.24,
@@ -639,6 +755,8 @@
     },
     "Japan": {
         "corruption_level": 1.42,
+        "gov_healthexp_pct_gdp": 9.13267407,
+        "gov_healthexp_per_capita": 3538.209507,
         "government_effectiveness": 1.68,
         "human_freedom": 8.31,
         "law_enforcement_ability": 1.53,
@@ -650,6 +768,8 @@
     },
     "Jordan": {
         "corruption_level": 0.15,
+        "gov_healthexp_pct_gdp": 3.45735318,
+        "gov_healthexp_per_capita": 141.3351758,
         "government_effectiveness": 0.11,
         "human_freedom": 6.59,
         "law_enforcement_ability": 0.23,
@@ -661,6 +781,8 @@
     },
     "Kazakhstan": {
         "corruption_level": -0.5,
+        "gov_healthexp_pct_gdp": 2.07302569,
+        "gov_healthexp_per_capita": 154.0352728,
         "government_effectiveness": 0.02,
         "human_freedom": 6.91,
         "law_enforcement_ability": -0.43,
@@ -668,10 +790,12 @@
         "median_age": 31,
         "population": 18776707,
         "total_infections": 0.00017122278150263516,
-        "total_tests": 0.0029167521227231163
+        "total_tests": 0.0030236931321344046
     },
     "Kenya": {
         "corruption_level": -0.85,
+        "gov_healthexp_pct_gdp": 1.64588184,
+        "gov_healthexp_per_capita": 23.95246096,
         "government_effectiveness": -0.41,
         "human_freedom": 6.61,
         "law_enforcement_ability": -0.41,
@@ -683,6 +807,8 @@
     },
     "Kyrgyzstan": {
         "corruption_level": -0.95,
+        "gov_healthexp_pct_gdp": 2.5908803,
+        "gov_healthexp_per_capita": 28.49957372,
         "government_effectiveness": -0.61,
         "human_freedom": 6.65,
         "law_enforcement_ability": -0.91,
@@ -694,6 +820,8 @@
     },
     "Laos": {
         "corruption_level": -0.98,
+        "gov_healthexp_pct_gdp": 0.76494844,
+        "gov_healthexp_per_capita": 17.88978896,
         "government_effectiveness": -0.67,
         "human_freedom": 6.2,
         "law_enforcement_ability": -0.84,
@@ -705,6 +833,8 @@
     },
     "Latvia": {
         "corruption_level": 0.33,
+        "gov_healthexp_pct_gdp": 3.41067308,
+        "gov_healthexp_per_capita": 477.5999127,
         "government_effectiveness": 1.04,
         "human_freedom": 8.16,
         "law_enforcement_ability": 0.96,
@@ -716,6 +846,8 @@
     },
     "Lebanon": {
         "corruption_level": -1.11,
+        "gov_healthexp_pct_gdp": 4.17931965,
+        "gov_healthexp_per_capita": 345.183134,
         "government_effectiveness": -0.64,
         "human_freedom": 6.72,
         "law_enforcement_ability": -0.76,
@@ -727,6 +859,8 @@
     },
     "Libya": {
         "corruption_level": -1.55,
+        "gov_healthexp_pct_gdp": NaN,
+        "gov_healthexp_per_capita": NaN,
         "government_effectiveness": -1.85,
         "human_freedom": 4.98,
         "law_enforcement_ability": -1.79,
@@ -738,6 +872,8 @@
     },
     "Liechtenstein": {
         "corruption_level": 2.01,
+        "gov_healthexp_pct_gdp": NaN,
+        "gov_healthexp_per_capita": NaN,
         "government_effectiveness": 1.74,
         "human_freedom": 8.0,
         "law_enforcement_ability": 1.68,
@@ -749,6 +885,8 @@
     },
     "Lithuania": {
         "corruption_level": 0.5,
+        "gov_healthexp_pct_gdp": 4.37671608,
+        "gov_healthexp_per_capita": 648.1181336,
         "government_effectiveness": 1.07,
         "human_freedom": 7.94,
         "law_enforcement_ability": 0.96,
@@ -760,6 +898,8 @@
     },
     "Luxembourg": {
         "corruption_level": 2.09,
+        "gov_healthexp_pct_gdp": 5.0053057999999995,
+        "gov_healthexp_per_capita": 5092.7246780000005,
         "government_effectiveness": 1.78,
         "human_freedom": 8.46,
         "law_enforcement_ability": 1.81,
@@ -771,6 +911,8 @@
     },
     "Malaysia": {
         "corruption_level": 0.31,
+        "gov_healthexp_pct_gdp": 1.91902636,
+        "gov_healthexp_per_capita": 182.4657085,
         "government_effectiveness": 1.08,
         "human_freedom": 6.38,
         "law_enforcement_ability": 0.62,
@@ -782,6 +924,8 @@
     },
     "Malta": {
         "corruption_level": 0.58,
+        "gov_healthexp_pct_gdp": 5.86634892,
+        "gov_healthexp_per_capita": 1469.082741,
         "government_effectiveness": 0.97,
         "human_freedom": 8.42,
         "law_enforcement_ability": 1.05,
@@ -793,6 +937,8 @@
     },
     "Mauritania": {
         "corruption_level": -0.81,
+        "gov_healthexp_pct_gdp": 1.55438939,
+        "gov_healthexp_per_capita": 17.14234802,
         "government_effectiveness": -0.73,
         "human_freedom": 5.52,
         "law_enforcement_ability": -0.69,
@@ -804,6 +950,8 @@
     },
     "Mauritius": {
         "corruption_level": 0.27,
+        "gov_healthexp_pct_gdp": 2.53455457,
+        "gov_healthexp_per_capita": 243.98448050000002,
         "government_effectiveness": 0.88,
         "human_freedom": 8.18,
         "law_enforcement_ability": 0.78,
@@ -815,6 +963,8 @@
     },
     "Mexico": {
         "corruption_level": -0.86,
+        "gov_healthexp_pct_gdp": 2.8519693999999998,
+        "gov_healthexp_per_capita": 240.81204739999998,
         "government_effectiveness": -0.15,
         "human_freedom": 6.94,
         "law_enforcement_ability": -0.67,
@@ -822,10 +972,12 @@
         "median_age": 29,
         "population": 128932753,
         "total_infections": 8.554071594205392e-05,
-        "total_tests": 0.00015880371374680878
+        "total_tests": 0.00019707948064988577
     },
     "Moldova": {
         "corruption_level": -0.73,
+        "gov_healthexp_pct_gdp": 4.38192468,
+        "gov_healthexp_per_capita": 83.52589378,
         "government_effectiveness": -0.47,
         "human_freedom": 7.17,
         "law_enforcement_ability": -0.41,
@@ -837,6 +989,8 @@
     },
     "Montenegro": {
         "corruption_level": 0.02,
+        "gov_healthexp_pct_gdp": 5.73301587,
+        "gov_healthexp_per_capita": 398.9023898,
         "government_effectiveness": 0.13,
         "human_freedom": 7.67,
         "law_enforcement_ability": 0.1,
@@ -848,6 +1002,8 @@
     },
     "Morocco": {
         "corruption_level": -0.22,
+        "gov_healthexp_pct_gdp": 2.73529496,
+        "gov_healthexp_per_capita": 80.33456957,
         "government_effectiveness": -0.21,
         "human_freedom": 6.24,
         "law_enforcement_ability": -0.14,
@@ -859,6 +1015,8 @@
     },
     "Mozambique": {
         "corruption_level": -0.78,
+        "gov_healthexp_pct_gdp": 2.70240725,
+        "gov_healthexp_per_capita": 10.24564935,
         "government_effectiveness": -0.87,
         "human_freedom": 6.14,
         "law_enforcement_ability": -1.04,
@@ -870,6 +1028,8 @@
     },
     "Namibia": {
         "corruption_level": 0.34,
+        "gov_healthexp_pct_gdp": 5.6463848,
+        "gov_healthexp_per_capita": 249.2869749,
         "government_effectiveness": 0.11,
         "human_freedom": 6.97,
         "law_enforcement_ability": 0.24,
@@ -881,6 +1041,8 @@
     },
     "Nepal": {
         "corruption_level": -0.67,
+        "gov_healthexp_pct_gdp": 1.16947516,
+        "gov_healthexp_per_capita": 8.44496511,
         "government_effectiveness": -0.9,
         "human_freedom": 6.83,
         "law_enforcement_ability": -0.48,
@@ -892,6 +1054,8 @@
     },
     "Netherlands": {
         "corruption_level": 2.01,
+        "gov_healthexp_pct_gdp": 8.38861624,
+        "gov_healthexp_per_capita": 3839.9307479999998,
         "government_effectiveness": 1.85,
         "human_freedom": 8.49,
         "law_enforcement_ability": 1.82,
@@ -903,6 +1067,8 @@
     },
     "New Zealand": {
         "corruption_level": 2.17,
+        "gov_healthexp_pct_gdp": 7.25341615,
+        "gov_healthexp_per_capita": 2945.760491,
         "government_effectiveness": 1.67,
         "human_freedom": 8.94,
         "law_enforcement_ability": 1.88,
@@ -910,10 +1076,12 @@
         "median_age": 38,
         "population": 4822233,
         "total_infections": 0.0012467253241392525,
-        "total_tests": 0.008880947892812314
+        "total_tests": 0.009720600394049811
     },
     "Niger": {
         "corruption_level": -0.58,
+        "gov_healthexp_pct_gdp": 1.51293619,
+        "gov_healthexp_per_capita": 5.50951516,
         "government_effectiveness": -0.77,
         "human_freedom": 6.0,
         "law_enforcement_ability": -0.58,
@@ -925,6 +1093,8 @@
     },
     "Nigeria": {
         "corruption_level": -1.04,
+        "gov_healthexp_pct_gdp": 0.47496933,
+        "gov_healthexp_per_capita": 10.33368986,
         "government_effectiveness": -1.02,
         "human_freedom": 6.1,
         "law_enforcement_ability": -0.88,
@@ -936,6 +1106,8 @@
     },
     "North Macedonia": {
         "corruption_level": -0.36,
+        "gov_healthexp_pct_gdp": 4.0326809,
+        "gov_healthexp_per_capita": 208.3961176,
         "government_effectiveness": 0.09,
         "human_freedom": 7.55,
         "law_enforcement_ability": -0.28,
@@ -947,6 +1119,8 @@
     },
     "Norway": {
         "corruption_level": 2.09,
+        "gov_healthexp_pct_gdp": 8.93920884,
+        "gov_healthexp_per_capita": 6365.950215999999,
         "government_effectiveness": 1.89,
         "human_freedom": 8.61,
         "law_enforcement_ability": 1.97,
@@ -958,6 +1132,8 @@
     },
     "Pakistan": {
         "corruption_level": -0.79,
+        "gov_healthexp_pct_gdp": 0.76798214,
+        "gov_healthexp_per_capita": 11.04167951,
         "government_effectiveness": -0.63,
         "human_freedom": 5.44,
         "law_enforcement_ability": -0.67,
@@ -969,6 +1145,8 @@
     },
     "Panama": {
         "corruption_level": -0.57,
+        "gov_healthexp_pct_gdp": 4.763161900000001,
+        "gov_healthexp_per_capita": 682.7036682999999,
         "government_effectiveness": -0.02,
         "human_freedom": 7.53,
         "law_enforcement_ability": -0.06,
@@ -980,6 +1158,8 @@
     },
     "Papua New Guinea": {
         "corruption_level": -0.88,
+        "gov_healthexp_pct_gdp": 1.3830432,
+        "gov_healthexp_per_capita": 38.60594241,
         "government_effectiveness": -0.68,
         "human_freedom": 6.99,
         "law_enforcement_ability": -0.77,
@@ -991,6 +1171,8 @@
     },
     "Paraguay": {
         "corruption_level": -0.85,
+        "gov_healthexp_pct_gdp": 4.14268173,
+        "gov_healthexp_per_capita": 168.92857469999998,
         "government_effectiveness": -0.52,
         "human_freedom": 7.02,
         "law_enforcement_ability": -0.54,
@@ -1002,6 +1184,8 @@
     },
     "Peru": {
         "corruption_level": -0.54,
+        "gov_healthexp_pct_gdp": 3.29590879,
+        "gov_healthexp_per_capita": 202.75377969999997,
         "government_effectiveness": -0.25,
         "human_freedom": 7.46,
         "law_enforcement_ability": -0.52,
@@ -1013,6 +1197,8 @@
     },
     "Philippines": {
         "corruption_level": -0.54,
+        "gov_healthexp_pct_gdp": 1.38354204,
+        "gov_healthexp_per_capita": 40.82935177,
         "government_effectiveness": 0.05,
         "human_freedom": 6.92,
         "law_enforcement_ability": -0.48,
@@ -1020,10 +1206,12 @@
         "median_age": 26,
         "population": 109581078,
         "total_infections": 0.00017792305346731486,
-        "total_tests": 0.0002095069734575891
+        "total_tests": 0.00022357874595831226
     },
     "Poland": {
         "corruption_level": 0.64,
+        "gov_healthexp_pct_gdp": 4.54206336,
+        "gov_healthexp_per_capita": 563.8930306,
         "government_effectiveness": 0.66,
         "human_freedom": 8.02,
         "law_enforcement_ability": 0.43,
@@ -1035,6 +1223,8 @@
     },
     "Portugal": {
         "corruption_level": 0.85,
+        "gov_healthexp_pct_gdp": 6.02253675,
+        "gov_healthexp_per_capita": 1194.9442179999999,
         "government_effectiveness": 1.21,
         "human_freedom": 8.11,
         "law_enforcement_ability": 1.14,
@@ -1046,6 +1236,8 @@
     },
     "Qatar": {
         "corruption_level": 0.72,
+        "gov_healthexp_pct_gdp": 2.51368509,
+        "gov_healthexp_per_capita": 1491.390983,
         "government_effectiveness": 0.63,
         "human_freedom": 6.22,
         "law_enforcement_ability": 0.73,
@@ -1057,6 +1249,8 @@
     },
     "Romania": {
         "corruption_level": -0.12,
+        "gov_healthexp_pct_gdp": 3.89407157,
+        "gov_healthexp_per_capita": 372.4622871,
         "government_effectiveness": -0.25,
         "human_freedom": 8.0,
         "law_enforcement_ability": 0.33,
@@ -1068,6 +1262,8 @@
     },
     "Russia": {
         "corruption_level": -0.85,
+        "gov_healthexp_pct_gdp": 3.0019096000000003,
+        "gov_healthexp_per_capita": 267.1702482,
         "government_effectiveness": -0.06,
         "human_freedom": 6.49,
         "law_enforcement_ability": -0.82,
@@ -1079,6 +1275,8 @@
     },
     "Rwanda": {
         "corruption_level": 0.58,
+        "gov_healthexp_pct_gdp": 2.2906235,
+        "gov_healthexp_per_capita": 16.28961382,
         "government_effectiveness": 0.21,
         "human_freedom": 7.0,
         "law_enforcement_ability": 0.12,
@@ -1090,6 +1288,8 @@
     },
     "Serbia": {
         "corruption_level": -0.37,
+        "gov_healthexp_pct_gdp": 5.298753700000001,
+        "gov_healthexp_per_capita": 286.78759260000004,
         "government_effectiveness": 0.11,
         "human_freedom": 7.19,
         "law_enforcement_ability": -0.15,
@@ -1101,6 +1301,8 @@
     },
     "Singapore": {
         "corruption_level": 2.17,
+        "gov_healthexp_pct_gdp": 2.43704803,
+        "gov_healthexp_per_capita": 1342.624304,
         "government_effectiveness": 2.23,
         "human_freedom": 8.1,
         "law_enforcement_ability": 1.84,
@@ -1112,6 +1314,8 @@
     },
     "Slovakia": {
         "corruption_level": 0.36,
+        "gov_healthexp_pct_gdp": 5.68866186,
+        "gov_healthexp_per_capita": 941.0975975,
         "government_effectiveness": 0.71,
         "human_freedom": 7.33,
         "law_enforcement_ability": 0.53,
@@ -1123,6 +1327,8 @@
     },
     "Slovenia": {
         "corruption_level": 0.87,
+        "gov_healthexp_pct_gdp": 6.12153961,
+        "gov_healthexp_per_capita": 1325.87342,
         "government_effectiveness": 1.13,
         "human_freedom": 7.88,
         "law_enforcement_ability": 1.06,
@@ -1134,6 +1340,8 @@
     },
     "South Africa": {
         "corruption_level": -0.02,
+        "gov_healthexp_pct_gdp": 4.35733707,
+        "gov_healthexp_per_capita": 230.05547280000002,
         "government_effectiveness": 0.34,
         "human_freedom": 6.78,
         "law_enforcement_ability": -0.1,
@@ -1145,6 +1353,8 @@
     },
     "South Korea": {
         "corruption_level": 0.6,
+        "gov_healthexp_pct_gdp": 4.34050531,
+        "gov_healthexp_per_capita": 1209.043661,
         "government_effectiveness": 1.18,
         "human_freedom": 8.15,
         "law_enforcement_ability": 1.24,
@@ -1156,6 +1366,8 @@
     },
     "Spain": {
         "corruption_level": 0.61,
+        "gov_healthexp_pct_gdp": 6.39032348,
+        "gov_healthexp_per_capita": 1702.507336,
         "government_effectiveness": 1.0,
         "human_freedom": 8.22,
         "law_enforcement_ability": 0.97,
@@ -1167,6 +1379,8 @@
     },
     "Sri Lanka": {
         "corruption_level": -0.34,
+        "gov_healthexp_pct_gdp": 1.67771562,
+        "gov_healthexp_per_capita": 65.97404606,
         "government_effectiveness": -0.24,
         "human_freedom": 5.69,
         "law_enforcement_ability": 0.03,
@@ -1178,6 +1392,8 @@
     },
     "Sweden": {
         "corruption_level": 2.14,
+        "gov_healthexp_pct_gdp": 9.13114823,
+        "gov_healthexp_per_capita": 4768.654941,
         "government_effectiveness": 1.83,
         "human_freedom": 8.48,
         "law_enforcement_ability": 1.9,
@@ -1189,6 +1405,8 @@
     },
     "Switzerland": {
         "corruption_level": 2.01,
+        "gov_healthexp_pct_gdp": 7.68887756,
+        "gov_healthexp_per_capita": 6174.882702,
         "government_effectiveness": 2.04,
         "human_freedom": 8.83,
         "law_enforcement_ability": 1.93,
@@ -1198,19 +1416,10 @@
         "total_infections": 0.024419090747117553,
         "total_tests": 0.019345616712087482
     },
-    "Taiwan": {
-        "corruption_level": 1.03,
-        "government_effectiveness": 1.36,
-        "human_freedom": 7.79,
-        "law_enforcement_ability": 1.11,
-        "max_infections": 1.4611550052431532e-05,
-        "median_age": 42,
-        "population": 23816775,
-        "total_infections": 0.0002334908903493441,
-        "total_tests": 0.0017089635351553683
-    },
     "Thailand": {
         "corruption_level": -0.4,
+        "gov_healthexp_pct_gdp": 2.89993864,
+        "gov_healthexp_per_capita": 173.3959257,
         "government_effectiveness": 0.35,
         "human_freedom": 7.11,
         "law_enforcement_ability": 0.02,
@@ -1222,6 +1431,8 @@
     },
     "Togo": {
         "corruption_level": -0.73,
+        "gov_healthexp_pct_gdp": 1.32633834,
+        "gov_healthexp_per_capita": 7.77303611,
         "government_effectiveness": -1.06,
         "human_freedom": 5.67,
         "law_enforcement_ability": -0.59,
@@ -1233,6 +1444,8 @@
     },
     "Trinidad and Tobago": {
         "corruption_level": -0.32,
+        "gov_healthexp_pct_gdp": 3.43698692,
+        "gov_healthexp_per_capita": 561.6181674,
         "government_effectiveness": 0.19,
         "human_freedom": 6.81,
         "law_enforcement_ability": -0.12,
@@ -1244,6 +1457,8 @@
     },
     "Tunisia": {
         "corruption_level": -0.05,
+        "gov_healthexp_pct_gdp": 3.93730636,
+        "gov_healthexp_per_capita": 145.27227549999998,
         "government_effectiveness": -0.11,
         "human_freedom": 6.1,
         "law_enforcement_ability": 0.04,
@@ -1255,6 +1470,8 @@
     },
     "Turkey": {
         "corruption_level": -0.34,
+        "gov_healthexp_pct_gdp": 3.38424656,
+        "gov_healthexp_per_capita": 367.61715,
         "government_effectiveness": 0.01,
         "human_freedom": 6.96,
         "law_enforcement_ability": -0.32,
@@ -1266,6 +1483,8 @@
     },
     "US": {
         "corruption_level": 1.32,
+        "gov_healthexp_pct_gdp": 13.97379764,
+        "gov_healthexp_per_capita": 8077.925836,
         "government_effectiveness": 1.58,
         "human_freedom": 8.39,
         "law_enforcement_ability": 1.45,
@@ -1273,10 +1492,12 @@
         "median_age": 38,
         "population": 331002651,
         "total_infections": 0.005496569270679346,
-        "total_tests": 0.006271064578271308
+        "total_tests": 0.0062912819390077935
     },
     "Uganda": {
         "corruption_level": -1.04,
+        "gov_healthexp_pct_gdp": 1.02082965,
+        "gov_healthexp_per_capita": 6.227106099999999,
         "government_effectiveness": -0.61,
         "human_freedom": 6.4,
         "law_enforcement_ability": -0.29,
@@ -1288,6 +1509,8 @@
     },
     "Ukraine": {
         "corruption_level": -0.87,
+        "gov_healthexp_pct_gdp": 2.85304109,
+        "gov_healthexp_per_capita": 59.88135541,
         "government_effectiveness": -0.42,
         "human_freedom": 6.81,
         "law_enforcement_ability": -0.72,
@@ -1299,6 +1522,8 @@
     },
     "United Arab Emirates": {
         "corruption_level": 1.15,
+        "gov_healthexp_pct_gdp": 2.54892462,
+        "gov_healthexp_per_capita": 958.9619755000001,
         "government_effectiveness": 1.43,
         "human_freedom": 6.56,
         "law_enforcement_ability": 0.81,
@@ -1310,6 +1535,8 @@
     },
     "United Kingdom": {
         "corruption_level": 1.83,
+        "gov_healthexp_pct_gdp": 7.8318788,
+        "gov_healthexp_per_capita": 3175.334765,
         "government_effectiveness": 1.34,
         "human_freedom": 8.55,
         "law_enforcement_ability": 1.64,
@@ -1321,6 +1548,8 @@
     },
     "Uruguay": {
         "corruption_level": 1.27,
+        "gov_healthexp_pct_gdp": 6.49598543,
+        "gov_healthexp_per_capita": 988.7257085000001,
         "government_effectiveness": 0.56,
         "human_freedom": 7.93,
         "law_enforcement_ability": 0.6,
@@ -1332,6 +1561,8 @@
     },
     "Venezuela": {
         "corruption_level": -1.47,
+        "gov_healthexp_pct_gdp": 0.77412866,
+        "gov_healthexp_per_capita": NaN,
         "government_effectiveness": -1.58,
         "human_freedom": 5.27,
         "law_enforcement_ability": -2.34,
@@ -1343,6 +1574,8 @@
     },
     "Vietnam": {
         "corruption_level": -0.49,
+        "gov_healthexp_pct_gdp": 2.6842476000000004,
+        "gov_healthexp_per_capita": 58.26556802,
         "government_effectiveness": 0.0,
         "human_freedom": 6.31,
         "law_enforcement_ability": 0.0,
@@ -1354,6 +1587,8 @@
     },
     "Zambia": {
         "corruption_level": -0.66,
+        "gov_healthexp_pct_gdp": 1.7143074,
+        "gov_healthexp_per_capita": 21.65057408,
         "government_effectiveness": -0.56,
         "human_freedom": 6.67,
         "law_enforcement_ability": -0.34,
@@ -1365,6 +1600,8 @@
     },
     "Zimbabwe": {
         "corruption_level": -1.24,
+        "gov_healthexp_pct_gdp": 4.37772571,
+        "gov_healthexp_per_capita": 43.68682584,
         "government_effectiveness": -1.2,
         "human_freedom": 4.96,
         "law_enforcement_ability": -1.27,
