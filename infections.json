@@ -25,7 +25,7 @@
         "median_age": 32,
         "population": 45195774,
         "total_infections": 0.00022083923156178273,
-        "total_tests": 0.0002605995861471473
+        "total_tests": 0.00043716476677664595
     },
     "Australia": {
         "StringencyIndex": 71.43,
@@ -39,7 +39,7 @@
         "median_age": 38,
         "population": 25499884,
         "total_infections": 0.002017891532369324,
-        "total_tests": 0.012524292267368746
+        "total_tests": 0.013880102356544053
     },
     "Austria": {
         "StringencyIndex": NaN,
@@ -53,7 +53,7 @@
         "median_age": 43,
         "population": 9006398,
         "total_infections": 0.013122338142285073,
-        "total_tests": 0.013407690843775725
+        "total_tests": 0.016086009079323386
     },
     "Bahrain": {
         "StringencyIndex": 57.14,
@@ -67,7 +67,7 @@
         "median_age": 32,
         "population": 1701575,
         "total_infections": 0.005768773048499184,
-        "total_tests": 0.03076620190117979
+        "total_tests": 0.03759634456312534
     },
     "Bangladesh": {
         "StringencyIndex": NaN,
@@ -81,7 +81,7 @@
         "median_age": 28,
         "population": 164689383,
         "total_infections": 4.353650411089342e-06,
-        "total_tests": 2.60429659876739e-05
+        "total_tests": 5.8613371573564035e-05
     },
     "Barbados": {
         "StringencyIndex": NaN,
@@ -95,7 +95,7 @@
         "median_age": 40,
         "population": 287375,
         "total_infections": 0.001343192692474989,
-        "total_tests": 0.0019382340147890388
+        "total_tests": 0.002801217920835146
     },
     "Belgium": {
         "StringencyIndex": 85.71,
@@ -109,7 +109,7 @@
         "median_age": 42,
         "population": 11589623,
         "total_infections": 0.011658446525827457,
-        "total_tests": 0.007269261476408681
+        "total_tests": 0.00881400542537061
     },
     "Belize": {
         "StringencyIndex": NaN,
@@ -123,7 +123,7 @@
         "median_age": 25,
         "population": 397628,
         "total_infections": 7.041757622702627e-05,
-        "total_tests": 0.0006739968010301085
+        "total_tests": 0.0009154284909513415
     },
     "Bolivia": {
         "StringencyIndex": 61.9,
@@ -137,7 +137,7 @@
         "median_age": 26,
         "population": 11673021,
         "total_infections": 9.012234279369496e-05,
-        "total_tests": 5.062956710178111e-05
+        "total_tests": 0.00018718376331199952
     },
     "Botswana": {
         "StringencyIndex": NaN,
@@ -151,7 +151,7 @@
         "median_age": 24,
         "population": 2351627,
         "total_infections": 8.079512609780378e-06,
-        "total_tests": 0.0004907240816677135
+        "total_tests": 0.001324614830498204
     },
     "Brazil": {
         "StringencyIndex": 76.19,
@@ -165,7 +165,7 @@
         "median_age": 33,
         "population": 212559417,
         "total_infections": 0.0002872984921670161,
-        "total_tests": 0.00025792317637002174
+        "total_tests": 0.0002963171469368492
     },
     "Brunei": {
         "StringencyIndex": 57.14,
@@ -179,7 +179,7 @@
         "median_age": 32,
         "population": 437479,
         "total_infections": 0.004768228874986,
-        "total_tests": 0.020218113326582535
+        "total_tests": 0.022593084468054466
     },
     "Bulgaria": {
         "StringencyIndex": NaN,
@@ -193,7 +193,7 @@
         "median_age": 45,
         "population": 6948445,
         "total_infections": 0.0007109504356730175,
-        "total_tests": 0.0022881378495476327
+        "total_tests": 0.002662754040652261
     },
     "Canada": {
         "StringencyIndex": 80.95,
@@ -207,7 +207,7 @@
         "median_age": 41,
         "population": 37742154,
         "total_infections": 0.0022664843135344103,
-        "total_tests": 0.009223241471591684
+        "total_tests": 0.01072146014771706
     },
     "Chile": {
         "StringencyIndex": NaN,
@@ -221,7 +221,7 @@
         "median_age": 35,
         "population": 19116201,
         "total_infections": 0.0014560947543918376,
-        "total_tests": 0.0031591528044719766
+        "total_tests": 0.004303731688111043
     },
     "Colombia": {
         "StringencyIndex": NaN,
@@ -235,7 +235,7 @@
         "median_age": 31,
         "population": 50882891,
         "total_infections": 0.00018915984942758068,
-        "total_tests": 0.0005983347133322279
+        "total_tests": 0.0008208063492304319
     },
     "Costa Rica": {
         "StringencyIndex": 100.0,
@@ -249,7 +249,7 @@
         "median_age": 33,
         "population": 5094118,
         "total_infections": 0.0008193763866482873,
-        "total_tests": 0.001084584220467606
+        "total_tests": 0.0013274133029505795
     },
     "Croatia": {
         "StringencyIndex": NaN,
@@ -263,7 +263,7 @@
         "median_age": 44,
         "population": 4105267,
         "total_infections": 0.002308010660451561,
-        "total_tests": 0.003197112392446094
+        "total_tests": 0.003990239855288341
     },
     "Cuba": {
         "StringencyIndex": 61.9,
@@ -277,7 +277,7 @@
         "median_age": 42,
         "population": 11326616,
         "total_infections": 0.00015309073778081643,
-        "total_tests": 0.0008307865297101976
+        "total_tests": 0.001329346735159027
     },
     "Czech Republic": {
         "StringencyIndex": 90.48,
@@ -291,7 +291,7 @@
         "median_age": 43,
         "population": 10708981,
         "total_infections": 0.003496224337310898,
-        "total_tests": 0.009214788970117698
+        "total_tests": 0.011684211597723444
     },
     "Denmark": {
         "StringencyIndex": NaN,
@@ -305,7 +305,7 @@
         "median_age": 42,
         "population": 5792202,
         "total_infections": 0.007516312449047875,
-        "total_tests": 0.010085801565622193
+        "total_tests": 0.01210679461800538
     },
     "Dominican Republic": {
         "StringencyIndex": NaN,
@@ -319,7 +319,7 @@
         "median_age": 28,
         "population": 10847910,
         "total_infections": 0.000948754183985671,
-        "total_tests": 0.00041869816397813034
+        "total_tests": 0.0008550034061860764
     },
     "Ecuador": {
         "StringencyIndex": NaN,
@@ -333,7 +333,7 @@
         "median_age": 28,
         "population": 17643054,
         "total_infections": 0.0014593845260576768,
-        "total_tests": 0.0008165253022520931
+        "total_tests": 0.0013396206801838276
     },
     "Egypt": {
         "StringencyIndex": 95.24,
@@ -361,7 +361,7 @@
         "median_age": 43,
         "population": 5540720,
         "total_infections": 0.0032483142985027216,
-        "total_tests": 0.006587591504353225
+        "total_tests": 0.008125117313273365
     },
     "France": {
         "StringencyIndex": 95.24,
@@ -375,7 +375,7 @@
         "median_age": 42,
         "population": 65273511,
         "total_infections": 0.009095450679832437,
-        "total_tests": 0.0034356049883696315
+        "total_tests": 0.0051139734156478885
     },
     "Germany": {
         "StringencyIndex": 80.95,
@@ -389,7 +389,21 @@
         "median_age": 46,
         "population": 83783942,
         "total_infections": 0.010056616815666181,
-        "total_tests": 0.01096224381516926
+        "total_tests": 0.015729589328704538
+    },
+    "Ghana": {
+        "StringencyIndex": 66.67,
+        "corruption_level": -0.11,
+        "gov_healthexp_pct_gdp": 1.70632896,
+        "gov_healthexp_per_capita": 25.89339585,
+        "government_effectiveness": -0.21,
+        "human_freedom": 7.21,
+        "law_enforcement_ability": 0.07,
+        "max_infections": 6.597380228584743e-06,
+        "median_age": 22,
+        "population": 31072940,
+        "total_infections": 5.631909951230878e-05,
+        "total_tests": 0.0012214486302229528
     },
     "Greece": {
         "StringencyIndex": NaN,
@@ -403,7 +417,7 @@
         "median_age": 46,
         "population": 10423054,
         "total_infections": 0.0017251181851307689,
-        "total_tests": 0.0031207743910757826
+        "total_tests": 0.00405456980267012
     },
     "Guatemala": {
         "StringencyIndex": NaN,
@@ -431,7 +445,21 @@
         "median_age": 27,
         "population": 786552,
         "total_infections": 0.0002568170953732239,
-        "total_tests": 0.0001678210722240869
+        "total_tests": 0.0002453747495397634
+    },
+    "Honduras": {
+        "StringencyIndex": NaN,
+        "corruption_level": -0.62,
+        "gov_healthexp_pct_gdp": 3.85723152,
+        "gov_healthexp_per_capita": 91.61283474,
+        "government_effectiveness": -0.62,
+        "human_freedom": 7.13,
+        "law_enforcement_ability": -1.02,
+        "max_infections": 2.2413812077551387e-05,
+        "median_age": 24,
+        "population": 9904607,
+        "total_infections": 0.00014478111044688598,
+        "total_tests": 0.00016154098794631628
     },
     "Hungary": {
         "StringencyIndex": 85.71,
@@ -445,7 +473,7 @@
         "median_age": 43,
         "population": 9660351,
         "total_infections": 0.0005429409345478234,
-        "total_tests": 0.0026653275848879613
+        "total_tests": 0.0034710954084380577
     },
     "Iceland": {
         "StringencyIndex": NaN,
@@ -459,7 +487,7 @@
         "median_age": 37,
         "population": 341243,
         "total_infections": 0.04455182963460056,
-        "total_tests": 0.09068903977517488
+        "total_tests": 0.10330761363603062
     },
     "India": {
         "StringencyIndex": 100.0,
@@ -473,7 +501,7 @@
         "median_age": 28,
         "population": 1380004385,
         "total_infections": 1.2641988815129743e-05,
-        "total_tests": 0.00010166127117052603
+        "total_tests": 0.0001370365210832283
     },
     "Indonesia": {
         "StringencyIndex": NaN,
@@ -487,7 +515,7 @@
         "median_age": 30,
         "population": 273523615,
         "total_infections": 6.370199516411043e-05,
-        "total_tests": 5.2478101388064795e-05
+        "total_tests": 9.898596872522324e-05
     },
     "Iran": {
         "StringencyIndex": 71.43,
@@ -501,7 +529,7 @@
         "median_age": 32,
         "population": 83992949,
         "total_infections": 0.00808172600297675,
-        "total_tests": 0.0025137348136210816
+        "total_tests": 0.0031358346520253743
     },
     "Iraq": {
         "StringencyIndex": 76.19,
@@ -515,7 +543,7 @@
         "median_age": 21,
         "population": 40222493,
         "total_infections": 0.0002160234075993251,
-        "total_tests": 0.0007064206587095434
+        "total_tests": 0.000880477498000932
     },
     "Ireland": {
         "StringencyIndex": 66.67,
@@ -529,7 +557,7 @@
         "median_age": 38,
         "population": 4937786,
         "total_infections": 0.007063489588248661,
-        "total_tests": 0.008603856060185678
+        "total_tests": 0.010733555484178536
     },
     "Israel": {
         "StringencyIndex": 100.0,
@@ -557,7 +585,7 @@
         "median_age": 47,
         "population": 60461826,
         "total_infections": 0.025747353379634946,
-        "total_tests": 0.013349332188544885
+        "total_tests": 0.016707947259151583
     },
     "Japan": {
         "StringencyIndex": 66.67,
@@ -571,7 +599,7 @@
         "median_age": 48,
         "population": 126476461,
         "total_infections": 0.0002982531271174642,
-        "total_tests": 0.00043732248327220353
+        "total_tests": 0.0005437454484119381
     },
     "Jordan": {
         "StringencyIndex": NaN,
@@ -585,7 +613,7 @@
         "median_age": 24,
         "population": 10203134,
         "total_infections": 0.00032421410911588535,
-        "total_tests": 0.0016661547324576939
+        "total_tests": 0.0020091865891401603
     },
     "Kazakhstan": {
         "StringencyIndex": NaN,
@@ -599,7 +627,7 @@
         "median_age": 31,
         "population": 18776707,
         "total_infections": 0.00017122278150263516,
-        "total_tests": 0.0030236931321344046
+        "total_tests": 0.003690956033984021
     },
     "Kenya": {
         "StringencyIndex": 59.52,
@@ -613,7 +641,7 @@
         "median_age": 20,
         "population": 53771296,
         "total_infections": 1.2701944174825171e-05,
-        "total_tests": 9.248428752768019e-05
+        "total_tests": 0.00013853115982177556
     },
     "Laos": {
         "StringencyIndex": NaN,
@@ -627,7 +655,7 @@
         "median_age": 24,
         "population": 7275560,
         "total_infections": 1.0995717168163e-05,
-        "total_tests": 0.0001073456888541913
+        "total_tests": 0.00015668896964632275
     },
     "Lebanon": {
         "StringencyIndex": 95.24,
@@ -641,7 +669,21 @@
         "median_age": 30,
         "population": 6825445,
         "total_infections": 0.0009776651925259086,
-        "total_tests": 0.0015834864979499504
+        "total_tests": 0.002219928517481278
+    },
+    "Malawi": {
+        "StringencyIndex": 59.52,
+        "corruption_level": -0.74,
+        "gov_healthexp_pct_gdp": 2.75722454,
+        "gov_healthexp_per_capita": 8.29870411,
+        "government_effectiveness": -0.73,
+        "human_freedom": 6.68,
+        "law_enforcement_ability": -0.38,
+        "max_infections": 1.5682213943871892e-07,
+        "median_age": 18,
+        "population": 19129952,
+        "total_infections": 3.1364427887743783e-07,
+        "total_tests": 1.5002651339637444e-05
     },
     "Malaysia": {
         "StringencyIndex": 85.71,
@@ -655,7 +697,7 @@
         "median_age": 30,
         "population": 32365999,
         "total_infections": 0.0011604770796662263,
-        "total_tests": 0.0017994191991416672
+        "total_tests": 0.002394210047401905
     },
     "Mexico": {
         "StringencyIndex": NaN,
@@ -669,7 +711,7 @@
         "median_age": 29,
         "population": 128932753,
         "total_infections": 8.554071594205392e-05,
-        "total_tests": 0.00019707948064988577
+        "total_tests": 0.0002751744547019794
     },
     "Morocco": {
         "StringencyIndex": 71.43,
@@ -683,7 +725,7 @@
         "median_age": 30,
         "population": 36910560,
         "total_infections": 0.00016014387210597727,
-        "total_tests": 0.00015171809910226233
+        "total_tests": 0.00022955490244526227
     },
     "Netherlands": {
         "StringencyIndex": 85.71,
@@ -697,7 +739,7 @@
         "median_age": 43,
         "population": 17134872,
         "total_infections": 0.00853948602592421,
-        "total_tests": 0.005053378863874793
+        "total_tests": 0.0059255768003402655
     },
     "New Zealand": {
         "StringencyIndex": 100.0,
@@ -711,7 +753,7 @@
         "median_age": 38,
         "population": 4822233,
         "total_infections": 0.0012467253241392525,
-        "total_tests": 0.009720600394049811
+        "total_tests": 0.012684372571794021
     },
     "Nigeria": {
         "StringencyIndex": NaN,
@@ -739,7 +781,7 @@
         "median_age": 40,
         "population": 5421241,
         "total_infections": 0.012331309381007042,
-        "total_tests": 0.021009211728458484
+        "total_tests": 0.02333155821702079
     },
     "Pakistan": {
         "StringencyIndex": 100.0,
@@ -753,7 +795,7 @@
         "median_age": 23,
         "population": 220892340,
         "total_infections": 0.00010327202835553283,
-        "total_tests": 0.00019085768207263322
+        "total_tests": 0.000279778828002818
     },
     "Panama": {
         "StringencyIndex": 90.48,
@@ -767,7 +809,7 @@
         "median_age": 30,
         "population": 4314767,
         "total_infections": 0.002616595519526315,
-        "total_tests": 0.002386455630164966
+        "total_tests": 0.0033809473373649147
     },
     "Papua New Guinea": {
         "StringencyIndex": NaN,
@@ -795,7 +837,7 @@
         "median_age": 26,
         "population": 7132538,
         "total_infections": 0.00010991879748835548,
-        "total_tests": 0.0002858729949984143
+        "total_tests": 0.0003171381631615562
     },
     "Peru": {
         "StringencyIndex": NaN,
@@ -809,7 +851,7 @@
         "median_age": 31,
         "population": 32971854,
         "total_infections": 0.0003649779596864647,
-        "total_tests": 0.0006537393984578483
+        "total_tests": 0.0023203426777274943
     },
     "Philippines": {
         "StringencyIndex": NaN,
@@ -823,7 +865,7 @@
         "median_age": 26,
         "population": 109581078,
         "total_infections": 0.00017792305346731486,
-        "total_tests": 0.00022357874595831226
+        "total_tests": 0.00030857517207487226
     },
     "Poland": {
         "StringencyIndex": NaN,
@@ -837,7 +879,7 @@
         "median_age": 42,
         "population": 37846611,
         "total_infections": 0.0006633883282178159,
-        "total_tests": 0.0026233260357182314
+        "total_tests": 0.0036464823759252843
     },
     "Portugal": {
         "StringencyIndex": NaN,
@@ -851,7 +893,7 @@
         "median_age": 46,
         "population": 10196709,
         "total_infections": 0.007266069866267636,
-        "total_tests": 0.01262995737154017
+        "total_tests": 0.016045961496008173
     },
     "Qatar": {
         "StringencyIndex": 85.71,
@@ -865,7 +907,7 @@
         "median_age": 32,
         "population": 2881053,
         "total_infections": 0.004564997589423034,
-        "total_tests": 0.014514831903474181
+        "total_tests": 0.017043074181557923
     },
     "Romania": {
         "StringencyIndex": NaN,
@@ -879,7 +921,7 @@
         "median_age": 43,
         "population": 19237691,
         "total_infections": 0.0012019633749185388,
-        "total_tests": 0.002453880769786769
+        "total_tests": 0.003239889859962924
     },
     "Russia": {
         "StringencyIndex": NaN,
@@ -893,7 +935,7 @@
         "median_age": 40,
         "population": 145934462,
         "total_infections": 0.00015594671531389206,
-        "total_tests": 0.006237190225842611
+        "total_tests": 0.008222869249348383
     },
     "Rwanda": {
         "StringencyIndex": 95.24,
@@ -907,7 +949,21 @@
         "median_age": 20,
         "population": 12952218,
         "total_infections": 6.439051597185903e-05,
-        "total_tests": 6.222872406872707e-05
+        "total_tests": 0.00015178867434133676
+    },
+    "Saudi Arabia": {
+        "StringencyIndex": 95.24,
+        "corruption_level": 0.36,
+        "gov_healthexp_pct_gdp": 3.89302768,
+        "gov_healthexp_per_capita": 777.9073913999999,
+        "government_effectiveness": 0.32,
+        "human_freedom": 5.66,
+        "law_enforcement_ability": 0.14,
+        "max_infections": 5.856860904666419e-05,
+        "median_age": 32,
+        "population": 34813871,
+        "total_infections": 0.0005144501167365157,
+        "total_tests": 0.0033200846869341247
     },
     "Singapore": {
         "StringencyIndex": 42.86,
@@ -921,7 +977,7 @@
         "median_age": 42,
         "population": 5850342,
         "total_infections": 0.0027839398106982464,
-        "total_tests": 0.011110461576434335
+        "total_tests": 0.012423205344234576
     },
     "Slovenia": {
         "StringencyIndex": NaN,
@@ -935,7 +991,7 @@
         "median_age": 45,
         "population": 2078938,
         "total_infections": 0.00542632825028933,
-        "total_tests": 0.014752243693655126
+        "total_tests": 0.016763847695313666
     },
     "South Africa": {
         "StringencyIndex": 100.0,
@@ -949,7 +1005,7 @@
         "median_age": 28,
         "population": 59308690,
         "total_infections": 0.00024482078427292864,
-        "total_tests": 0.0009795866339317224
+        "total_tests": 0.0013503080240012046
     },
     "South Korea": {
         "StringencyIndex": 80.95,
@@ -963,7 +1019,7 @@
         "median_age": 44,
         "population": 51269185,
         "total_infections": 0.005598041006503224,
-        "total_tests": 0.009309763749901622
+        "total_tests": 0.010037627865549258
     },
     "Spain": {
         "StringencyIndex": NaN,
@@ -991,7 +1047,7 @@
         "median_age": 34,
         "population": 21413249,
         "total_infections": 9.15788164607809e-05,
-        "total_tests": 0.00015168179289373602
+        "total_tests": 0.0002113177687328065
     },
     "Sweden": {
         "StringencyIndex": 52.38,
@@ -1019,7 +1075,7 @@
         "median_age": 43,
         "population": 8654622,
         "total_infections": 0.024419090747117553,
-        "total_tests": 0.019866610003302282
+        "total_tests": 0.02239265909013704
     },
     "Thailand": {
         "StringencyIndex": NaN,
@@ -1047,7 +1103,7 @@
         "median_age": 33,
         "population": 11818619,
         "total_infections": 0.0003256725680047728,
-        "total_tests": 0.0007000817946665343
+        "total_tests": 0.0009508725173389547
     },
     "Turkey": {
         "StringencyIndex": 95.24,
@@ -1061,7 +1117,7 @@
         "median_age": 32,
         "population": 84339067,
         "total_infections": 0.001345888732679483,
-        "total_tests": 0.0026425238970215308
+        "total_tests": 0.00445938060946299
     },
     "Uganda": {
         "StringencyIndex": NaN,
@@ -1075,7 +1131,7 @@
         "median_age": 17,
         "population": 45741007,
         "total_infections": 7.60805287911567e-06,
-        "total_tests": 7.236395123526686e-05
+        "total_tests": 0.00010985766010792023
     },
     "Ukraine": {
         "StringencyIndex": 95.24,
@@ -1089,7 +1145,7 @@
         "median_age": 41,
         "population": 43733762,
         "total_infections": 0.00013323802329193632,
-        "total_tests": 0.00016474686078915416
+        "total_tests": 0.0006931486936797251
     },
     "United Arab Emirates": {
         "StringencyIndex": 95.24,
@@ -1103,7 +1159,7 @@
         "median_age": 33,
         "population": 9890402,
         "total_infections": 0.0008995589865811318,
-        "total_tests": 0.05996672329395711
+        "total_tests": 0.06553778097189579
     },
     "United Kingdom": {
         "StringencyIndex": 71.43,
@@ -1117,7 +1173,7 @@
         "median_age": 40,
         "population": 67886011,
         "total_infections": 0.003954688102089251,
-        "total_tests": 0.00415511231025196
+        "total_tests": 0.0051995101023095906
     },
     "Uruguay": {
         "StringencyIndex": NaN,
@@ -1131,7 +1187,7 @@
         "median_age": 36,
         "population": 3473730,
         "total_infections": 0.0010901825991081633,
-        "total_tests": 0.001648660085844323
+        "total_tests": 0.0025258151900118893
     },
     "Venezuela": {
         "StringencyIndex": 85.71,
@@ -1145,7 +1201,7 @@
         "median_age": 30,
         "population": 28435940,
         "total_infections": 6.1119836376079e-05,
-        "total_tests": 6.256167371291402e-05
+        "total_tests": 0.006376965206706724
     },
     "Vietnam": {
         "StringencyIndex": NaN,
@@ -1159,7 +1215,7 @@
         "median_age": 32,
         "population": 97338579,
         "total_infections": 3.716922968435773e-05,
-        "total_tests": 0.0011313499861139334
+        "total_tests": 0.0012515181673239755
     },
     "Zambia": {
         "StringencyIndex": NaN,
@@ -1173,7 +1229,7 @@
         "median_age": 18,
         "population": 18383955,
         "total_infections": 1.6753739878062148e-05,
-        "total_tests": 3.367066553415737e-05
+        "total_tests": 6.73957263276591e-05
     },
     "Zimbabwe": {
         "StringencyIndex": NaN,
@@ -1187,6 +1243,6 @@
         "median_age": 19,
         "population": 14862924,
         "total_infections": 5.315239450864446e-06,
-        "total_tests": 2.496144096545202e-05
+        "total_tests": 3.787949127641371e-05
     }
 }
