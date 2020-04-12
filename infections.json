@@ -1,18 +1,6 @@
 {
-    "Albania": {
-        "corruption_level": -0.52,
-        "gov_healthexp_pct_gdp": 2.77003546,
-        "gov_healthexp_per_capita": 112.301534,
-        "government_effectiveness": 0.11,
-        "human_freedom": 7.68,
-        "law_enforcement_ability": -0.39,
-        "max_infections": 0.00010563636003512409,
-        "median_age": 36,
-        "population": 2877797,
-        "total_infections": 0.0010674832171970435,
-        "total_tests": 0.0009566345367654494
-    },
     "Algeria": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.64,
         "gov_healthexp_pct_gdp": 4.50014952,
         "gov_healthexp_per_capita": 176.2653157,
@@ -25,20 +13,8 @@
         "total_infections": 0.00017860464165915868,
         "total_tests": 7.660022871975408e-05
     },
-    "Antigua and Barbuda": {
-        "corruption_level": 0.28,
-        "gov_healthexp_pct_gdp": 2.60925041,
-        "gov_healthexp_per_capita": 377.31699710000004,
-        "government_effectiveness": -0.01,
-        "human_freedom": 6.86,
-        "law_enforcement_ability": 0.39,
-        "max_infections": 0.00015317219618294888,
-        "median_age": 34,
-        "population": 97929,
-        "total_infections": 0.0009394561365887531,
-        "total_tests": 0.00040845918982119697
-    },
     "Argentina": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.08,
         "gov_healthexp_pct_gdp": 5.61809585,
         "gov_healthexp_per_capita": 710.9350107999999,
@@ -51,20 +27,8 @@
         "total_infections": 0.00022083923156178273,
         "total_tests": 0.0002605995861471473
     },
-    "Armenia": {
-        "corruption_level": -0.35,
-        "gov_healthexp_pct_gdp": 1.63330003,
-        "gov_healthexp_per_capita": 59.03871069,
-        "government_effectiveness": -0.02,
-        "human_freedom": 7.42,
-        "law_enforcement_ability": -0.15,
-        "max_infections": 0.00024837652531365127,
-        "median_age": 35,
-        "population": 2963243,
-        "total_infections": 0.002048093929522486,
-        "total_tests": 0.0017345860599350105
-    },
     "Australia": {
+        "StringencyIndex": 71.43,
         "corruption_level": 1.81,
         "gov_healthexp_pct_gdp": 6.31986614,
         "gov_healthexp_per_capita": 3416.9823090000004,
@@ -75,9 +39,10 @@
         "median_age": 38,
         "population": 25499884,
         "total_infections": 0.002017891532369324,
-        "total_tests": 0.012473154779841351
+        "total_tests": 0.012524292267368746
     },
     "Austria": {
+        "StringencyIndex": NaN,
         "corruption_level": 1.6,
         "gov_healthexp_pct_gdp": 7.56836059,
         "gov_healthexp_per_capita": 3399.4891420000004,
@@ -88,22 +53,10 @@
         "median_age": 43,
         "population": 9006398,
         "total_infections": 0.013122338142285073,
-        "total_tests": 0.01279479321255845
-    },
-    "Azerbaijan": {
-        "corruption_level": -0.83,
-        "gov_healthexp_pct_gdp": 1.37563334,
-        "gov_healthexp_per_capita": 53.53440392,
-        "government_effectiveness": -0.1,
-        "human_freedom": 6.44,
-        "law_enforcement_ability": -0.6,
-        "max_infections": 4.369190911648944e-05,
-        "median_age": 32,
-        "population": 10139177,
-        "total_infections": 0.00030870355651153934,
-        "total_tests": 0.005256836920787555
+        "total_tests": 0.013407690843775725
     },
     "Bahrain": {
+        "StringencyIndex": 57.14,
         "corruption_level": -0.15,
         "gov_healthexp_pct_gdp": 2.98811374,
         "gov_healthexp_per_capita": 674.6148282,
@@ -114,9 +67,10 @@
         "median_age": 32,
         "population": 1701575,
         "total_infections": 0.005768773048499184,
-        "total_tests": 0.028023448863552885
+        "total_tests": 0.03076620190117979
     },
     "Bangladesh": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.91,
         "gov_healthexp_pct_gdp": 0.42468448,
         "gov_healthexp_per_capita": 6.14438538,
@@ -130,6 +84,7 @@
         "total_tests": 2.60429659876739e-05
     },
     "Barbados": {
+        "StringencyIndex": NaN,
         "corruption_level": 1.41,
         "gov_healthexp_pct_gdp": 3.19484936,
         "gov_healthexp_per_capita": 534.0517884999999,
@@ -142,20 +97,8 @@
         "total_infections": 0.001343192692474989,
         "total_tests": 0.0019382340147890388
     },
-    "Belarus": {
-        "corruption_level": -0.19,
-        "gov_healthexp_pct_gdp": 3.88144189,
-        "gov_healthexp_per_capita": 195.3959526,
-        "government_effectiveness": -0.3,
-        "human_freedom": 6.16,
-        "law_enforcement_ability": -0.83,
-        "max_infections": 3.7145518255646464e-05,
-        "median_age": 40,
-        "population": 9449323,
-        "total_infections": 0.0002418162655673851,
-        "total_tests": 0.0045505905555350366
-    },
     "Belgium": {
+        "StringencyIndex": 85.71,
         "corruption_level": 1.51,
         "gov_healthexp_pct_gdp": 8.44288611,
         "gov_healthexp_per_capita": 3489.871404,
@@ -166,9 +109,10 @@
         "median_age": 42,
         "population": 11589623,
         "total_infections": 0.011658446525827457,
-        "total_tests": 0.006946904140022501
+        "total_tests": 0.007269261476408681
     },
     "Belize": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.14,
         "gov_healthexp_pct_gdp": 4.06011333,
         "gov_healthexp_per_capita": 201.37145980000003,
@@ -181,20 +125,8 @@
         "total_infections": 7.041757622702627e-05,
         "total_tests": 0.0006739968010301085
     },
-    "Bhutan": {
-        "corruption_level": 1.65,
-        "gov_healthexp_pct_gdp": 2.55447091,
-        "gov_healthexp_per_capita": 67.54524033,
-        "government_effectiveness": 0.36,
-        "human_freedom": 6.85,
-        "law_enforcement_ability": 0.55,
-        "max_infections": 6.479974287462027e-06,
-        "median_age": 28,
-        "population": 771608,
-        "total_infections": 7.775969144954433e-05,
-        "total_tests": 0.0015111300038361448
-    },
     "Bolivia": {
+        "StringencyIndex": 61.9,
         "corruption_level": -0.63,
         "gov_healthexp_pct_gdp": 4.50729231,
         "gov_healthexp_per_capita": 139.9493316,
@@ -207,20 +139,8 @@
         "total_infections": 9.012234279369496e-05,
         "total_tests": 5.062956710178111e-05
     },
-    "Bosnia and Herzegovina": {
-        "corruption_level": -0.57,
-        "gov_healthexp_pct_gdp": 6.533311599999999,
-        "gov_healthexp_per_capita": 314.140536,
-        "government_effectiveness": -0.62,
-        "human_freedom": 7.27,
-        "law_enforcement_ability": -0.23,
-        "max_infections": 0.00017648032396788728,
-        "median_age": 43,
-        "population": 3280819,
-        "total_infections": 0.0013402141355557866,
-        "total_tests": 0.002106486215789411
-    },
     "Botswana": {
+        "StringencyIndex": NaN,
         "corruption_level": 0.75,
         "gov_healthexp_pct_gdp": 3.05569285,
         "gov_healthexp_per_capita": 212.49957719999998,
@@ -234,6 +154,7 @@
         "total_tests": 0.0004907240816677135
     },
     "Brazil": {
+        "StringencyIndex": 76.19,
         "corruption_level": -0.42,
         "gov_healthexp_pct_gdp": 3.91095827,
         "gov_healthexp_per_capita": 337.533552,
@@ -247,6 +168,7 @@
         "total_tests": 0.00025792317637002174
     },
     "Brunei": {
+        "StringencyIndex": 57.14,
         "corruption_level": 0.8,
         "gov_healthexp_pct_gdp": 2.22223139,
         "gov_healthexp_per_capita": 598.6464062000001,
@@ -260,6 +182,7 @@
         "total_tests": 0.020218113326582535
     },
     "Bulgaria": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.15,
         "gov_healthexp_pct_gdp": 4.16140856,
         "gov_healthexp_per_capita": 309.68866210000004,
@@ -272,33 +195,8 @@
         "total_infections": 0.0007109504356730175,
         "total_tests": 0.0022881378495476327
     },
-    "Burma": {
-        "corruption_level": -0.59,
-        "gov_healthexp_pct_gdp": 1.02208923,
-        "gov_healthexp_per_capita": 12.47704064,
-        "government_effectiveness": -1.07,
-        "human_freedom": 4.81,
-        "law_enforcement_ability": -1.03,
-        "max_infections": 3.6758084021628456e-07,
-        "median_age": 29,
-        "population": 54409800,
-        "total_infections": 2.021694621189565e-06,
-        "total_tests": 2.2900286345474527e-05
-    },
-    "Cambodia": {
-        "corruption_level": -1.33,
-        "gov_healthexp_pct_gdp": 1.32628594,
-        "gov_healthexp_per_capita": 16.93820917,
-        "government_effectiveness": -0.57,
-        "human_freedom": 7.22,
-        "law_enforcement_ability": -1.11,
-        "max_infections": 6.818603902813362e-06,
-        "median_age": 26,
-        "population": 16718965,
-        "total_infections": 9.522120537963923e-05,
-        "total_tests": 0.00034499743255638133
-    },
     "Canada": {
+        "StringencyIndex": 80.95,
         "corruption_level": 1.87,
         "gov_healthexp_pct_gdp": 7.73706577,
         "gov_healthexp_per_capita": 3274.2888510000002,
@@ -312,6 +210,7 @@
         "total_tests": 0.009223241471591684
     },
     "Chile": {
+        "StringencyIndex": NaN,
         "corruption_level": 1.01,
         "gov_healthexp_pct_gdp": 4.98680197,
         "gov_healthexp_per_capita": 696.1040916000001,
@@ -322,9 +221,10 @@
         "median_age": 35,
         "population": 19116201,
         "total_infections": 0.0014560947543918376,
-        "total_tests": 0.0029881460233652075
+        "total_tests": 0.0031591528044719766
     },
     "Colombia": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.3,
         "gov_healthexp_pct_gdp": 3.74948167,
         "gov_healthexp_per_capita": 215.8524725,
@@ -338,6 +238,7 @@
         "total_tests": 0.0005983347133322279
     },
     "Costa Rica": {
+        "StringencyIndex": 100.0,
         "corruption_level": 0.55,
         "gov_healthexp_pct_gdp": 5.64846699,
         "gov_healthexp_per_capita": 664.4844497,
@@ -351,6 +252,7 @@
         "total_tests": 0.001084584220467606
     },
     "Croatia": {
+        "StringencyIndex": NaN,
         "corruption_level": 0.13,
         "gov_healthexp_pct_gdp": 5.61816563,
         "gov_healthexp_per_capita": 692.0838371,
@@ -361,9 +263,10 @@
         "median_age": 44,
         "population": 4105267,
         "total_infections": 0.002308010660451561,
-        "total_tests": 0.003001510011407297
+        "total_tests": 0.003197112392446094
     },
     "Cuba": {
+        "StringencyIndex": 61.9,
         "corruption_level": 0.17,
         "gov_healthexp_pct_gdp": 10.92339535,
         "gov_healthexp_per_capita": 869.7039027000001,
@@ -374,22 +277,10 @@
         "median_age": 42,
         "population": 11326616,
         "total_infections": 0.00015309073778081643,
-        "total_tests": 0.0006227808906031599
-    },
-    "Cyprus": {
-        "corruption_level": 0.64,
-        "gov_healthexp_pct_gdp": 2.90331575,
-        "gov_healthexp_per_capita": 689.7529479,
-        "government_effectiveness": 0.92,
-        "human_freedom": 8.39,
-        "law_enforcement_ability": 0.75,
-        "max_infections": 0.0003279886098500943,
-        "median_age": 37,
-        "population": 1207359,
-        "total_infections": 0.002618111100343808,
-        "total_tests": 0.010781383167723932
+        "total_tests": 0.0008307865297101976
     },
     "Czech Republic": {
+        "StringencyIndex": 90.48,
         "corruption_level": 0.5,
         "gov_healthexp_pct_gdp": 5.85397147,
         "gov_healthexp_per_capita": 1082.120393,
@@ -400,9 +291,10 @@
         "median_age": 43,
         "population": 10708981,
         "total_infections": 0.003496224337310898,
-        "total_tests": 0.008520605275142425
+        "total_tests": 0.009214788970117698
     },
     "Denmark": {
+        "StringencyIndex": NaN,
         "corruption_level": 2.15,
         "gov_healthexp_pct_gdp": 8.70670385,
         "gov_healthexp_per_capita": 4681.911653,
@@ -415,20 +307,8 @@
         "total_infections": 0.007516312449047875,
         "total_tests": 0.010085801565622193
     },
-    "Dominica": {
-        "corruption_level": 0.55,
-        "gov_healthexp_pct_gdp": 3.40812007,
-        "gov_healthexp_per_capita": 269.469386,
-        "government_effectiveness": -0.29,
-        "human_freedom": 8.48,
-        "law_enforcement_ability": 0.62,
-        "max_infections": 0.00016669908037673993,
-        "median_age": 34.0,
-        "population": 71986,
-        "total_infections": 0.0015975328536104243,
-        "total_tests": 0.004070235879198733
-    },
     "Dominican Republic": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.75,
         "gov_healthexp_pct_gdp": 2.81725198,
         "gov_healthexp_per_capita": 189.3820608,
@@ -442,6 +322,7 @@
         "total_tests": 0.00041869816397813034
     },
     "Ecuador": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.56,
         "gov_healthexp_pct_gdp": 4.29349231,
         "gov_healthexp_per_capita": 258.4050616,
@@ -455,6 +336,7 @@
         "total_tests": 0.0008165253022520931
     },
     "Egypt": {
+        "StringencyIndex": 95.24,
         "corruption_level": -0.59,
         "gov_healthexp_pct_gdp": 1.35885288,
         "gov_healthexp_per_capita": 38.37808087,
@@ -467,46 +349,8 @@
         "total_infections": 9.561789210205397e-05,
         "total_tests": 0.0002442971182985538
     },
-    "Equatorial Guinea": {
-        "corruption_level": -1.56,
-        "gov_healthexp_pct_gdp": 0.79394826,
-        "gov_healthexp_per_capita": 66.16160298,
-        "government_effectiveness": -1.29,
-        "human_freedom": 4.48,
-        "law_enforcement_ability": -1.42,
-        "max_infections": 1.1404255925758294e-05,
-        "median_age": 22,
-        "population": 1402985,
-        "total_infections": 0.00012544681518334124,
-        "total_tests": 0.000608702160037349
-    },
-    "Estonia": {
-        "corruption_level": 1.51,
-        "gov_healthexp_pct_gdp": 5.0403614999999995,
-        "gov_healthexp_per_capita": 893.8944789999999,
-        "government_effectiveness": 1.19,
-        "human_freedom": 8.44,
-        "law_enforcement_ability": 1.24,
-        "max_infections": 0.0007244437576091094,
-        "median_age": 42,
-        "population": 1326535,
-        "total_infections": 0.007501498264274972,
-        "total_tests": 0.017750002826913726
-    },
-    "Ethiopia": {
-        "corruption_level": -0.49,
-        "gov_healthexp_pct_gdp": 1.09749129,
-        "gov_healthexp_per_capita": 7.60112056,
-        "government_effectiveness": -0.61,
-        "human_freedom": 5.33,
-        "law_enforcement_ability": -0.43,
-        "max_infections": 3.0444422106937026e-07,
-        "median_age": 19,
-        "population": 114963588,
-        "total_infections": 2.5747282696152454e-06,
-        "total_tests": 1.9754080744243995e-05
-    },
     "Finland": {
+        "StringencyIndex": NaN,
         "corruption_level": 2.21,
         "gov_healthexp_pct_gdp": 7.34383511,
         "gov_healthexp_per_capita": 3185.112983,
@@ -517,9 +361,10 @@
         "median_age": 43,
         "population": 5540720,
         "total_infections": 0.0032483142985027216,
-        "total_tests": 0.006298820369915823
+        "total_tests": 0.006587591504353225
     },
     "France": {
+        "StringencyIndex": 95.24,
         "corruption_level": 1.32,
         "gov_healthexp_pct_gdp": 9.56559676,
         "gov_healthexp_per_capita": 3534.149827,
@@ -532,20 +377,8 @@
         "total_infections": 0.009095450679832437,
         "total_tests": 0.0034356049883696315
     },
-    "Georgia": {
-        "corruption_level": 0.71,
-        "gov_healthexp_pct_gdp": 3.0835446,
-        "gov_healthexp_per_capita": 112.5910845,
-        "government_effectiveness": 0.61,
-        "human_freedom": 7.48,
-        "law_enforcement_ability": 0.33,
-        "max_infections": 3.8855229675769404e-05,
-        "median_age": 38,
-        "population": 3989167,
-        "total_infections": 0.0004176310492892376,
-        "total_tests": 0.0006923751249320974
-    },
     "Germany": {
+        "StringencyIndex": 80.95,
         "corruption_level": 1.95,
         "gov_healthexp_pct_gdp": 9.43162482,
         "gov_healthexp_per_capita": 3991.603439,
@@ -559,6 +392,7 @@
         "total_tests": 0.01096224381516926
     },
     "Greece": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.07,
         "gov_healthexp_pct_gdp": 5.13545281,
         "gov_healthexp_per_capita": 917.6352402000001,
@@ -569,22 +403,10 @@
         "median_age": 46,
         "population": 10423054,
         "total_infections": 0.0017251181851307689,
-        "total_tests": 0.0027423824149812523
-    },
-    "Grenada": {
-        "corruption_level": 0.38,
-        "gov_healthexp_pct_gdp": 2.16904519,
-        "gov_healthexp_per_capita": 213.4940781,
-        "government_effectiveness": -0.25,
-        "human_freedom": 8.04,
-        "law_enforcement_ability": 0.31,
-        "max_infections": 0.00010664486371675124,
-        "median_age": 32,
-        "population": 112523,
-        "total_infections": 0.0007376269740408627,
-        "total_tests": 0.00039991823893781715
+        "total_tests": 0.0031207743910757826
     },
     "Guatemala": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.82,
         "gov_healthexp_pct_gdp": 2.16600154,
         "gov_healthexp_per_capita": 89.81812607,
@@ -598,6 +420,7 @@
         "total_tests": 6.329690468088982e-05
     },
     "Guyana": {
+        "StringencyIndex": 85.71,
         "corruption_level": -0.23,
         "gov_healthexp_pct_gdp": 2.50079162,
         "gov_healthexp_per_capita": 113.3169584,
@@ -610,20 +433,8 @@
         "total_infections": 0.0002568170953732239,
         "total_tests": 0.0001678210722240869
     },
-    "Haiti": {
-        "corruption_level": -1.27,
-        "gov_healthexp_pct_gdp": 0.82592345,
-        "gov_healthexp_per_capita": 5.78500642,
-        "government_effectiveness": -1.91,
-        "human_freedom": 7.04,
-        "law_enforcement_ability": -1.03,
-        "max_infections": 1.5785973075444322e-06,
-        "median_age": 24,
-        "population": 11402528,
-        "total_infections": 1.2804178161193727e-05,
-        "total_tests": 2.2538861557717726e-05
-    },
     "Hungary": {
+        "StringencyIndex": 85.71,
         "corruption_level": 0.05,
         "gov_healthexp_pct_gdp": 4.85070112,
         "gov_healthexp_per_capita": 620.8227966,
@@ -637,6 +448,7 @@
         "total_tests": 0.0026653275848879613
     },
     "Iceland": {
+        "StringencyIndex": NaN,
         "corruption_level": 1.84,
         "gov_healthexp_pct_gdp": 6.75842081,
         "gov_healthexp_per_capita": 4127.349484,
@@ -647,9 +459,10 @@
         "median_age": 37,
         "population": 341243,
         "total_infections": 0.04455182963460056,
-        "total_tests": 0.08495705406411266
+        "total_tests": 0.09068903977517488
     },
     "India": {
+        "StringencyIndex": 100.0,
         "corruption_level": -0.19,
         "gov_healthexp_pct_gdp": 0.93019386,
         "gov_healthexp_per_capita": 15.94651501,
@@ -663,6 +476,7 @@
         "total_tests": 0.00010166127117052603
     },
     "Indonesia": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.25,
         "gov_healthexp_pct_gdp": 1.39761319,
         "gov_healthexp_per_capita": 49.89876877,
@@ -676,6 +490,7 @@
         "total_tests": 5.2478101388064795e-05
     },
     "Iran": {
+        "StringencyIndex": 71.43,
         "corruption_level": -0.96,
         "gov_healthexp_pct_gdp": 4.41807148,
         "gov_healthexp_per_capita": 226.4938859,
@@ -689,6 +504,7 @@
         "total_tests": 0.0025137348136210816
     },
     "Iraq": {
+        "StringencyIndex": 76.19,
         "corruption_level": -1.4,
         "gov_healthexp_pct_gdp": 0.69960952,
         "gov_healthexp_per_capita": 32.24182336,
@@ -699,9 +515,10 @@
         "median_age": 21,
         "population": 40222493,
         "total_infections": 0.0002160234075993251,
-        "total_tests": 0.000654633714523861
+        "total_tests": 0.0007064206587095434
     },
     "Ireland": {
+        "StringencyIndex": 66.67,
         "corruption_level": 1.55,
         "gov_healthexp_pct_gdp": 5.31728824,
         "gov_healthexp_per_capita": 3429.354062,
@@ -715,6 +532,7 @@
         "total_tests": 0.008603856060185678
     },
     "Israel": {
+        "StringencyIndex": 100.0,
         "corruption_level": 0.79,
         "gov_healthexp_pct_gdp": 4.571548,
         "gov_healthexp_per_capita": 1773.2281670000002,
@@ -728,6 +546,7 @@
         "total_tests": 0.013556527701638316
     },
     "Italy": {
+        "StringencyIndex": 95.24,
         "corruption_level": 0.24,
         "gov_healthexp_pct_gdp": 6.65374499,
         "gov_healthexp_per_capita": 2039.3560969999999,
@@ -738,22 +557,10 @@
         "median_age": 47,
         "population": 60461826,
         "total_infections": 0.025747353379634946,
-        "total_tests": 0.012494577983800886
-    },
-    "Jamaica": {
-        "corruption_level": -0.16,
-        "gov_healthexp_pct_gdp": 3.67747593,
-        "gov_healthexp_per_capita": 179.4084002,
-        "government_effectiveness": 0.5,
-        "human_freedom": 7.16,
-        "law_enforcement_ability": -0.24,
-        "max_infections": 1.5872120687553253e-05,
-        "median_age": 31,
-        "population": 2961167,
-        "total_infections": 0.00017560644164952533,
-        "total_tests": 0.00018236053555912248
+        "total_tests": 0.013349332188544885
     },
     "Japan": {
+        "StringencyIndex": 66.67,
         "corruption_level": 1.42,
         "gov_healthexp_pct_gdp": 9.13267407,
         "gov_healthexp_per_capita": 3538.209507,
@@ -767,6 +574,7 @@
         "total_tests": 0.00043732248327220353
     },
     "Jordan": {
+        "StringencyIndex": NaN,
         "corruption_level": 0.15,
         "gov_healthexp_pct_gdp": 3.45735318,
         "gov_healthexp_per_capita": 141.3351758,
@@ -780,6 +588,7 @@
         "total_tests": 0.0016661547324576939
     },
     "Kazakhstan": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.5,
         "gov_healthexp_pct_gdp": 2.07302569,
         "gov_healthexp_per_capita": 154.0352728,
@@ -793,6 +602,7 @@
         "total_tests": 0.0030236931321344046
     },
     "Kenya": {
+        "StringencyIndex": 59.52,
         "corruption_level": -0.85,
         "gov_healthexp_pct_gdp": 1.64588184,
         "gov_healthexp_per_capita": 23.95246096,
@@ -805,20 +615,8 @@
         "total_infections": 1.2701944174825171e-05,
         "total_tests": 9.248428752768019e-05
     },
-    "Kyrgyzstan": {
-        "corruption_level": -0.95,
-        "gov_healthexp_pct_gdp": 2.5908803,
-        "gov_healthexp_per_capita": 28.49957372,
-        "government_effectiveness": -0.61,
-        "human_freedom": 6.65,
-        "law_enforcement_ability": -0.91,
-        "max_infections": 1.9925829929976034e-05,
-        "median_age": 26,
-        "population": 6524195,
-        "total_infections": 0.0001446921804145952,
-        "total_tests": 0.0014742048635885347
-    },
     "Laos": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.98,
         "gov_healthexp_pct_gdp": 0.76494844,
         "gov_healthexp_per_capita": 17.88978896,
@@ -829,22 +627,10 @@
         "median_age": 24,
         "population": 7275560,
         "total_infections": 1.0995717168163e-05,
-        "total_tests": 0.00010514654542055869
-    },
-    "Latvia": {
-        "corruption_level": 0.33,
-        "gov_healthexp_pct_gdp": 3.41067308,
-        "gov_healthexp_per_capita": 477.5999127,
-        "government_effectiveness": 1.04,
-        "human_freedom": 8.16,
-        "law_enforcement_ability": 0.96,
-        "max_infections": 0.00026137234797195204,
-        "median_age": 44,
-        "population": 1886198,
-        "total_infections": 0.0024780007189064987,
-        "total_tests": 0.01196852080216393
+        "total_tests": 0.0001073456888541913
     },
     "Lebanon": {
+        "StringencyIndex": 95.24,
         "corruption_level": -1.11,
         "gov_healthexp_pct_gdp": 4.17931965,
         "gov_healthexp_per_capita": 345.183134,
@@ -855,61 +641,10 @@
         "median_age": 30,
         "population": 6825445,
         "total_infections": 0.0009776651925259086,
-        "total_tests": 0.001497484779380685
-    },
-    "Libya": {
-        "corruption_level": -1.55,
-        "gov_healthexp_pct_gdp": NaN,
-        "gov_healthexp_per_capita": NaN,
-        "government_effectiveness": -1.85,
-        "human_freedom": 4.98,
-        "law_enforcement_ability": -1.79,
-        "max_infections": 1.6008634184080664e-06,
-        "median_age": 29,
-        "population": 6871292,
-        "total_infections": 9.459647472411302e-06,
-        "total_tests": 4.7443770400093606e-05
-    },
-    "Liechtenstein": {
-        "corruption_level": 2.01,
-        "gov_healthexp_pct_gdp": NaN,
-        "gov_healthexp_per_capita": NaN,
-        "government_effectiveness": 1.74,
-        "human_freedom": 8.0,
-        "law_enforcement_ability": 1.68,
-        "max_infections": 0.001967058329836341,
-        "median_age": 43.4,
-        "population": 38128,
-        "total_infections": 0.023919429290809903,
-        "total_tests": 0.023604699958036088
-    },
-    "Lithuania": {
-        "corruption_level": 0.5,
-        "gov_healthexp_pct_gdp": 4.37671608,
-        "gov_healthexp_per_capita": 648.1181336,
-        "government_effectiveness": 1.07,
-        "human_freedom": 7.94,
-        "law_enforcement_ability": 0.96,
-        "max_infections": 0.00025566719771486423,
-        "median_age": 45,
-        "population": 2722289,
-        "total_infections": 0.002039092836947143,
-        "total_tests": 0.010214565756978778
-    },
-    "Luxembourg": {
-        "corruption_level": 2.09,
-        "gov_healthexp_pct_gdp": 5.0053057999999995,
-        "gov_healthexp_per_capita": 5092.7246780000005,
-        "government_effectiveness": 1.78,
-        "human_freedom": 8.46,
-        "law_enforcement_ability": 1.81,
-        "max_infections": 0.004172670605037238,
-        "median_age": 40,
-        "population": 625978,
-        "total_infections": 0.03934323570476918,
-        "total_tests": 0.04105895095354789
+        "total_tests": 0.0015834864979499504
     },
     "Malaysia": {
+        "StringencyIndex": 85.71,
         "corruption_level": 0.31,
         "gov_healthexp_pct_gdp": 1.91902636,
         "gov_healthexp_per_capita": 182.4657085,
@@ -920,48 +655,10 @@
         "median_age": 30,
         "population": 32365999,
         "total_infections": 0.0011604770796662263,
-        "total_tests": 0.001716801634950307
-    },
-    "Malta": {
-        "corruption_level": 0.58,
-        "gov_healthexp_pct_gdp": 5.86634892,
-        "gov_healthexp_per_capita": 1469.082741,
-        "government_effectiveness": 0.97,
-        "human_freedom": 8.42,
-        "law_enforcement_ability": 1.05,
-        "max_infections": 0.0004574865868103446,
-        "median_age": 43,
-        "population": 441543,
-        "total_infections": 0.005193152195822378,
-        "total_tests": 0.024738247464006904
-    },
-    "Mauritania": {
-        "corruption_level": -0.81,
-        "gov_healthexp_pct_gdp": 1.55438939,
-        "gov_healthexp_per_capita": 17.14234802,
-        "government_effectiveness": -0.73,
-        "human_freedom": 5.52,
-        "law_enforcement_ability": -0.69,
-        "max_infections": 1.2904174887701417e-06,
-        "median_age": 20,
-        "population": 4649658,
-        "total_infections": 1.376445321354818e-05,
-        "total_tests": 1.440966195793325e-05
-    },
-    "Mauritius": {
-        "corruption_level": 0.27,
-        "gov_healthexp_pct_gdp": 2.53455457,
-        "gov_healthexp_per_capita": 243.98448050000002,
-        "government_effectiveness": 0.88,
-        "human_freedom": 8.18,
-        "law_enforcement_ability": 0.78,
-        "max_infections": 0.0001462530901862604,
-        "median_age": 37,
-        "population": 1271768,
-        "total_infections": 0.0010670185128105127,
-        "total_tests": 0.0038631259789521357
+        "total_tests": 0.0017994191991416672
     },
     "Mexico": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.86,
         "gov_healthexp_pct_gdp": 2.8519693999999998,
         "gov_healthexp_per_capita": 240.81204739999998,
@@ -974,33 +671,8 @@
         "total_infections": 8.554071594205392e-05,
         "total_tests": 0.00019707948064988577
     },
-    "Moldova": {
-        "corruption_level": -0.73,
-        "gov_healthexp_pct_gdp": 4.38192468,
-        "gov_healthexp_per_capita": 83.52589378,
-        "government_effectiveness": -0.47,
-        "human_freedom": 7.17,
-        "law_enforcement_ability": -0.41,
-        "max_infections": 0.00014650605372434005,
-        "median_age": 38,
-        "population": 4033963,
-        "total_infections": 0.0009536527727200274,
-        "total_tests": 0.0012662485997020796
-    },
-    "Montenegro": {
-        "corruption_level": 0.02,
-        "gov_healthexp_pct_gdp": 5.73301587,
-        "gov_healthexp_per_capita": 398.9023898,
-        "government_effectiveness": 0.13,
-        "human_freedom": 7.67,
-        "law_enforcement_ability": 0.1,
-        "max_infections": 0.00027704094792585493,
-        "median_age": 39,
-        "population": 628066,
-        "total_infections": 0.0018198724337888056,
-        "total_tests": 0.003206669362773976
-    },
     "Morocco": {
+        "StringencyIndex": 71.43,
         "corruption_level": -0.22,
         "gov_healthexp_pct_gdp": 2.73529496,
         "gov_healthexp_per_capita": 80.33456957,
@@ -1011,48 +683,10 @@
         "median_age": 30,
         "population": 36910560,
         "total_infections": 0.00016014387210597727,
-        "total_tests": 0.00014730201871767862
-    },
-    "Mozambique": {
-        "corruption_level": -0.78,
-        "gov_healthexp_pct_gdp": 2.70240725,
-        "gov_healthexp_per_capita": 10.24564935,
-        "government_effectiveness": -0.87,
-        "human_freedom": 6.14,
-        "law_enforcement_ability": -1.04,
-        "max_infections": 3.199443552777301e-07,
-        "median_age": 18,
-        "population": 31255435,
-        "total_infections": 2.751521455388479e-06,
-        "total_tests": 1.3565640663775757e-05
-    },
-    "Namibia": {
-        "corruption_level": 0.34,
-        "gov_healthexp_pct_gdp": 5.6463848,
-        "gov_healthexp_per_capita": 249.2869749,
-        "government_effectiveness": 0.11,
-        "human_freedom": 6.97,
-        "law_enforcement_ability": 0.24,
-        "max_infections": 5.509847869164727e-06,
-        "median_age": 22,
-        "population": 2540905,
-        "total_infections": 5.470491812956407e-05,
-        "total_tests": 0.00014246892347411652
-    },
-    "Nepal": {
-        "corruption_level": -0.67,
-        "gov_healthexp_pct_gdp": 1.16947516,
-        "gov_healthexp_per_capita": 8.44496511,
-        "government_effectiveness": -0.9,
-        "human_freedom": 6.83,
-        "law_enforcement_ability": -0.48,
-        "max_infections": 2.0592509653082109e-07,
-        "median_age": 25,
-        "population": 29136808,
-        "total_infections": 3.740972586976583e-06,
-        "total_tests": 6.486640540720864e-05
+        "total_tests": 0.00015171809910226233
     },
     "Netherlands": {
+        "StringencyIndex": 85.71,
         "corruption_level": 2.01,
         "gov_healthexp_pct_gdp": 8.38861624,
         "gov_healthexp_per_capita": 3839.9307479999998,
@@ -1066,6 +700,7 @@
         "total_tests": 0.005053378863874793
     },
     "New Zealand": {
+        "StringencyIndex": 100.0,
         "corruption_level": 2.17,
         "gov_healthexp_pct_gdp": 7.25341615,
         "gov_healthexp_per_capita": 2945.760491,
@@ -1078,20 +713,8 @@
         "total_infections": 0.0012467253241392525,
         "total_tests": 0.009720600394049811
     },
-    "Niger": {
-        "corruption_level": -0.58,
-        "gov_healthexp_pct_gdp": 1.51293619,
-        "gov_healthexp_per_capita": 5.50951516,
-        "government_effectiveness": -0.77,
-        "human_freedom": 6.0,
-        "law_enforcement_ability": -0.58,
-        "max_infections": 4.957316677189948e-06,
-        "median_age": 15,
-        "population": 24206644,
-        "total_infections": 1.6978809619375572e-05,
-        "total_tests": 0.00017346477272933827
-    },
     "Nigeria": {
+        "StringencyIndex": NaN,
         "corruption_level": -1.04,
         "gov_healthexp_pct_gdp": 0.47496933,
         "gov_healthexp_per_capita": 10.33368986,
@@ -1104,20 +727,8 @@
         "total_infections": 6.854578525428223e-06,
         "total_tests": 2.4255408794862785e-05
     },
-    "North Macedonia": {
-        "corruption_level": -0.36,
-        "gov_healthexp_pct_gdp": 4.0326809,
-        "gov_healthexp_per_capita": 208.3961176,
-        "government_effectiveness": 0.09,
-        "human_freedom": 7.55,
-        "law_enforcement_ability": -0.28,
-        "max_infections": 0.00020639597115064314,
-        "median_age": 39,
-        "population": 2083374,
-        "total_infections": 0.0017476458859523062,
-        "total_tests": 0.002821864917196816
-    },
     "Norway": {
+        "StringencyIndex": 76.19,
         "corruption_level": 2.09,
         "gov_healthexp_pct_gdp": 8.93920884,
         "gov_healthexp_per_capita": 6365.950215999999,
@@ -1131,6 +742,7 @@
         "total_tests": 0.021009211728458484
     },
     "Pakistan": {
+        "StringencyIndex": 100.0,
         "corruption_level": -0.79,
         "gov_healthexp_pct_gdp": 0.76798214,
         "gov_healthexp_per_capita": 11.04167951,
@@ -1141,9 +753,10 @@
         "median_age": 23,
         "population": 220892340,
         "total_infections": 0.00010327202835553283,
-        "total_tests": 0.0001773850555433475
+        "total_tests": 0.00019085768207263322
     },
     "Panama": {
+        "StringencyIndex": 90.48,
         "corruption_level": -0.57,
         "gov_healthexp_pct_gdp": 4.763161900000001,
         "gov_healthexp_per_capita": 682.7036682999999,
@@ -1157,6 +770,7 @@
         "total_tests": 0.002386455630164966
     },
     "Papua New Guinea": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.88,
         "gov_healthexp_pct_gdp": 1.3830432,
         "gov_healthexp_per_capita": 38.60594241,
@@ -1170,6 +784,7 @@
         "total_tests": 8.047368599883044e-06
     },
     "Paraguay": {
+        "StringencyIndex": 95.24,
         "corruption_level": -0.85,
         "gov_healthexp_pct_gdp": 4.14268173,
         "gov_healthexp_per_capita": 168.92857469999998,
@@ -1183,6 +798,7 @@
         "total_tests": 0.0002858729949984143
     },
     "Peru": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.54,
         "gov_healthexp_pct_gdp": 3.29590879,
         "gov_healthexp_per_capita": 202.75377969999997,
@@ -1196,6 +812,7 @@
         "total_tests": 0.0006537393984578483
     },
     "Philippines": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.54,
         "gov_healthexp_pct_gdp": 1.38354204,
         "gov_healthexp_per_capita": 40.82935177,
@@ -1209,6 +826,7 @@
         "total_tests": 0.00022357874595831226
     },
     "Poland": {
+        "StringencyIndex": NaN,
         "corruption_level": 0.64,
         "gov_healthexp_pct_gdp": 4.54206336,
         "gov_healthexp_per_capita": 563.8930306,
@@ -1219,9 +837,10 @@
         "median_age": 42,
         "population": 37846611,
         "total_infections": 0.0006633883282178159,
-        "total_tests": 0.00243654577156195
+        "total_tests": 0.0026233260357182314
     },
     "Portugal": {
+        "StringencyIndex": NaN,
         "corruption_level": 0.85,
         "gov_healthexp_pct_gdp": 6.02253675,
         "gov_healthexp_per_capita": 1194.9442179999999,
@@ -1232,9 +851,10 @@
         "median_age": 46,
         "population": 10196709,
         "total_infections": 0.007266069866267636,
-        "total_tests": 0.01189167995281615
+        "total_tests": 0.01262995737154017
     },
     "Qatar": {
+        "StringencyIndex": 85.71,
         "corruption_level": 0.72,
         "gov_healthexp_pct_gdp": 2.51368509,
         "gov_healthexp_per_capita": 1491.390983,
@@ -1248,6 +868,7 @@
         "total_tests": 0.014514831903474181
     },
     "Romania": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.12,
         "gov_healthexp_pct_gdp": 3.89407157,
         "gov_healthexp_per_capita": 372.4622871,
@@ -1258,9 +879,10 @@
         "median_age": 43,
         "population": 19237691,
         "total_infections": 0.0012019633749185388,
-        "total_tests": 0.0022652406673961028
+        "total_tests": 0.002453880769786769
     },
     "Russia": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.85,
         "gov_healthexp_pct_gdp": 3.0019096000000003,
         "gov_healthexp_per_capita": 267.1702482,
@@ -1271,9 +893,10 @@
         "median_age": 40,
         "population": 145934462,
         "total_infections": 0.00015594671531389206,
-        "total_tests": 0.0054476508776933035
+        "total_tests": 0.006237190225842611
     },
     "Rwanda": {
+        "StringencyIndex": 95.24,
         "corruption_level": 0.58,
         "gov_healthexp_pct_gdp": 2.2906235,
         "gov_healthexp_per_capita": 16.28961382,
@@ -1286,20 +909,8 @@
         "total_infections": 6.439051597185903e-05,
         "total_tests": 6.222872406872707e-05
     },
-    "Serbia": {
-        "corruption_level": -0.37,
-        "gov_healthexp_pct_gdp": 5.298753700000001,
-        "gov_healthexp_per_capita": 286.78759260000004,
-        "government_effectiveness": 0.11,
-        "human_freedom": 7.19,
-        "law_enforcement_ability": -0.15,
-        "max_infections": 0.0001689295326935299,
-        "median_age": 42,
-        "population": 8737371,
-        "total_infections": 0.0010955240426439485,
-        "total_tests": 0.001101704391401029
-    },
     "Singapore": {
+        "StringencyIndex": 42.86,
         "corruption_level": 2.17,
         "gov_healthexp_pct_gdp": 2.43704803,
         "gov_healthexp_per_capita": 1342.624304,
@@ -1312,20 +923,8 @@
         "total_infections": 0.0027839398106982464,
         "total_tests": 0.011110461576434335
     },
-    "Slovakia": {
-        "corruption_level": 0.36,
-        "gov_healthexp_pct_gdp": 5.68866186,
-        "gov_healthexp_per_capita": 941.0975975,
-        "government_effectiveness": 0.71,
-        "human_freedom": 7.33,
-        "law_enforcement_ability": 0.53,
-        "max_infections": 8.242298670865233e-05,
-        "median_age": 41,
-        "population": 5459642,
-        "total_infections": 0.0008637929007066764,
-        "total_tests": 0.0032307979167864854
-    },
     "Slovenia": {
+        "StringencyIndex": NaN,
         "corruption_level": 0.87,
         "gov_healthexp_pct_gdp": 6.12153961,
         "gov_healthexp_per_capita": 1325.87342,
@@ -1336,9 +935,10 @@
         "median_age": 45,
         "population": 2078938,
         "total_infections": 0.00542632825028933,
-        "total_tests": 0.014168291695086627
+        "total_tests": 0.014752243693655126
     },
     "South Africa": {
+        "StringencyIndex": 100.0,
         "corruption_level": -0.02,
         "gov_healthexp_pct_gdp": 4.35733707,
         "gov_healthexp_per_capita": 230.05547280000002,
@@ -1352,6 +952,7 @@
         "total_tests": 0.0009795866339317224
     },
     "South Korea": {
+        "StringencyIndex": 80.95,
         "corruption_level": 0.6,
         "gov_healthexp_pct_gdp": 4.34050531,
         "gov_healthexp_per_capita": 1209.043661,
@@ -1365,6 +966,7 @@
         "total_tests": 0.009309763749901622
     },
     "Spain": {
+        "StringencyIndex": NaN,
         "corruption_level": 0.61,
         "gov_healthexp_pct_gdp": 6.39032348,
         "gov_healthexp_per_capita": 1702.507336,
@@ -1378,6 +980,7 @@
         "total_tests": 0.007592806878475607
     },
     "Sri Lanka": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.34,
         "gov_healthexp_pct_gdp": 1.67771562,
         "gov_healthexp_per_capita": 65.97404606,
@@ -1391,6 +994,7 @@
         "total_tests": 0.00015168179289373602
     },
     "Sweden": {
+        "StringencyIndex": 52.38,
         "corruption_level": 2.14,
         "gov_healthexp_pct_gdp": 9.13114823,
         "gov_healthexp_per_capita": 4768.654941,
@@ -1404,6 +1008,7 @@
         "total_tests": 0.005416235735966925
     },
     "Switzerland": {
+        "StringencyIndex": NaN,
         "corruption_level": 2.01,
         "gov_healthexp_pct_gdp": 7.68887756,
         "gov_healthexp_per_capita": 6174.882702,
@@ -1414,9 +1019,10 @@
         "median_age": 43,
         "population": 8654622,
         "total_infections": 0.024419090747117553,
-        "total_tests": 0.019345616712087482
+        "total_tests": 0.019866610003302282
     },
     "Thailand": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.4,
         "gov_healthexp_pct_gdp": 2.89993864,
         "gov_healthexp_per_capita": 173.3959257,
@@ -1429,33 +1035,8 @@
         "total_infections": 0.0002883955063710765,
         "total_tests": 0.001029513218471215
     },
-    "Togo": {
-        "corruption_level": -0.73,
-        "gov_healthexp_pct_gdp": 1.32633834,
-        "gov_healthexp_per_capita": 7.77303611,
-        "government_effectiveness": -1.06,
-        "human_freedom": 5.67,
-        "law_enforcement_ability": -0.59,
-        "max_infections": 4.8316624639256e-06,
-        "median_age": 19,
-        "population": 8278724,
-        "total_infections": 4.747108370806902e-05,
-        "total_tests": 0.00019531995510419238
-    },
-    "Trinidad and Tobago": {
-        "corruption_level": -0.32,
-        "gov_healthexp_pct_gdp": 3.43698692,
-        "gov_healthexp_per_capita": 561.6181674,
-        "government_effectiveness": 0.19,
-        "human_freedom": 6.81,
-        "law_enforcement_ability": -0.12,
-        "max_infections": 7.00256093657109e-05,
-        "median_age": 36,
-        "population": 1399488,
-        "total_infections": 0.0007424143686834042,
-        "total_tests": 0.000627372296154022
-    },
     "Tunisia": {
+        "StringencyIndex": 100.0,
         "corruption_level": -0.05,
         "gov_healthexp_pct_gdp": 3.93730636,
         "gov_healthexp_per_capita": 145.27227549999998,
@@ -1469,6 +1050,7 @@
         "total_tests": 0.0007000817946665343
     },
     "Turkey": {
+        "StringencyIndex": 95.24,
         "corruption_level": -0.34,
         "gov_healthexp_pct_gdp": 3.38424656,
         "gov_healthexp_per_capita": 367.61715,
@@ -1479,22 +1061,10 @@
         "median_age": 32,
         "population": 84339067,
         "total_infections": 0.001345888732679483,
-        "total_tests": 0.00271366530530863
-    },
-    "US": {
-        "corruption_level": 1.32,
-        "gov_healthexp_pct_gdp": 13.97379764,
-        "gov_healthexp_per_capita": 8077.925836,
-        "government_effectiveness": 1.58,
-        "human_freedom": 8.39,
-        "law_enforcement_ability": 1.45,
-        "max_infections": 0.0008325794345375197,
-        "median_age": 38,
-        "population": 331002651,
-        "total_infections": 0.005496569270679346,
-        "total_tests": 0.0062912819390077935
+        "total_tests": 0.0026425238970215308
     },
     "Uganda": {
+        "StringencyIndex": NaN,
         "corruption_level": -1.04,
         "gov_healthexp_pct_gdp": 1.02082965,
         "gov_healthexp_per_capita": 6.227106099999999,
@@ -1508,6 +1078,7 @@
         "total_tests": 7.236395123526686e-05
     },
     "Ukraine": {
+        "StringencyIndex": 95.24,
         "corruption_level": -0.87,
         "gov_healthexp_pct_gdp": 2.85304109,
         "gov_healthexp_per_capita": 59.88135541,
@@ -1518,9 +1089,10 @@
         "median_age": 41,
         "population": 43733762,
         "total_infections": 0.00013323802329193632,
-        "total_tests": 0.00014599704457165152
+        "total_tests": 0.00016474686078915416
     },
     "United Arab Emirates": {
+        "StringencyIndex": 95.24,
         "corruption_level": 1.15,
         "gov_healthexp_pct_gdp": 2.54892462,
         "gov_healthexp_per_capita": 958.9619755000001,
@@ -1531,9 +1103,10 @@
         "median_age": 33,
         "population": 9890402,
         "total_infections": 0.0008995589865811318,
-        "total_tests": 0.0222437874618241
+        "total_tests": 0.05996672329395711
     },
     "United Kingdom": {
+        "StringencyIndex": 71.43,
         "corruption_level": 1.83,
         "gov_healthexp_pct_gdp": 7.8318788,
         "gov_healthexp_per_capita": 3175.334765,
@@ -1544,9 +1117,10 @@
         "median_age": 40,
         "population": 67886011,
         "total_infections": 0.003954688102089251,
-        "total_tests": 0.00392855606142479
+        "total_tests": 0.00415511231025196
     },
     "Uruguay": {
+        "StringencyIndex": NaN,
         "corruption_level": 1.27,
         "gov_healthexp_pct_gdp": 6.49598543,
         "gov_healthexp_per_capita": 988.7257085000001,
@@ -1560,6 +1134,7 @@
         "total_tests": 0.001648660085844323
     },
     "Venezuela": {
+        "StringencyIndex": 85.71,
         "corruption_level": -1.47,
         "gov_healthexp_pct_gdp": 0.77412866,
         "gov_healthexp_per_capita": NaN,
@@ -1573,6 +1148,7 @@
         "total_tests": 6.256167371291402e-05
     },
     "Vietnam": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.49,
         "gov_healthexp_pct_gdp": 2.6842476000000004,
         "gov_healthexp_per_capita": 58.26556802,
@@ -1583,9 +1159,10 @@
         "median_age": 32,
         "population": 97338579,
         "total_infections": 3.716922968435773e-05,
-        "total_tests": 0.0010930815006041951
+        "total_tests": 0.0011313499861139334
     },
     "Zambia": {
+        "StringencyIndex": NaN,
         "corruption_level": -0.66,
         "gov_healthexp_pct_gdp": 1.7143074,
         "gov_healthexp_per_capita": 21.65057408,
@@ -1599,6 +1176,7 @@
         "total_tests": 3.367066553415737e-05
     },
     "Zimbabwe": {
+        "StringencyIndex": NaN,
         "corruption_level": -1.24,
         "gov_healthexp_pct_gdp": 4.37772571,
         "gov_healthexp_per_capita": 43.68682584,

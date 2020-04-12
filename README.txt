@@ -20,6 +20,7 @@ Variables:
 7) law_enforcement_ability
 8) corruption level
 9) human freedom
+10) stringency index
 
 Instructions:
 

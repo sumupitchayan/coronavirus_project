@@ -158,28 +158,101 @@ for row in df.values:
 
     infections[country]['gov_healthexp_per_capita'] = float(row[60])
 
-print(len(infections)) #181 here
+
+# Government lockdown measures
+df = pd.read_csv("data/gov_lockdown_v2.csv")
+date = 20200405
+df = df.loc[df['Date'] == date]
+df = df[['CountryName', 'StringencyIndex'
+    ]]
+
+# ['CountryName', 'S1_School closing', 'S2_Workplace closing', 'S3_Cancel public events', 'S4_Close public transport', 'S5_Public information campaigns', \
+#     'S6_Restrictions on internal movement', 'S7_International travel controls', 'S8_Fiscal measures', 'S9_Monetary measures', 'S10_Emergency investment in health care' , 'S11_Investment in Vaccines', 'S12_Testing framework', 'S13_Contact tracing', 'StringencyIndex'
+#     ]
+
+print(df)
+for row in df.values:
+    country = row[0] 
+    # print(country)
+    # print(df.columns)
+    if country in infections:
+       columns = df.columns
+       for i in range(len(columns)):
+            if columns[i] == 'CountryName':
+               continue
+            if columns[i] == 'StringencyIndex' and row[i] > 100.0:
+                continue
+            print(columns[i], row[i]) 
+            infections[country][columns[i]] = row[i]
+
+
+
+        
+# df['Date Start'] =  pd.to_datetime(df['Date Start'], infer_datetime_format=True).dt.date
+# df['Date end intended'] =  pd.to_datetime(df['Date end intended'] , infer_datetime_format=True).dt.date
+
+# filter for only cases with key words
+# search_keywords = ['school closure', 'outdoor gatherings banned', 'state of emergency', 'international travel ban - risk countries', 'international travel ban - all countries']
+# filtered_df = df[df['Keywords'].str.contains('|'.join(search_keywords), case=False, na=False)] 
+
+#         # school closure - takes the latest date for closure
+#         if keyword.find(search_keywords[0]):
+#             infections[country][search_keywords[0]] = date_started
+#         # outdoor gatherings - takes the latest date for outdoor gathering and only if its less than 100
+#         if keyword.find(search_keywords[1]) and gathering_quantity <= 100:
+#             infections[country][search_keywords[1]] = date_started
+#         # state of emergency
+#         if keyword.find(search_keywords[2]):
+#             infections[country][search_keywords[2]] = date_started
+#         # international travel ban
+#         if keyword.find(search_keywords[3]):
+#             infections[country][search_keywords[3]] = date_started
+#         if keyword.find(search_keywords[4]):
+#             infections[country][search_keywords[4]] = date_started
+
+
+
+
+# print(len(infections)) #181 here
 removed_countries = []
 countries_without_freedom = []
 keys = list(infections.keys())  # data cleaning - remove countries with no population/median age/gov_effect/testing estimate
+# print(keys)
 for i in range(len(keys)):
     if 'human_freedom' not in infections[keys[i]]:
         countries_without_freedom.append(keys[i])
-    if len(list(infections[keys[i]].keys())) != 11:
-        print(keys[i])
+
+    # added for government lockdown measures
+    # for j in range(len(search_keywords)):
+    #     if search_keywords[j] not in infections[keys[i]]:
+    #         infections[keys[i]][search_keywords[j]] = None
+
+
+    if len(list(infections[keys[i]].keys())) != 12:
         removed_countries.append(keys[i])
         del infections[keys[i]]
 
+# print(infections)
 print(len(infections)) # 122 here - lot of countries have missing testing data
 with open('infections.json', 'w') as outfile:
     json.dump(infections, outfile, indent=4, sort_keys=True)
 
 
 
-# ---------------------GRAPHING---------------------------
 
+
+# # ---------------------GRAPHING---------------------------
+
+# print("Graphing..")
+# data = [list(infections.keys()), [infections[k]["total_infections"] for k in infections], [infections[k]["total_tests"] for k in infections]]
+# fig = px.scatter(data, x = data[1], y = data[2], text = data[0], log_x = True, log_y = True, color = [infections[k]["government_effectiveness"] for k in infections])
+# fig.update_traces(textposition='top center')
+# fig.show()
+
+
+# plot for government control
 print("Graphing..")
-data = [list(infections.keys()), [infections[k]["total_infections"] for k in infections], [infections[k]["total_tests"] for k in infections]]
-fig = px.scatter(data, x = data[1], y = data[2], text = data[0], log_x = True, log_y = True, color = [infections[k]["government_effectiveness"] for k in infections])
+data = [list(infections.keys()), [infections[k]["total_infections"] for k in infections], [infections[k]["StringencyIndex"] for k in infections]]
+fig = px.scatter(data, x = data[1], y = data[2], text = data[0], log_x = True, log_y = False)
 fig.update_traces(textposition='top center')
 fig.show()
