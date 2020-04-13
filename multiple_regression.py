@@ -5,6 +5,7 @@ import csv
 from scipy import stats
 import statsmodels.api as sm
 from statsmodels.tools import eval_measures
+import json
 
 def split_data(data, prob):
     """input:
@@ -67,7 +68,7 @@ if __name__=='__main__':
         #TODO:
         #1. Use pandas to load data from the file. Here you can also re-use most of the code from part I.
         #2. Select which independent variables best predict the dependent variable count.
-        df = pd.read_csv(file_path)
+        df = pd.read_json(file_path)
         print(df)
         # data = list()
         # y = df['cnt'].tolist()
@@ -81,7 +82,7 @@ if __name__=='__main__':
 
         return
 
-    # load_file("infections.json")
+    load_file("infections.csv")
     # X, y = load_file("infections.json")
 
     ##################################################################################

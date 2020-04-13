@@ -207,7 +207,7 @@
         "median_age": 41,
         "population": 37742154,
         "total_infections": 0.0022664843135344103,
-        "total_tests": 0.01072146014771706
+        "total_tests": 0.011186430959928785
     },
     "Chile": {
         "StringencyIndex": NaN,
@@ -599,7 +599,7 @@
         "median_age": 48,
         "population": 126476461,
         "total_infections": 0.0002982531271174642,
-        "total_tests": 0.0005437454484119381
+        "total_tests": 0.0006118213570191532
     },
     "Jordan": {
         "StringencyIndex": NaN,
@@ -809,7 +809,7 @@
         "median_age": 30,
         "population": 4314767,
         "total_infections": 0.002616595519526315,
-        "total_tests": 0.0033809473373649147
+        "total_tests": 0.003510502421104083
     },
     "Papua New Guinea": {
         "StringencyIndex": NaN,

@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import json
 import plotly.express as px
 import math
+import csv
 
 print("Running..")
 df = pd.read_csv("data/time_series_covid19_confirmed_global.csv")
@@ -170,7 +171,7 @@ df = df[['CountryName', 'StringencyIndex'
 #     'S6_Restrictions on internal movement', 'S7_International travel controls', 'S8_Fiscal measures', 'S9_Monetary measures', 'S10_Emergency investment in health care' , 'S11_Investment in Vaccines', 'S12_Testing framework', 'S13_Contact tracing', 'StringencyIndex'
 #     ]
 
-print(df)
+# print(df)
 for row in df.values:
     country = row[0]
     # print(country)
@@ -182,7 +183,7 @@ for row in df.values:
                continue
             if columns[i] == 'StringencyIndex' and row[i] > 100.0:
                 continue
-            print(columns[i], row[i])
+            # print(columns[i], row[i])
             infections[country][columns[i]] = row[i]
 
 
@@ -238,7 +239,19 @@ with open('infections.json', 'w') as outfile:
     json.dump(infections, outfile, indent=4, sort_keys=True)
 
 
+# Creates CSV file: infections.csv ----------
+country_list = list(infections.keys())
+with open('infections.csv', 'w', newline='') as f:
+    writer = csv.writer(f)
 
+    # Writes header
+    header = ['country'] + list(infections[country_list[0]].keys())
+    writer.writerow(header)
+
+    # Adds each row
+    for country in country_list:
+        row = [country] + (list(infections[country].values()))
+        writer.writerow(row)
 
 
 # # ---------------------GRAPHING---------------------------
