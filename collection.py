@@ -27,6 +27,7 @@ for c in range(len(countries)):
     if country == "Czechia":
         country = "Czech Republic"
     infections[country] = {"total_infections": np.sum(total), "max_infections": np.max(total)}
+    infections[country]['stringency_index'] = None
 
 aliases = {  # value is name of country in database/ key is name that may be from other sources
     "USA": "US",
@@ -57,10 +58,9 @@ aliases = {  # value is name of country in database/ key is name that may be fro
     "Kyrgyz Republic": "Kyrgyzstan",
     "Macedonia, FYR":"North Macedonia",
     "Slovak Republic": "Slovakia",
-    "Venezuela, RB":"Venezuela"
-
-
-
+    "Venezuela, RB":"Venezuela",
+    "Democratic Republic of Congo": "Congo (Kinshasa)",
+    "Sao Tome & Principe": "Sao Tome and Principe"
     }
 
 res = requests.get("https://www.worldometers.info/world-population/population-by-country/")  #scraping population
@@ -79,8 +79,8 @@ for row in items[1:]:
     if not info or country not in infections:
         continue
     infections[country]['population'] = int(info)
-    infections[country]['max_infections'] /= int(info)
-    infections[country]['total_infections'] /= int(info)
+    infections[country]['max_infections'] = (infections[country]['max_infections']/int(info))*1000000
+    infections[country]['total_infections'] = (infections[country]['total_infections']/int(info))*1000000
     if age != "N.A.":
         infections[country]['median_age'] = int(age.strip())
 
@@ -103,7 +103,8 @@ for row in items[1:]:
         country = aliases[country]
     if not info or country not in infections:
         continue
-    infections[country]['total_tests'] = int(info)/infections[country]['population']
+
+    infections[country]['total_tests'] = (int(info)/infections[country]['population'])*1000000
 
 df = pd.read_csv("data/gov_effect.csv")
 for row in df.values:
@@ -164,7 +165,7 @@ for row in df.values:
 df = pd.read_csv("data/gov_lockdown_v2.csv")
 date = 20200405
 df = df.loc[df['Date'] == date]
-df = df[['CountryName', 'StringencyIndex'
+df = df[['CountryName', 'StringencyIndexForDisplay'
     ]]
 
 # ['CountryName', 'S1_School closing', 'S2_Workplace closing', 'S3_Cancel public events', 'S4_Close public transport', 'S5_Public information campaigns', \
@@ -174,6 +175,10 @@ df = df[['CountryName', 'StringencyIndex'
 # print(df)
 for row in df.values:
     country = row[0]
+
+    if country in aliases:
+        country = aliases[country]
+
     # print(country)
     # print(df.columns)
     if country in infections:
@@ -181,10 +186,10 @@ for row in df.values:
        for i in range(len(columns)):
             if columns[i] == 'CountryName':
                continue
-            if columns[i] == 'StringencyIndex' and row[i] > 100.0:
+            if columns[i] == 'StringencyIndexForDisplay' and float(row[i]) > 100.0:
                 continue
-            # print(columns[i], row[i])
-            infections[country][columns[i]] = row[i]
+            
+            infections[country]['stringency_index'] = float(row[i])
 
 
 
@@ -234,7 +239,7 @@ for i in range(len(keys)):
         del infections[keys[i]]
 
 # print(infections)
-print(len(infections)) # 122 here - lot of countries have missing testing data
+# print(len(infections)) # 122 here - lot of countries have missing testing data
 with open('infections.json', 'w') as outfile:
     json.dump(infections, outfile, indent=4, sort_keys=True)
 
@@ -265,7 +270,7 @@ with open('infections.csv', 'w', newline='') as f:
 
 # plot for government control
 print("Graphing..")
-data = [list(infections.keys()), [infections[k]["total_infections"] for k in infections], [infections[k]["StringencyIndex"] for k in infections]]
+data = [list(infections.keys()), [infections[k]["total_infections"] for k in infections], [infections[k]["stringency_index"] for k in infections]]
 fig = px.scatter(data, x = data[1], y = data[2], text = data[0], log_x = True, log_y = False)
 fig.update_traces(textposition='top center')
 fig.show()
