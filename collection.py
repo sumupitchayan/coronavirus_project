@@ -172,7 +172,7 @@ df = df[['CountryName', 'StringencyIndex'
 
 print(df)
 for row in df.values:
-    country = row[0] 
+    country = row[0]
     # print(country)
     # print(df.columns)
     if country in infections:
@@ -182,18 +182,18 @@ for row in df.values:
                continue
             if columns[i] == 'StringencyIndex' and row[i] > 100.0:
                 continue
-            print(columns[i], row[i]) 
+            print(columns[i], row[i])
             infections[country][columns[i]] = row[i]
 
 
 
-        
+
 # df['Date Start'] =  pd.to_datetime(df['Date Start'], infer_datetime_format=True).dt.date
 # df['Date end intended'] =  pd.to_datetime(df['Date end intended'] , infer_datetime_format=True).dt.date
 
 # filter for only cases with key words
 # search_keywords = ['school closure', 'outdoor gatherings banned', 'state of emergency', 'international travel ban - risk countries', 'international travel ban - all countries']
-# filtered_df = df[df['Keywords'].str.contains('|'.join(search_keywords), case=False, na=False)] 
+# filtered_df = df[df['Keywords'].str.contains('|'.join(search_keywords), case=False, na=False)]
 
 #         # school closure - takes the latest date for closure
 #         if keyword.find(search_keywords[0]):
