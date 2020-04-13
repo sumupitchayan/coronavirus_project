@@ -68,22 +68,21 @@ if __name__=='__main__':
         #TODO:
         #1. Use pandas to load data from the file. Here you can also re-use most of the code from part I.
         #2. Select which independent variables best predict the dependent variable count.
-        df = pd.read_json(file_path)
-        print(df)
-        # data = list()
-        # y = df['cnt'].tolist()
-        #
-        # variables = ['season', 'yr', 'mnth', 'holiday', 'weekday', 'workingday', 'weathersit', 'temp', 'atemp', 'hum', 'windspeed']
-        # # remove workingday -- p-value is high and coefficient is low.
-        # variables.remove('mnth') # x3
-        # variables.remove('temp') # x8
-        # variables.remove('holiday') # x4
-        # X = df[variables].to_numpy()
+        df = pd.read_csv(file_path, keep_default_na=True, na_filter=True)
+        y = df['total_infections'].tolist()
 
-        return
+        print(df.columns)
+        variables = ['gov_healthexp_per_capita']
+        # variables.remove('StringencyIndex')
+        # variables.remove('gov_healthexp_per_capita')
 
-    load_file("infections.csv")
-    # X, y = load_file("infections.json")
+        X = df[variables].to_numpy()
+
+        pd.set_option("display.max_rows", None, "display.max_columns", None)
+
+        return X, y
+
+    X, y = load_file("infections.csv")
 
     ##################################################################################
     # TODO: use train test split to split data into x_train, x_test, y_train, y_test #
@@ -97,14 +96,16 @@ if __name__=='__main__':
 
     # x_train = sm.add_constant(x_train)
     # x_test = sm.add_constant(x_test)
-    #
+    X = sm.add_constant(X)
+
     # model = sm.OLS(y_train, x_train)
-    # results = model.fit()
+    model = sm.OLS(y, X)
+    results = model.fit()
 
     # Prints out the Report
     # TODO: print R-squared, test MSE & train MSE
 
-    # print(results.summary())
+    print(results.summary())
     # r_sq = results.rsquared
     # train_mse = eval_measures.mse(y_train, results.predict(x_train))
     # test_mse = eval_measures.mse(y_test, results.predict(x_test))
