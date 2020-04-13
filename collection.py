@@ -26,8 +26,12 @@ for c in range(len(countries)):
         country = "Taiwan"
     if country == "Czechia":
         country = "Czech Republic"
-    infections[country] = {"total_infections": np.sum(total), "max_infections": np.max(total)}
+
+# added long & lat
+    infections[country] = {"total_infections": np.sum(total), "max_infections": np.max(total), "lat":float(np.array(vals)[:,2][0]), "long":float(np.array(vals)[:,3][0])}
     infections[country]['stringency_index'] = None
+    
+    
 
 aliases = {  # value is name of country in database/ key is name that may be from other sources
     "USA": "US",
@@ -144,7 +148,7 @@ for row in df.values:
 
     if country not in infections or row[1] != row[1]:
         continue
-
+    infections[country]['iso_a3'] = row[1]
     infections[country]['gov_healthexp_pct_gdp'] = float(row[60])
 
 # Government health expenditure per capita (in USD) -- latest numbers are from 2016:
@@ -194,30 +198,6 @@ for row in df.values:
 
 
 
-# df['Date Start'] =  pd.to_datetime(df['Date Start'], infer_datetime_format=True).dt.date
-# df['Date end intended'] =  pd.to_datetime(df['Date end intended'] , infer_datetime_format=True).dt.date
-
-# filter for only cases with key words
-# search_keywords = ['school closure', 'outdoor gatherings banned', 'state of emergency', 'international travel ban - risk countries', 'international travel ban - all countries']
-# filtered_df = df[df['Keywords'].str.contains('|'.join(search_keywords), case=False, na=False)]
-
-#         # school closure - takes the latest date for closure
-#         if keyword.find(search_keywords[0]):
-#             infections[country][search_keywords[0]] = date_started
-#         # outdoor gatherings - takes the latest date for outdoor gathering and only if its less than 100
-#         if keyword.find(search_keywords[1]) and gathering_quantity <= 100:
-#             infections[country][search_keywords[1]] = date_started
-#         # state of emergency
-#         if keyword.find(search_keywords[2]):
-#             infections[country][search_keywords[2]] = date_started
-#         # international travel ban
-#         if keyword.find(search_keywords[3]):
-#             infections[country][search_keywords[3]] = date_started
-#         if keyword.find(search_keywords[4]):
-#             infections[country][search_keywords[4]] = date_started
-
-
-
 
 # print(len(infections)) #181 here
 removed_countries = []
@@ -234,7 +214,7 @@ for i in range(len(keys)):
     #         infections[keys[i]][search_keywords[j]] = None
 
 
-    if len(list(infections[keys[i]].keys())) != 12:
+    if len(list(infections[keys[i]].keys())) != 15:
         removed_countries.append(keys[i])
         del infections[keys[i]]
 
