@@ -45,9 +45,31 @@
           
         </p>
 
-        <h3>Hypothesis</h3>
+        <h3>Data Specification</h3>
+        <p> Our new dataset is largely based on variables that measure government impact and effectiveness on the spread of the virus. Sources include World Bank Data, Worldometer (scraping), JHU Coronavirus Dataset and the Oxford COVID 19 Government Response Tracker. Our dataset has the following variables:
+            <ol>
+                <li>Total infections - total infections per 1 million (infections/pop * 1M) </li>
+                <li>Max infections - maximum infections in a single day per 1 million (max infections in day/pop * 1M)</li>
+                <li>Total Tests - total Coronavirus tests administered per 1 million (tests/pop * 1M)</li>
+                <li>Stringency Index - index by the Oxford Government Response Tracker showing stringency of lockdown measures taken by countries - 0 - 100
+                </li>
+                <li>Human Freedom Index - measures human freedom in different countries on scale from 0-10</li>
+                <li>Government Effectiveness - World Bank measure for government effectiveness ranging from -2.5 to 2.5</li>
+                <li>Corruption Index - World Bank measure for government corruption control ranging from -2.5 to 2.5</li>
+                <li>Law Enforcement Ability - World Bank measure for government ability to enforce law ranging from -2.5 to 2.5</li>
+                <li>Government Healthcare Expenditure as % of GDP</li>
+                <li>Government Healthcare Expenditure per Capita</li>
+              </ol>
+        </p>
+
+        <h3>Hypothesis (Project Goal)</h3>
         <p> Our hypothesis was that more authoritarian governments with greater control over citizens would be better at containing the spread of the coronavirus.
         </p>
+
+        <h3>Controlling for Testing</h3>
+        <p> Not every country has the same access to testing equipment, and some are using testing a lot more than others. Because of this, countries with a greater number of tests administered will likely also report a higher number of cases (and therefore larger total spread). We ran a Multiple Regression data on our model to confirm this result and found a high R-squared value (0.52) when testing data was included. This value dropped and MSE increased significantly when testing data was not included showing high correlation. In order to control for this and independently evaluate government impact on spread of virus, we used <b>KMeans Clustering</b> to find testing groups. We ran the algorithm on a log scale to achieve better results (took the log of testing values).
+        </p>
+        <p>As we need to cluster countries based on only testing values, we ran our KMeans on this 1 dimensional data to get an elbow plot. The plot had a kink at n = 3 and hence we decided to create 3 groups to control for testing. According to the cluster centers obtained, we split our countries into Low, Medium and High Testing groups. </p>
 
        
 
@@ -192,15 +214,114 @@ Given that the results of the Chi Square test involved frowned upon manipulation
         
       
 
-        <h3>T-Test</h3>
-        <p>
-          Yae
-        </p>
+        <h3>T-TEST - Stringency Index, Human Freedom and Government Effectiveness</h3>
+            <p>After considering the chi-squared test, we realized that a T-test would work better for our data. A T-test is used to compare the means of two different samples and test if the difference is statistically significant. We realized that we were essentially wanting to look at two samples -- countries with a high government measure and countries with a low government measure (stringency, freedom or government effectiveness) and see if there was any evidence to believe that government impact has had any effect on infections. We controlled for testing by dividing countries into 3 different groups through KMeans and conducting tests on each of these subgroups. </p>
+            <h4>Data Cleaning/Organization</h4>
+            <p>After controlling for testing, we had 3 groups of countries -- low, medium and high. Now in order to evaluate the effect of a government response measure we needed to have two samples --  infections from countries with high values for the measure, and infections for countries with low values for that measure. We created these two groups by taking the top 30% and bottom 30% of countries in each testing group for that government measure. Now we had two samples and having been drawn from the same pool they had the same variance.
+            </p>
+            <h4>
+                Testing
+            </h4>
+            <p>We believed that countries with low government effectiveness and low stringency would have more infections. However, we believe that countries with low freedom index will have lesser cases (governments would easily restrict the movement of people). Hence, we used a one tailed independent T-test to evaluate the same with 5% significance. 
+            </p>
+            <h4>Stringency Index</h4>
+            <p><b>Null Hypothesis</b>: The mean of total infections from countries with lower stringency index is equal to the mean of total infections from countries with higher stringency index.
+            </p>
+            <p><b>Alternate Hypothesis</b>: The mean of total infections from countries with lower stringency index is higher than the mean of total infections from countries with higher stringency index.</p>
 
-        <h3>Visualization</h3>
-        <p>
-          Yae
-        </p>
+            <p><b>Low:
+            </b> degrees of freedom - 14 <br>
+            T-stat -- -0.1780587948507824 <br>
+            T-Crit -- 1.7613101357748562 <br>
+            <b>Result- </b>As the t value is less than the critical value we fail to reject the null hypothesis.
+
+            <p><b>High:
+            </b> degrees of freedom - 15 <br>
+            T-stat -- -0.1252158193466769 <br>
+            T-Crit -- 1.7530503556925547 <br>
+            <b>Result- </b>As the t value is less than the critical value we fail to reject the null hypothesis.
+
+            <p><b>Medium:
+            </b> degrees of freedom - 15 <br>
+            T-stat -- 1.4434551269382487 <br>
+            T-Crit -- 1.7530503556925547 <br>
+            <b>Result- </b>As the t value is less than the critical value we fail to reject the null hypothesis.
+            </p>
+            <b>Analysis</b>
+            <p>We fail to reject the null hypothesis in all three testing groups and hence cannot conclude that stringency index has an effect on infections. The t values are far from the critical t value for the low and high groups for stringency index. For the medium testing group we can see that with a lower statistical significance, we could have rejected the null hypothesis (1.44 is close to 1.75).
+            </p>
+
+            <h4>Government Effectiveness</h4>
+            <p><b>Null Hypothesis</b>: The mean of total infections from countries with lower government effectiveness is equal to the mean of total infections from countries with higher government effectiveness.</p>
+            <p><b>Alternate Hypothesis</b>: The mean of total infections from countries with lower government effectiveness is higher than the mean of total infections from countries with higher government effectiveness.</p>
+            
+            <p><b>Low:
+            </b> degrees of freedom - 22 <br>
+            T-stat -- -4.399572608623967 <br>
+            T-Crit -- 1.717144374380242 <br>
+            
+            <b>Result- </b>As the t value is less than the critical value we fail to reject the null hypothesis.
+
+            <p><b>High:
+            </b> degrees of freedom - 22 <br>
+            T-stat -- -1.4188458102868113 <br>
+            T-Crit -- 1.717144374380242 <br>
+            
+            <b>Result- </b>As the t value is less than the critical value we fail to reject the null hypothesis.
+
+            <p><b>Medium:
+            </b> degrees of freedom - 27 <br>
+            T-stat -- -0.8940797297564762 <br>
+            T-Crit -- 1.7032884457221265 <br>
+            
+            <b>Result- </b>As the t value is less than the critical value we fail to reject the null hypothesis.
+            </p>
+            <b>Analysis</b>
+            <p>We fail to reject the null hypothesis in all three testing groups and hence cannot conclude that government effectiveness has an effect on infections. The t values are far from the critical t value for all three groups. After graphing and using multiple regression, we actually saw a positive relationship between government effectiveness and infections. This is because countries with more effective governments have better testing facilities. As a result, controlling for testing also controls for government effectiveness providing a null effect when evaluated independently. </p>
+        
+
+            <h4>Freedom Index</h4>
+            <p><b>Null Hypothesis</b>: The mean of total infections from countries with lower freedom index is equal to the mean of total infections from countries with higher freedom index.</p>
+            <p><b>Alternate Hypothesis</b>: The mean of total infections from countries with lower freedom index is lower than the mean of total infections from countries with higher freedom index.</p>
+            
+            <p><b>Low:
+            </b> degrees of freedom - 22 <br>
+            T-stat -- 1.4321547667186918 <br>
+            T-Crit -- 1.717144374380242 <br>
+            
+            <b>Result- </b>As the t value is less than the critical value we fail to reject the null hypothesis.
+
+            <p><b>High:
+            </b> degrees of freedom - 22 <br>
+            T-stat -- 1.8217358674958581 <br>
+            T-Crit -- 1.717144374380242 <br>
+                        
+            <b>Result- </b>As the t value is greater than the critical value we <b>reject</b> the null hypothesis.
+
+            <p><b>Medium:
+            </b> degrees of freedom - 29 <br>
+            T-stat -- 1.5536169233381973 <br>
+            T-Crit -- 1.6991270265334972 <br>
+
+            <b>Result- </b>As the t value is less than the critical value we fail to reject the null hypothesis.
+            </p>
+            <b>Analysis</b>
+            <p>We fail to reject the null hypothesis for the low and medium testing groups but are able to reject the null hypothesis for the high testing group.
+                T values were very close to critical values for all three groups and we would have been able to reject the null hypothesis for all at a lesser level of
+                significance. This demonstrates that the freedom index is correlated with the number of infections. A graph is shown in the visualization section to demonstrate the above. 
+            </p>
+            
+            <h3>Conclusion and Next Steps</h3>
+            <p>We fail to reject the null hypotheses for stringency index and government effectiveness in all three testing groups at the 5% level of significance. However, we were able to get t values which were close to critical values for freedom index 
+                and were also able to reject the null hypothesis in the case of the High testing group. This shows correlation between the two variables. Not being able to reject the null for stringency index and government effectiveness does not however mean that there is in fact no effect any of them have on infections. Taking the top and bottom 30% may have skewed the data.
+                Additionally, the presence of extreme values in the dataset may have resulted in the means being higher or lower than expected. A possible solution to this problem could be to take all values on a log scale. 
+                A two tail T-test may also serve the purpose of showing a possible effect as we only explored the one reasonable direction that each of the variables could push the infections towards. A two tail test would show if there may be any deviation in means of infection rates 
+                due to presence of any of these government indices. Next steps could possibly be trying a log scale or implementing a two tale T-test. 
+            </p>
+            <h3>Visualization</h3>
+        <h4>Stringency Index vs Log of Infections</h4>
+        <img src = "newplot.png"
+              alt = "Infections (per million) over time" />
 
         <h3>Multiple Linear Regression</h3>
         <p>
