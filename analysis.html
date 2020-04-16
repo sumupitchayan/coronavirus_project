@@ -48,7 +48,52 @@
 
         <h3>Multiple Linear Regression</h3>
         <p>
-            We are using a multiple linear regression to predict a country's total spread per capita based on features like government government_effectiveness, human_freedom, and law_enforcement_ability.
+            We attempted to predict a country’s total spread percentage based on the government effectiveness, law enforcement ability, corruption level, and human freedom variables. Our intuition behind this was that governments with higher effectiveness/organization and more control over its citizens would do a better job of limiting the total spread within its country.
+        </p>
+
+        <p>
+          Similar to the T-test, we ran it for the 3 levels of testing (High, Medium, Low -- found using the same Kmeans method as described above) as well as for all of the data points. We obtained the following results:
+        </p>
+
+        <p>
+          Variables: government_effectiveness, law_enforcement_ability, corruption_level, human_freedom
+        <p>
+
+        <h4>Testing Group: High</h4>
+        <ul>
+          <li> Number of countries: 37 </li>
+          <li>R-squared = 0.1880525810090773</li>
+          <li>MSE = 346,932,218.0194217</li>
+        </ul>
+
+        <h4>Testing Group: Medium</h4>
+        <ul>
+          <li> Number of countries: 55 </li>
+          <li>R-squared = 0.20517263297344046</li>
+          <li>MSE = 14,624,827.213989183</li>
+        </ul>
+
+        <h4>Testing Group: Low</h4>
+        <ul>
+          <li> Number of countries: 40 </li>
+          <li>R-squared = 0.20335671591300353</li>
+          <li>MSE = 37,927.55603107393</li>
+        </ul>
+
+        <h4>Testing Group: All Countries </h4>
+        <ul>
+          <li> Number of countries: 132 </li>
+          <li>R-squared = 0.30592009467140135</li>
+          <li>MSE = 129,998,515.43203022</li>
+        </ul>
+
+        <p>
+          As you can see from the results, our model did not perform very well on any of these groups of data. Our highest R squared value (30.6%) came from running the regression on all countries, but the MSE (~130 million) was also extremely large. Out of all the testing-level groups, the High testing performed the worst with the lowest R squared (18.8%) and by far the highest MSE (~346 million).
+        </p>
+
+        <p>
+          Looking back at these results now and seeing how the pandemic situation has continued to evolve across the world, we realized that predicting a country’s total spread is nearly impossible to do with model like this, since the data for every single country’s coronavirus spread is continuously changing, and no one really knows when or how that might change. For example, while the U.S.’s spread rate might be really small when we run this data today, it could end up increasing a lot over the course of next week or the week after. Meanwhile, countries that were hit earlier with coronavirus outbreaks like Italy might have a simlar total spread today and next week, as the situation may have stabilized more.
+Another thing to keep in mind is that countries like Singapore and China, which were previously thought to have stabilized their coronavirus outbreaks, have recently reported potential “second waves” of infections; this just goes to show how unpredictable the rate of spread of the virus is, and how difficult it is to draw any conclusions from this available data.
         </p>
 
 
