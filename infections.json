@@ -65,7 +65,7 @@
         "population": 45195774,
         "stringency_index": 90.48,
         "total_infections": 721.1957471953019,
-        "total_tests": 539.2982096069425
+        "total_tests": 585.3865894629884
     },
     "Armenia": {
         "corruption_level": -0.35,
@@ -218,7 +218,7 @@
         "population": 11589623,
         "stringency_index": 85.71,
         "total_infections": 38331.35900969341,
-        "total_tests": 11055.752201775675
+        "total_tests": 11588.21128176473
     },
     "Belize": {
         "corruption_level": -0.14,
@@ -694,7 +694,7 @@
         "population": 5540720,
         "stringency_index": 52.38,
         "total_infections": 8932.593597943951,
-        "total_tests": 8812.573095193404
+        "total_tests": 8969.953363461787
     },
     "France": {
         "corruption_level": 1.32,
@@ -1510,7 +1510,7 @@
         "population": 17134872,
         "stringency_index": 85.71,
         "total_infections": 24417.748787385164,
-        "total_tests": 8219.787110169249
+        "total_tests": 8634.321867125707
     },
     "New Zealand": {
         "corruption_level": 2.17,
@@ -1833,7 +1833,7 @@
         "population": 8737371,
         "stringency_index": null,
         "total_infections": 5355.272198010134,
-        "total_tests": 3007.540826639958
+        "total_tests": 3373.0970105309707
     },
     "Singapore": {
         "corruption_level": 2.17,
@@ -1935,7 +1935,7 @@
         "population": 46754778,
         "stringency_index": 90.48,
         "total_infections": 62546.91231771008,
-        "total_tests": 13918.470535781393
+        "total_tests": 19895.9344860968
     },
     "Sri Lanka": {
         "corruption_level": -0.34,
@@ -2088,7 +2088,7 @@
         "population": 331002651,
         "stringency_index": 66.67,
         "total_infections": 22725.688079156804,
-        "total_tests": 9845.477038188435
+        "total_tests": 9864.479907141287
     },
     "Uganda": {
         "corruption_level": -1.04,

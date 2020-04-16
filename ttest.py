@@ -50,15 +50,13 @@ def conduct_t_test(group, measure, infections, threshold):
         if infections[country][measure] < low_cut:
             low.append(infections[country]['total_infections'])
 
-    print(high_cut, low_cut)
-    print(len(high), len(low))
-
     # Null - S_low - S_high = 0
     # Alternative - S_low - S_high > 0
     # alpha = 0.05
 
     t_stat = manual_t_test_ind(np.array(low), np.array(high))
     degree = len(high) + len(low) - 2
+    print("degrees of freedom - " + str(degree))
     # degree = degrees_of_freedom(np.array(high), np.array(low))
     print("T-stat -- " + str(t_stat))
     crit = stats.t.ppf(0.95, degree)
@@ -115,9 +113,6 @@ for s in range(3):
 
 labels = [cats[i] for i in kmeans.labels_]
 
-print(kmeans.labels_)
-
-print(labels)
 
 data = [countries, tot_infections ,labels , government_effectiveness]
 fig = px.scatter(data, x = data[1], y = data[3], hover_name = data[0], log_x = True, log_y = False, color = data[2])
@@ -139,7 +134,6 @@ fig.show()
 
 groups = {}
 labels = kmeans.labels_
-print(labels)
 keys = list(infections.keys())
 
 for i in range(3):
@@ -149,7 +143,6 @@ for i in range(3):
             g.append(keys[j])
     groups[cats[i]] = g
 
-print(groups)
 
 # Countries with lower stringency index have more total infections than countries with higher stringency index
 # Countries with lower government effectiveness index have more total infections than countries with higher stringency index
@@ -158,11 +151,11 @@ print(groups)
 # first tried with threshold - then median - then only top 20 and bottom 20%
 
 
-# measures = [["stringency_index", 60], ["government_effectiveness", 0], ["human_freedom", 0]]
-#
-# for m in measures:
-#     for k in groups:
-#         print("Measure = " + str(m[0]))
-#         print("Group = " + str(k))
-#
-#         conduct_t_test(groups[k], m[0], infections, m[1])
+measures = [["stringency_index", 60], ["government_effectiveness", 0], ["human_freedom", 0]]
+
+for m in measures:
+    for k in groups:
+        print("Measure = " + str(m[0]))
+        print("Group = " + str(k))
+
+        conduct_t_test(groups[k], m[0], infections, m[1])
