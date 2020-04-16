@@ -37,7 +37,7 @@ def conduct_t_test(group, measure, infections, threshold):
 
     for country in group:
         if infections[country][measure]:
-            x.append(infections[country][measure]) 
+            x.append(infections[country][measure])
 
     low_cut = np.percentile(np.array(x), 30)
     high_cut = np.percentile(np.array(x), 70)
@@ -54,7 +54,7 @@ def conduct_t_test(group, measure, infections, threshold):
     print(len(high), len(low))
 
     # Null - S_low - S_high = 0
-    # Alternative - S_low - S_high > 0 
+    # Alternative - S_low - S_high > 0
     # alpha = 0.05
 
     t_stat = manual_t_test_ind(np.array(low), np.array(high))
@@ -76,7 +76,7 @@ def conduct_t_test(group, measure, infections, threshold):
 
 # # ---------------------KMEANS---------------------------
 
-with open('infections.json', 'r') as f: 
+with open('infections.json', 'r') as f:
     infections = json.load(f)
 
 testing = np.array([infections[k]['total_tests'] for k in infections]).reshape(-1,1)
@@ -115,6 +115,9 @@ for s in range(3):
 
 labels = [cats[i] for i in kmeans.labels_]
 
+print(kmeans.labels_)
+
+print(labels)
 
 data = [countries, tot_infections ,labels , government_effectiveness]
 fig = px.scatter(data, x = data[1], y = data[3], hover_name = data[0], log_x = True, log_y = False, color = data[2])
@@ -136,6 +139,7 @@ fig.show()
 
 groups = {}
 labels = kmeans.labels_
+print(labels)
 keys = list(infections.keys())
 
 for i in range(3):
@@ -145,6 +149,8 @@ for i in range(3):
             g.append(keys[j])
     groups[cats[i]] = g
 
+print(groups)
+
 # Countries with lower stringency index have more total infections than countries with higher stringency index
 # Countries with lower government effectiveness index have more total infections than countries with higher stringency index
 # Same with human Freedom
@@ -152,13 +158,11 @@ for i in range(3):
 # first tried with threshold - then median - then only top 20 and bottom 20%
 
 
-measures = [["stringency_index", 60], ["government_effectiveness", 0], ["human_freedom", 0]]
-
-for m in measures:
-    for k in groups:
-        print("Measure = " + str(m[0]))
-        print("Group = " + str(k))
-
-        conduct_t_test(groups[k], m[0], infections, m[1])
-
-    
+# measures = [["stringency_index", 60], ["government_effectiveness", 0], ["human_freedom", 0]]
+#
+# for m in measures:
+#     for k in groups:
+#         print("Measure = " + str(m[0]))
+#         print("Group = " + str(k))
+#
+#         conduct_t_test(groups[k], m[0], infections, m[1])
