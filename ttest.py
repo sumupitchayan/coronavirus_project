@@ -93,10 +93,10 @@ data = [[i for i in range(1,11)], inertia]
 
 kmeans = KMeans(n_clusters = 3).fit(testing)
 
-# data = [list(infections.keys()), kmeans.labels_, [infections[k]["total_tests"] for k in infections]]
-# fig = px.scatter(data, x = data[0], y = data[2], log_y = True, color = data[1])
-# fig.update_traces(textposition='top center')
-# fig.show()
+data = [list(infections.keys()), kmeans.labels_, [infections[k]["total_tests"] for k in infections]]
+fig = px.scatter(data, x = data[0], y = data[2], log_y = True, color = data[1])
+fig.update_traces(textposition='top center')
+fig.show()
 
 # ---------------------------END OF KMEANS----------------------------------
 
