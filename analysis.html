@@ -28,21 +28,21 @@
         <li><a href="https://developers.google.com/maps/documentation/geocoding/start">Geolocation API</a></li> -->
 
         <h3>Change of Dataset</h3>
-        <p> We found out that the COVID-19 Patient dataset was not going to be updated past March 13th. We had a hunch that the data would be outdated because when we first cleaned the data, many of the infections were still predominantly from China and Wuhan. To investigate this further we decided to look at how the number of infections in China changed overtime while the number of infections in the rest of the world changed from 01/01/20 to now. Using the JHU Covid19 dataset that is being updated every day this was the graph that was produced. 
+        <p> We found out that the COVID-19 Patient dataset was not going to be updated past March 13th. We had a hunch that the data would be outdated because when we first cleaned the data, many of the infections were still predominantly from China and Wuhan. To investigate this further we decided to look at how the number of infections in China changed overtime while the number of infections in the rest of the world changed from 01/01/20 to now. Using the JHU Covid19 dataset that is being updated every day this was the graph that was produced.
           <p>
             <p>    <img src = "dataset.png"
               alt = "Infections (per million) over time" /></p>
           </p>
-          
-          Since the number of cases in the world was significantly greater than China around late February we decided to plot the natural log of cases over time to be able to see the difference better. 
-          
+
+          Since the number of cases in the world was significantly greater than China around late February we decided to plot the natural log of cases over time to be able to see the difference better.
+
           <p></p>    <img src = "dataset_log.png"
           alt = "log of Infections (per million) over time" /></p>
-          
-          The green line marks March 13th when our original dataset was not being updated. As can be seen, the total number of cases in the world exceeds China on the 21st of February, and since March 13th the number of cases in the world has increased dramatically. 
-          
-          With the way the pandemic has been changing since March 13th as shown by this graph. It made complete sense to find a new dataset. Since we were unable to find any patient dataset that was being maintained, we decided that our best choice was to use the JHU COVID-19 global cases dataset that keeps track of the number of infections and deaths. We wanted to continue exploring the relationship between weather and COVID-19 cases however the location data for cases provided by the JHU global dataset is limited to just countries. As a result, we decided it was best to change our project goal and investigate factors closely tied to countries → Government Intervention 
-          
+
+          The green line marks March 13th when our original dataset was not being updated. As can be seen, the total number of cases in the world exceeds China on the 21st of February, and since March 13th the number of cases in the world has increased dramatically.
+
+          With the way the pandemic has been changing since March 13th as shown by this graph. It made complete sense to find a new dataset. Since we were unable to find any patient dataset that was being maintained, we decided that our best choice was to use the JHU COVID-19 global cases dataset that keeps track of the number of infections and deaths. We wanted to continue exploring the relationship between weather and COVID-19 cases however the location data for cases provided by the JHU global dataset is limited to just countries. As a result, we decided it was best to change our project goal and investigate factors closely tied to countries → Government Intervention
+
         </p>
 
         <h3>Data Specification</h3>
@@ -57,8 +57,8 @@
                 <li>Government Effectiveness - World Bank measure for government effectiveness ranging from -2.5 to 2.5</li>
                 <li>Corruption Index - World Bank measure for government corruption control ranging from -2.5 to 2.5</li>
                 <li>Law Enforcement Ability - World Bank measure for government ability to enforce law ranging from -2.5 to 2.5</li>
-                <li>Government Healthcare Expenditure as % of GDP</li>
-                <li>Government Healthcare Expenditure per Capita</li>
+                <li>Government Healthcare Expenditure (in USD) as % of GDP</li>
+                <li>Government Healthcare Expenditure (in USD) per Capita</li>
               </ol>
         </p>
 
@@ -71,12 +71,12 @@
         </p>
         <p>As we need to cluster countries based on only testing values, we ran our KMeans on this 1 dimensional data to get an elbow plot. The plot had a kink at n = 3 and hence we decided to create 3 groups to control for testing. According to the cluster centers obtained, we split our countries into Low, Medium and High Testing groups. </p>
 
-       
+
 
         <h3>Chi Squared Test -- Investigating relationship between Freedom Level and Infections Level AND Stringency Level and Infections Level</h3>
         <p>
           The reason we wanted to explore this relationship is because some argue that countries that were able to control the virus better have more obedient citizens or have a system where freedom is easily controlled. The Stringency index is based on lockdown measures that countries put in place to control the spread of the virus. <a href="https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker">Stringency Index Info</a>
-        The freedom index indicates the level of personal and economic freedom in a country. <a href="https://www.cato.org/human-freedom-index-new">Freedom Index Info</a>. It depends on variables directly controlled by the governments such as Rule of Law, Movement, Expression and Information etc. 
+        The freedom index indicates the level of personal and economic freedom in a country. <a href="https://www.cato.org/human-freedom-index-new">Freedom Index Info</a>. It depends on variables directly controlled by the governments such as Rule of Law, Movement, Expression and Information etc.
       </p>
       <p>
         <font color="red">NOTE: After conducting the test we realised it’s frowned upon to convert continuous data into categorical data. As a result, we don’t currently think it would make sense to use these results for the final poster but it may still be helpful as a starting point to explore further things to investigate for the final poster. The hypothesis we were trying to test here is better achieved with the t-test and the multiple regression we conducted later.
@@ -87,53 +87,53 @@
         <p>
         <ul>
           <li>
-            Freedom Index and Stringency Index is a continuous variable but could be better interpreted categorically. We wanted to generalise by using levels instead of values because of the small differences in values between certain countries. 
+            Freedom Index and Stringency Index is a continuous variable but could be better interpreted categorically. We wanted to generalise by using levels instead of values because of the small differences in values between certain countries.
           </li>
           <li>
-            The Freedom Index and Stringency Index values for our dataset hovered between 4-9 and 40-100 respectively even though the index is a score from 0-10 and 0-100 respectively. Creating categories so that low levels started with minimum values meant we could better analyse the difference in these levels between countries. Somewhat like normalising the data. We did this using quartiles so the data points were equally distributed among the number of categories we chose. 
+            The Freedom Index and Stringency Index values for our dataset hovered between 4-9 and 40-100 respectively even though the index is a score from 0-10 and 0-100 respectively. Creating categories so that low levels started with minimum values meant we could better analyse the difference in these levels between countries. Somewhat like normalising the data. We did this using quartiles so the data points were equally distributed among the number of categories we chose.
           </li>
           <li>
-            The Chi square independence test tests the <strong>probability of independence</strong> of a distribution of data. It made sense to first investigate whether there was any relationship between Freedom Levels and Infections Level and/or Stringency Level and Infections Level. 
+            The Chi square independence test tests the <strong>probability of independence</strong> of a distribution of data. It made sense to first investigate whether there was any relationship between Freedom Levels and Infections Level and/or Stringency Level and Infections Level.
           </li>
         </ul>
         </p>
         <p>
           <h4>How continuous data was converted into categorical data</h4>
         </p>
-        
-          <p><strong>Infections per million to Infection Levels</strong> 
+
+          <p><strong>Infections per million to Infection Levels</strong>
           <ul>
-            
+
             <li>
-          
+
           KMeans: Number_of_clusters = 4 based on elbow point of inertia chart. </li>
             <li>
               Resulting categories -> <i>["Low","Low-Med","Med-High","High"]</i>
             </li>
         </ul>
-      </p> 
+      </p>
 
-      <p><strong>Freedom Index to Freedom Levels</strong> 
+      <p><strong>Freedom Index to Freedom Levels</strong>
         <ul>
-          
+
           <li>
             25,50,75 percentiles as thresholds. These made buckets of mostly equal size while making sure there is at least 5 data points in each value in the cross table (necessary for test </li>
           <li>
             Resulting categories for Freedom:  <i>["Low","Med","High"]</i>
           </li>
       </ul>
-    </p> 
+    </p>
 
-    <p><strong>Stringency Index to Stringency Levels</strong> 
+    <p><strong>Stringency Index to Stringency Levels</strong>
       <ul>
-        
+
         <li>
           25,50,75 percentiles as thresholds. These made buckets of mostly equal size while making sure there is at least 5 data points in each value in the cross table (necessary for test) </li>
         <li>
           Resulting categories for Stringency:  <i>["Low","Med","High"]</i>
         </li>
     </ul>
-  </p> 
+  </p>
   <p>
     <strong> With Freedom levels at 5% significance level</strong>
 
@@ -151,7 +151,7 @@
   <p>
     <strong>Low: </strong>chi_squared=8.778751803751803, p_value=0.45794308450657606, degrees_of_freedom=9<br />
     CONCLUSION: Since p_value=0.45794308450657606 &gt; 0.05, <strong> Therefore do not reject null hypothesis for low freedom testing group.
-    </strong> 
+    </strong>
   </p>
   <p>
     <strong>Medium: </strong>chi_squared=19.297052154195008, p_value=0.08160746229678552, degrees_of_freedom=12<br />
@@ -163,7 +163,7 @@
     CONCLUSION:Since p_value=0.4285755424531232 &gt; 0.05, <strong>Therefore do not reject null hypothesis for high freedom testing group. </strong>
   </p>
   <p>
-   <strong>Analysis:</strong> There could be omitted variable bias when conducting the chi_square test without controlling for testing groups because the null hypothesis was rejected when looking at all testing groups while when split into testing groups the null hypothesis was accepted. Note the lower p-value for the medium testing group (p=0.0816..) whereas the p value for the low and high testing group was (p > 0.42).   In the next steps, it would be interesting to investigate the relationship between freedom index and testing level using perhaps logistic regression since the testing variable is categorical. 
+   <strong>Analysis:</strong> There could be omitted variable bias when conducting the chi_square test without controlling for testing groups because the null hypothesis was rejected when looking at all testing groups while when split into testing groups the null hypothesis was accepted. Note the lower p-value for the medium testing group (p=0.0816..) whereas the p value for the low and high testing group was (p > 0.42).   In the next steps, it would be interesting to investigate the relationship between freedom index and testing level using perhaps logistic regression since the testing variable is categorical.
   </p>
 
 
@@ -189,7 +189,7 @@
     <strong>Low: </strong>chi_squared=14.739999999999998, p_value=0.022378240107659195, degrees_of_freedom=6
     <br />
     CONCLUSION: Since p_value=0.022378240107659195 &lt; 0.05 <strong> Therefore reject null hypothesis in favour of alternative hypothesis for low freedom testing group.
-    </strong> 
+    </strong>
   </p>
   <p>
     <strong>Medium: </strong>chi_squared=12.450757575757576, p_value=0.052636107372483816, degrees_of_freedom=6<br />
@@ -202,17 +202,17 @@
   </p>
   <p>
    <strong>Analysis:</strong>  Even with the same testing groups, when conducting the chi square test, the probability of an association with the low testing groups exceeds 95% while for the medium testing group it does not exceed 95%, though it exceeds 94%. </p>
-  
+
 <p>
   <strong>Chi Square Tests Analysis and Next Steps </strong> <br />
 
-Given that the results of the Chi Square test involved frowned upon manipulation of continuous variables. The results will be taken with more than a grain of salt. It may be interesting to investigate how freedom index and stringency index plays out for the medium testing group because of the low p-values for the chi square test and the p value &lt; 0.05 for the t-test with stringency level and infection level. After these chi square test results we knew that given our variables were continuous it would be better to investigate relationships using t-tests. 
+Given that the results of the Chi Square test involved frowned upon manipulation of continuous variables. The results will be taken with more than a grain of salt. It may be interesting to investigate how freedom index and stringency index plays out for the medium testing group because of the low p-values for the chi square test and the p value &lt; 0.05 for the t-test with stringency level and infection level. After these chi square test results we knew that given our variables were continuous it would be better to investigate relationships using t-tests.
 
 </p>
 
-        
-        
-      
+
+
+
 
         <h3>T-TEST - Stringency Index, Human Freedom and Government Effectiveness</h3>
             <p>After considering the chi-squared test, we realized that a T-test would work better for our data. A T-test is used to compare the means of two different samples and test if the difference is statistically significant. We realized that we were essentially wanting to look at two samples -- countries with a high government measure and countries with a low government measure (stringency, freedom or government effectiveness) and see if there was any evidence to believe that government impact has had any effect on infections. We controlled for testing by dividing countries into 3 different groups through KMeans and conducting tests on each of these subgroups. </p>
@@ -222,7 +222,7 @@ Given that the results of the Chi Square test involved frowned upon manipulation
             <h4>
                 Testing
             </h4>
-            <p>We believed that countries with low government effectiveness and low stringency would have more infections. However, we believe that countries with low freedom index will have lesser cases (governments would easily restrict the movement of people). Hence, we used a one tailed independent T-test to evaluate the same with 5% significance. 
+            <p>We believed that countries with low government effectiveness and low stringency would have more infections. However, we believe that countries with low freedom index will have lesser cases (governments would easily restrict the movement of people). Hence, we used a one tailed independent T-test to evaluate the same with 5% significance.
             </p>
             <h4>Stringency Index</h4>
             <p><b>Null Hypothesis</b>: The mean of total infections from countries with lower stringency index is equal to the mean of total infections from countries with higher stringency index.
@@ -254,48 +254,48 @@ Given that the results of the Chi Square test involved frowned upon manipulation
             <h4>Government Effectiveness</h4>
             <p><b>Null Hypothesis</b>: The mean of total infections from countries with lower government effectiveness is equal to the mean of total infections from countries with higher government effectiveness.</p>
             <p><b>Alternate Hypothesis</b>: The mean of total infections from countries with lower government effectiveness is higher than the mean of total infections from countries with higher government effectiveness.</p>
-            
+
             <p><b>Low:
             </b> degrees of freedom - 22 <br>
             T-stat -- -4.399572608623967 <br>
             T-Crit -- 1.717144374380242 <br>
-            
+
             <b>Result- </b>As the t value is less than the critical value we fail to reject the null hypothesis.
 
             <p><b>High:
             </b> degrees of freedom - 22 <br>
             T-stat -- -1.4188458102868113 <br>
             T-Crit -- 1.717144374380242 <br>
-            
+
             <b>Result- </b>As the t value is less than the critical value we fail to reject the null hypothesis.
 
             <p><b>Medium:
             </b> degrees of freedom - 27 <br>
             T-stat -- -0.8940797297564762 <br>
             T-Crit -- 1.7032884457221265 <br>
-            
+
             <b>Result- </b>As the t value is less than the critical value we fail to reject the null hypothesis.
             </p>
             <b>Analysis</b>
             <p>We fail to reject the null hypothesis in all three testing groups and hence cannot conclude that government effectiveness has an effect on infections. The t values are far from the critical t value for all three groups. After graphing and using multiple regression, we actually saw a positive relationship between government effectiveness and infections. This is because countries with more effective governments have better testing facilities. As a result, controlling for testing also controls for government effectiveness providing a null effect when evaluated independently. </p>
-        
+
 
             <h4>Freedom Index</h4>
             <p><b>Null Hypothesis</b>: The mean of total infections from countries with lower freedom index is equal to the mean of total infections from countries with higher freedom index.</p>
             <p><b>Alternate Hypothesis</b>: The mean of total infections from countries with lower freedom index is lower than the mean of total infections from countries with higher freedom index.</p>
-            
+
             <p><b>Low:
             </b> degrees of freedom - 22 <br>
             T-stat -- 1.4321547667186918 <br>
             T-Crit -- 1.717144374380242 <br>
-            
+
             <b>Result- </b>As the t value is less than the critical value we fail to reject the null hypothesis.
 
             <p><b>High:
             </b> degrees of freedom - 22 <br>
             T-stat -- 1.8217358674958581 <br>
             T-Crit -- 1.717144374380242 <br>
-                        
+
             <b>Result- </b>As the t value is greater than the critical value we <b>reject</b> the null hypothesis.
 
             <p><b>Medium:
@@ -308,25 +308,25 @@ Given that the results of the Chi Square test involved frowned upon manipulation
             <b>Analysis</b>
             <p>We fail to reject the null hypothesis for the low and medium testing groups but are able to reject the null hypothesis for the high testing group.
                 T values were very close to critical values for all three groups and we would have been able to reject the null hypothesis for all at a lesser level of
-                significance. This demonstrates that the freedom index is correlated with the number of infections. A graph is shown in the visualization section to demonstrate the above. 
+                significance. This demonstrates that the freedom index is correlated with the number of infections. A graph is shown in the visualization section to demonstrate the above.
             </p>
-            
+
             <h3>Conclusion and Next Steps</h3>
-            <p>We fail to reject the null hypotheses for stringency index and government effectiveness in all three testing groups at the 5% level of significance. However, we were able to get t values which were close to critical values for freedom index 
+            <p>We fail to reject the null hypotheses for stringency index and government effectiveness in all three testing groups at the 5% level of significance. However, we were able to get t values which were close to critical values for freedom index
                 and were also able to reject the null hypothesis in the case of the High testing group. This suggests correlation between the two variables. Not being able to reject the null for stringency index and government effectiveness does not however mean that there is in fact no effect any of them have on infections. Taking the top and bottom 30% may have skewed the data.
-                Additionally, the presence of extreme values in the dataset may have resulted in the means being higher or lower than expected. A possible solution to this problem could be to take all values on a log scale. 
-                A two tail T-test may also serve the purpose of showing a possible effect as we only explored the one reasonable direction that each of the variables could push the infections towards. A two tail test would show if there may be any deviation in means of infection rates 
-                due to presence of any of these government indices. Next steps could possibly be trying a log scale or implementing a two tale T-test. 
+                Additionally, the presence of extreme values in the dataset may have resulted in the means being higher or lower than expected. A possible solution to this problem could be to take all values on a log scale.
+                A two tail T-test may also serve the purpose of showing a possible effect as we only explored the one reasonable direction that each of the variables could push the infections towards. A two tail test would show if there may be any deviation in means of infection rates
+                due to presence of any of these government indices. Next steps could possibly be trying a log scale or implementing a two tale T-test.
             </p>
             <h3>Visualization</h3>
         <h4>Freedom Index vs Log of Infections (per million)</h4>
         <img src = "newplot.png"
               alt = "Freedom Index vs Log of Infections (per million)" />
-        
+
         <p>The above scatter plot represents the relationship between Freedom Index and the log of Total infections. This relationship was also explored using the t-test and the chi square test and we
             were able to reject the null hypothesis for the High Testing group and come close to the critical values in the other groups.In the chi square test we were able to reject the null hypothesis when looking at all the datapoints as a whole. One can see that the graph is almost Linear
-        with more deviation in the Low testing group. This graph can serve as a standalone graph as no other information is required to understand it. The data is best visualized as a 
-    scatter plot however we can also show it as a Bubble Chart or Bar Chart. We picked this graph as it showed a significant trend we observed through our t-test. We did not have 
+        with more deviation in the Low testing group. This graph can serve as a standalone graph as no other information is required to understand it. The data is best visualized as a
+    scatter plot however we can also show it as a Bubble Chart or Bar Chart. We picked this graph as it showed a significant trend we observed through our t-test. We did not have
     significant issues with this visualization and the only thing that was a little difficult was getting color to show up correctly for the kmeans labels (testing groups)/p>
     <h4>Map Visualization</h4>
     <p>As our goal is to compare the efficacy of government control on the spread of coronavirus across different countries, we decided to use a map to illustrate 1. total infections per million and the government effectiveness measure, 2. Total infections per million and the stringency index. Through a map, it is also illustrative of which regions, such as East Asia or Europe, of the world have systems of government that have greater influence over the spread of the virus. Alternatives to this comparison would have been through using a scatter plot which would illustrate the numeric differences better but not the regional differences. There were no significant challenges in visualizing the results. This result is supplementary to the Chi Square test analysis. </p>
