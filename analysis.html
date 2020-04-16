@@ -206,7 +206,7 @@
 <p>
   <strong>Chi Square Tests Analysis and Next Steps </strong> <br />
 
-Given that the results of the Chi Square test involved frowned upon manipulation of continuous variables. The results will be taken with more than a grain of salt. It may be interesting to investigate how freedom index and stringency index plays out for the medium testing group because of the low p-values for the chi square test and the p value < 0.05 for the t-test with stringency level and infection level. 
+Given that the results of the Chi Square test involved frowned upon manipulation of continuous variables. The results will be taken with more than a grain of salt. It may be interesting to investigate how freedom index and stringency index plays out for the medium testing group because of the low p-values for the chi square test and the p value &lt; 0.05 for the t-test with stringency level and infection level. After these chi square test results we knew that given our variables were continuous it would be better to investigate relationships using t-tests. 
 
 </p>
 
@@ -313,7 +313,7 @@ Given that the results of the Chi Square test involved frowned upon manipulation
             
             <h3>Conclusion and Next Steps</h3>
             <p>We fail to reject the null hypotheses for stringency index and government effectiveness in all three testing groups at the 5% level of significance. However, we were able to get t values which were close to critical values for freedom index 
-                and were also able to reject the null hypothesis in the case of the High testing group. This shows correlation between the two variables. Not being able to reject the null for stringency index and government effectiveness does not however mean that there is in fact no effect any of them have on infections. Taking the top and bottom 30% may have skewed the data.
+                and were also able to reject the null hypothesis in the case of the High testing group. This suggests correlation between the two variables. Not being able to reject the null for stringency index and government effectiveness does not however mean that there is in fact no effect any of them have on infections. Taking the top and bottom 30% may have skewed the data.
                 Additionally, the presence of extreme values in the dataset may have resulted in the means being higher or lower than expected. A possible solution to this problem could be to take all values on a log scale. 
                 A two tail T-test may also serve the purpose of showing a possible effect as we only explored the one reasonable direction that each of the variables could push the infections towards. A two tail test would show if there may be any deviation in means of infection rates 
                 due to presence of any of these government indices. Next steps could possibly be trying a log scale or implementing a two tale T-test. 
@@ -323,8 +323,8 @@ Given that the results of the Chi Square test involved frowned upon manipulation
         <img src = "newplot.png"
               alt = "Freedom Index vs Log of Infections (per million)" />
         
-        <p>The above scatter plot represents the relationship between Freedom Index and the log of Total infections. This relationship was also explore using the t-test and we
-            were able to reject the null hypothesis for the High Testing group and come close to the critical values in the other groups. One can see that the graph is almost Linear
+        <p>The above scatter plot represents the relationship between Freedom Index and the log of Total infections. This relationship was also explored using the t-test and the chi square test and we
+            were able to reject the null hypothesis for the High Testing group and come close to the critical values in the other groups.In the chi square test we were able to reject the null hypothesis when looking at all the datapoints as a whole. One can see that the graph is almost Linear
         with more deviation in the Low testing group. This graph can serve as a standalone graph as no other information is required to understand it. The data is best visualized as a 
     scatter plot however we can also show it as a Bubble Chart or Bar Chart. We picked this graph as it showed a significant trend we observed through our t-test. We did not have 
     significant issues with this visualization and the only thing that was a little difficult was getting color to show up correctly for the kmeans labels (testing groups)/p>
