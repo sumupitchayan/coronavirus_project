@@ -27,16 +27,172 @@
         <li><a href="http://waqi.info/">Air Quality Index API</a></li>
         <li><a href="https://developers.google.com/maps/documentation/geocoding/start">Geolocation API</a></li> -->
 
+        <h3>Change of Dataset</h3>
+        <p> We found out that the COVID-19 Patient dataset was not going to be updated past March 13th. We had a hunch that the data would be outdated because when we first cleaned the data, many of the infections were still predominantly from China and Wuhan. To investigate this further we decided to look at how the number of infections in China changed overtime while the number of infections in the rest of the world changed from 01/01/20 to now. Using the JHU Covid19 dataset that is being updated every day this was the graph that was produced. 
+          <p>
+            <p>    <img src = "dataset.png"
+              alt = "Infections (per million) over time" /></p>
+          </p>
+          
+          Since the number of cases in the world was significantly greater than China around late February we decided to plot the natural log of cases over time to be able to see the difference better. 
+          
+          <p></p>    <img src = "dataset_log.png"
+          alt = "log of Infections (per million) over time" /></p>
+          
+          The green line marks March 13th when our original dataset was not being updated. As can be seen, the total number of cases in the world exceeds China on the 21st of February, and since March 13th the number of cases in the world has increased dramatically. 
+          
+          With the way the pandemic has been changing since March 13th as shown by this graph. It made complete sense to find a new dataset. Since we were unable to find any patient dataset that was being maintained, we decided that our best choice was to use the JHU COVID-19 global cases dataset that keeps track of the number of infections and deaths. We wanted to continue exploring the relationship between weather and COVID-19 cases however the location data for cases provided by the JHU global dataset is limited to just countries. As a result, we decided it was best to change our project goal and investigate factors closely tied to countries → Government Intervention 
+          
+        </p>
+
         <h3>Hypothesis</h3>
         <p> Our hypothesis was that more authoritarian governments with greater control over citizens would be better at containing the spread of the coronavirus.
         </p>
 
-        <h3>T-Test</h3>
-        <p>
-          Yae
-        </p>
+       
 
-        <h3>Chi Squared Test</h3>
+        <h3>Chi Squared Test -- Investigating relationship between Freedom Level and Infections Level AND Stringency Level and Infections Level</h3>
+        <p>
+          The reason we wanted to explore this relationship is because some argue that countries that were able to control the virus better have more obedient citizens or have a system where freedom is easily controlled. The Stringency index is based on lockdown measures that countries put in place to control the spread of the virus. <a href="https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker">Stringency Index Info</a>
+        The freedom index indicates the level of personal and economic freedom in a country. <a href="https://www.cato.org/human-freedom-index-new">Freedom Index Info</a>. It depends on variables directly controlled by the governments such as Rule of Law, Movement, Expression and Information etc. 
+      </p>
+      <p>
+        <font color="red">NOTE: After conducting the test we realised it’s frowned upon to convert continuous data into categorical data. As a result, we don’t currently think it would make sense to use these results for the final poster but it may still be helpful as a starting point to explore further things to investigate for the final poster. The hypothesis we were trying to test here is better achieved with the t-test and the multiple regression we conducted later.
+        </font></p>
+        <p>
+          <strong>To investigate the relationship, we initially chose a Chi-Square Test of Independence because:</strong>
+        </p>
+        <p>
+        <ul>
+          <li>
+            Freedom Index and Stringency Index is a continuous variable but could be better interpreted categorically. We wanted to generalise by using levels instead of values because of the small differences in values between certain countries. 
+          </li>
+          <li>
+            The Freedom Index and Stringency Index values for our dataset hovered between 4-9 and 40-100 respectively even though the index is a score from 0-10 and 0-100 respectively. Creating categories so that low levels started with minimum values meant we could better analyse the difference in these levels between countries. Somewhat like normalising the data. We did this using quartiles so the data points were equally distributed among the number of categories we chose. 
+          </li>
+          <li>
+            The Chi square independence test tests the <strong>probability of independence</strong> of a distribution of data. It made sense to first investigate whether there was any relationship between Freedom Levels and Infections Level and/or Stringency Level and Infections Level. 
+          </li>
+        </ul>
+        </p>
+        <p>
+          <h4>How continuous data was converted into categorical data</h4>
+        </p>
+        
+          <p><strong>Infections per million to Infection Levels</strong> 
+          <ul>
+            
+            <li>
+          
+          KMeans: Number_of_clusters = 4 based on elbow point of inertia chart. </li>
+            <li>
+              Resulting categories -> <i>["Low","Low-Med","Med-High","High"]</i>
+            </li>
+        </ul>
+      </p> 
+
+      <p><strong>Freedom Index to Freedom Levels</strong> 
+        <ul>
+          
+          <li>
+            25,50,75 percentiles as thresholds. These made buckets of mostly equal size while making sure there is at least 5 data points in each value in the cross table (necessary for test </li>
+          <li>
+            Resulting categories for Freedom:  <i>["Low","Med","High"]</i>
+          </li>
+      </ul>
+    </p> 
+
+    <p><strong>Stringency Index to Stringency Levels</strong> 
+      <ul>
+        
+        <li>
+          25,50,75 percentiles as thresholds. These made buckets of mostly equal size while making sure there is at least 5 data points in each value in the cross table (necessary for test) </li>
+        <li>
+          Resulting categories for Stringency:  <i>["Low","Med","High"]</i>
+        </li>
+    </ul>
+  </p> 
+  <p>
+    <strong> With Freedom levels at 5% significance level</strong>
+
+  </p>
+  <p>
+    <strong> H_0: There is no association between Freedom Level and infections level<br />
+        H_a: There is an association between Freedom Level and infections level</strong>
+
+
+  </p>
+  <p>
+    <strong>All: </strong>chi_squared=25.01461454146876, p_value=0.014753772510189158, degrees_of_freedom=12<br />
+    CONCLUSION: Since p_value=0.014753772510189158 &lt; 0.05, <strong>Therefore reject null hypothesis in favour of alternative hypothesis. </strong>
+  </p>
+  <p>
+    <strong>Low: </strong>chi_squared=8.778751803751803, p_value=0.45794308450657606, degrees_of_freedom=9<br />
+    CONCLUSION: Since p_value=0.45794308450657606 &gt; 0.05, <strong> Therefore do not reject null hypothesis for low freedom testing group.
+    </strong> 
+  </p>
+  <p>
+    <strong>Medium: </strong>chi_squared=19.297052154195008, p_value=0.08160746229678552, degrees_of_freedom=12<br />
+    CONCLUSION: Since p_value=0.08160746229678552 &gt; 0.05,  <strong> Therefore do not reject null hypothesis for medium freedom testing group. </strong>
+    Note that if significance = 0.1, then the null hypothesis would not be accepted.
+  </p>
+  <p>
+    <strong>High: </strong>chi_squared=9.094736842105263, p_value=0.4285755424531232, degrees_of_freedom=9<br />
+    CONCLUSION:Since p_value=0.4285755424531232 &gt; 0.05, <strong>Therefore do not reject null hypothesis for high freedom testing group. </strong>
+  </p>
+  <p>
+   <strong>Analysis:</strong> There could be omitted variable bias when conducting the chi_square test without controlling for testing groups because the null hypothesis was rejected when looking at all testing groups while when split into testing groups the null hypothesis was accepted. Note the lower p-value for the medium testing group (p=0.0816..) whereas the p value for the low and high testing group was (p > 0.42).   In the next steps, it would be interesting to investigate the relationship between freedom index and testing level using perhaps logistic regression since the testing variable is categorical. 
+  </p>
+
+
+
+
+
+  <p>
+    <strong> With Stringency levels at 5% significance level</strong>
+
+  </p>
+  <p>
+    <strong> H_0: There is no association between Stringency Level and infections level<br />
+        H_a: There is an association between Stringency Level and infections level</strong>
+
+
+  </p>
+  <p>
+    <strong>All: </strong>chi_squared=2.3619909502262444, p_value=0.6695067293595096, degrees_of_freedom=4<br />
+    CONCLUSION: Since p_value=0.6695067293595096 &gt; 0.05, <strong> Therefore do not reject null hypothesis.
+    </strong>
+  </p>
+  <p>
+    <strong>Low: </strong>chi_squared=14.739999999999998, p_value=0.022378240107659195, degrees_of_freedom=6
+    <br />
+    CONCLUSION: Since p_value=0.022378240107659195 &lt; 0.05 <strong> Therefore reject null hypothesis in favour of alternative hypothesis for low freedom testing group.
+    </strong> 
+  </p>
+  <p>
+    <strong>Medium: </strong>chi_squared=12.450757575757576, p_value=0.052636107372483816, degrees_of_freedom=6<br />
+    CONCLUSION: Since p_value=0.052636107372483816 &gt; 0.05,,  <strong> Therefore do not reject null hypothesis for medium freedom testing group. </strong>
+    Note that if significance = 0.1, then the null hypothesis would not be accepted.
+  </p>
+  <p>
+    <strong>High: </strong>chi_squared=3.9999999999999996, p_value=0.40600584970983844, degrees_of_freedom=4<br />
+    CONCLUSION:Since p_value=0.40600584970983844 &gt; 0.05, <strong>Therefore do not reject null hypothesis for high freedom testing group. </strong>
+  </p>
+  <p>
+   <strong>Analysis:</strong>  Even with the same testing groups, when conducting the chi square test, the probability of an association with the low testing groups exceeds 95% while for the medium testing group it does not exceed 95%, though it exceeds 94%. </p>
+  
+<p>
+  <strong>Chi Square Tests Analysis and Next Steps </strong> <br />
+
+Given that the results of the Chi Square test involved frowned upon manipulation of continuous variables. The results will be taken with more than a grain of salt. It may be interesting to investigate how freedom index and stringency index plays out for the medium testing group because of the low p-values for the chi square test and the p value < 0.05 for the t-test with stringency level and infection level. 
+
+</p>
+
+        
+        
+      
+
+        <h3>T-Test</h3>
         <p>
           Yae
         </p>
