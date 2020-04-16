@@ -5,6 +5,7 @@ import random
 from shapely.geometry import Point
 import csv
 import matplotlib.pyplot as plt
+import plotly.graph_objects as go
 # from mpl_toolkits.basemap import Basemap
 # import mpl_toolkits
 
@@ -36,19 +37,23 @@ if __name__=='__main__':
     df = X.merge(world, on='iso_a3', how="right")
     print(world)
 
+
+
+
+    ## PLOT MAP 1 of GOVERNMENT EFFECTIVENESS against TOTAL INFECTIONS 
     # plot layer 1
-    import plotly.graph_objects as go
+    
     fig = go.Figure(data=go.Choropleth(
         locations=df['iso_a3'], # Spatial coordinates
         z = df['government_effectiveness'].astype(float), # Data to be color-coded
         locationmode = 'ISO-3', # set of locations match entries in `locations`
         colorscale = 'Reds',
-        colorbar_title = "government effectiveness",
+        colorbar_title = "Government Effectiveness",
     ))
     df.dropna( inplace=True)
     print(df)
     # plot layer 2
-    scale = 2
+    scale = 40
     # infections = df[['iso_a3', 'lat', 'long', 'max_infections']].to_numpy()
     # print(infections)
     fig.add_trace(go.Scattergeo(
@@ -57,7 +62,7 @@ if __name__=='__main__':
         lat = df['lat'],
         text = df['iso_a3'],
         marker = dict(
-            size = df['max_infections']/scale,
+            size = df['total_infections']/scale,
             color = 'blue',
             opacity=0.4,
             line_color='rgb(40,40,40)',
@@ -65,36 +70,108 @@ if __name__=='__main__':
             line_width=0.5,
             sizemode='area'
         ),
-        name="max infection rate"
-        # colorbar_title = "max infection rate",
+        name="total infection per million"
     )
     )
-    # for i in range(len(infections)):
-    #     countryname = infections[i,0]
-    #     lat_ = infections[i,1]
-    #     long_ = infections[i,2]
-    #     max_infections = infections[i, 3]
-
     fig.update_layout(
-        title_text = 'Worldwide Coronavirus total infection rates and government effectiveness',
+        title_text = 'Worldwide Coronavirus Total Infection per M and government effectiveness',
+        showlegend = True,
+        geo = dict(
+            landcolor = 'rgb(217, 217, 217)',
+        )
+    )
+    fig.show()
+
+
+
+
+    ## PLOT MAP 2 of STRINGENCY INDEX against TOTAL INFECTIONS 
+    # plot layer 1
+
+    fig = go.Figure(data=go.Choropleth(
+        locations=df['iso_a3'], # Spatial coordinates
+        z = df['stringency_index'].astype(float), # Data to be color-coded
+        locationmode = 'ISO-3', # set of locations match entries in `locations`
+        colorscale = 'Blues',
+        colorbar_title = "Stringency Index",
+    ))
+    df.dropna( inplace=True)
+    print(df)
+    # plot layer 2
+    fig.add_trace(go.Scattergeo(
+        locationmode = 'ISO-3',
+        lon = df['long'],
+        lat = df['lat'],
+        text = df['iso_a3'],
+        marker = dict(
+            size = df['total_infections']/scale,
+            color = 'blue',
+            opacity=0.4,
+            line_color='rgb(40,40,40)',
+            # color='rgba(102, 102, 102)',
+            line_width=0.5,
+            sizemode='area'
+        ),
+        name="total infection rate"
+    )
+    )
+    fig.update_layout(
+        title_text = 'Worldwide Coronavirus Total Infection per M and Stringency Index per country',
         showlegend = True,
         geo = dict(
             
             landcolor = 'rgb(217, 217, 217)',
         )
     )
+    fig.show()
 
+
+    ## PLOT MAP 3 of STRINGENCY INDEX and TOTAL INFECTIONS
+    # plot layer 1
+    z = df.stringency_index * df.total_infections
+
+    fig = go.Figure(data=go.Choropleth(
+        locations=df['iso_a3'], # Spatial coordinates
+        z = z.astype(float), # Data to be color-coded
+        locationmode = 'ISO-3', # set of locations match entries in `locations`
+        colorscale = 'Blues',
+        colorbar_title = "Total Infection per M x Stringency Index",
+    ))
+
+    df.dropna( inplace=True)
+    fig.update_layout(
+        title_text = 'Worldwide Coronavirus Total Infection per M x Stringency Index per country',
+        showlegend = True,
+        geo = dict(
+            
+            landcolor = 'rgb(217, 217, 217)',
+        )
+    ) 
+    fig.show()
+
+
+    ## PLOT MAP 4 of GOVERNMENT EFFECTIVENESS and TOTAL INFECTIONS
+
+    z = df.government_effectiveness * df.total_infections
+
+    fig = go.Figure(data=go.Choropleth(
+        locations=df['iso_a3'], # Spatial coordinates
+        z = z.astype(float), # Data to be color-coded
+        locationmode = 'ISO-3', # set of locations match entries in `locations`
+        colorscale = 'Reds',
+        colorbar_title = "Total Infection per M x Government Effectiveness",
+    ))
+
+    df.dropna( inplace=True)
+    fig.update_layout(
+        title_text = 'Worldwide Coronavirus Total Infection per M x Government Effectiveness per country',
+        showlegend = True,
+        geo = dict(
+            
+            landcolor = 'rgb(217, 217, 217)',
+        )
+    ) 
     fig.show()
 
 
 
-    # fig, ax = plt.subplots(figsize = (8,3)) 
-    
-    # # 
-    # # world.plot(column='stringency_index', ax=ax,edgecolor='k', legend=True, missing_kwds={'color': 'lightgrey'}, cmap='Blues')
-    # # plt.show()
-    # world.plot(column='government_effectiveness', ax=ax,edgecolor='k', legend=True, missing_kwds={'color': 'lightgrey'},cmap='OrRd')
-    # # world.plot(column='StringencyIndex', ax=ax,edgecolor='k')
-
-
-    # plt.show()
