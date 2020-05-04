@@ -14,7 +14,7 @@
         "population": 2877797,
         "stringency_index": null,
         "total_infections": 2802.8384211951015,
-        "total_tests": 1677.3247035840263
+        "total_tests": 3129.477166040551
     },
     "Algeria": {
         "corruption_level": -0.64,
@@ -31,7 +31,24 @@
         "population": 43851044,
         "stringency_index": 61.9,
         "total_infections": 644.112372786381,
-        "total_tests": 76.60022871975409
+        "total_tests": 148.22908207156937
+    },
+    "Angola": {
+        "corruption_level": -1.14,
+        "gov_healthexp_pct_gdp": 1.27022185,
+        "gov_healthexp_per_capita": 42.02879929,
+        "government_effectiveness": -1.05,
+        "human_freedom": 5.02,
+        "iso_a3": "AGO",
+        "lat": -11.2027,
+        "law_enforcement_ability": -1.05,
+        "long": 17.8739,
+        "max_infections": 0.5781002481814792,
+        "median_age": 17,
+        "population": 32866272,
+        "stringency_index": 71.43,
+        "total_infections": 8.549798407315562,
+        "total_tests": 91.2789865549704
     },
     "Antigua and Barbuda": {
         "corruption_level": 0.28,
@@ -48,7 +65,7 @@
         "population": 97929,
         "stringency_index": null,
         "total_infections": 3308.519437551696,
-        "total_tests": 745.4380214236845
+        "total_tests": 1541.9334415750186
     },
     "Argentina": {
         "corruption_level": -0.08,
@@ -65,7 +82,7 @@
         "population": 45195774,
         "stringency_index": 90.48,
         "total_infections": 721.1957471953019,
-        "total_tests": 585.3865894629884
+        "total_tests": 1456.1759690186964
     },
     "Armenia": {
         "corruption_level": -0.35,
@@ -82,7 +99,7 @@
         "population": 2963243,
         "stringency_index": null,
         "total_infections": 5832.461259505211,
-        "total_tests": 3250.4927878003928
+        "total_tests": 8417.129476050393
     },
     "Australia": {
         "corruption_level": 1.81,
@@ -99,7 +116,7 @@
         "population": 25499884,
         "stringency_index": 71.43,
         "total_infections": 4884.022217512833,
-        "total_tests": 14902.14622152791
+        "total_tests": 25498.70422939963
     },
     "Austria": {
         "corruption_level": 1.6,
@@ -116,7 +133,7 @@
         "population": 9006398,
         "stringency_index": 95.24,
         "total_infections": 30761.24328505136,
-        "total_tests": 17409.956788496354
+        "total_tests": 30985.861384318127
     },
     "Azerbaijan": {
         "corruption_level": -0.83,
@@ -133,7 +150,7 @@
         "population": 10139177,
         "stringency_index": null,
         "total_infections": 1389.2646316362757,
-        "total_tests": 7436.205127891544
+        "total_tests": 15576.412168364355
     },
     "Bahrain": {
         "corruption_level": -0.15,
@@ -150,7 +167,7 @@
         "population": 1701575,
         "stringency_index": 57.14,
         "total_infections": 13012.650044811424,
-        "total_tests": 45034.74721948783
+        "total_tests": 84718.5695605542
     },
     "Bangladesh": {
         "corruption_level": -0.91,
@@ -167,7 +184,7 @@
         "population": 164689383,
         "stringency_index": 95.24,
         "total_infections": 38.15060743776057,
-        "total_tests": 103.24284231485645
+        "total_tests": 532.4811982567206
     },
     "Barbados": {
         "corruption_level": 1.41,
@@ -184,7 +201,7 @@
         "population": 287375,
         "stringency_index": 100.0,
         "total_infections": 4067.85558938669,
-        "total_tests": 3131.7964332318397
+        "total_tests": 8421.052631578947
     },
     "Belarus": {
         "corruption_level": -0.19,
@@ -201,7 +218,7 @@
         "population": 9449323,
         "stringency_index": null,
         "total_infections": 2551.8230247817755,
-        "total_tests": 8598.076285465106
+        "total_tests": 22368.69244495082
     },
     "Belgium": {
         "corruption_level": 1.51,
@@ -218,7 +235,7 @@
         "population": 11589623,
         "stringency_index": 85.71,
         "total_infections": 38331.35900969341,
-        "total_tests": 11588.21128176473
+        "total_tests": 38025.39564919411
     },
     "Belize": {
         "corruption_level": -0.14,
@@ -235,7 +252,7 @@
         "population": 397628,
         "stringency_index": 66.67,
         "total_infections": 399.871236432042,
-        "total_tests": 1425.9559185972819
+        "total_tests": 2623.054714456728
     },
     "Bhutan": {
         "corruption_level": 1.65,
@@ -252,7 +269,7 @@
         "population": 771608,
         "stringency_index": null,
         "total_infections": 155.51938289908867,
-        "total_tests": 1511.1300038361449
+        "total_tests": 14230.023535266611
     },
     "Bolivia": {
         "corruption_level": -0.63,
@@ -269,7 +286,7 @@
         "population": 11673021,
         "stringency_index": 61.9,
         "total_infections": 353.2076229452513,
-        "total_tests": 187.1837633119995
+        "total_tests": 655.4430082838024
     },
     "Bosnia and Herzegovina": {
         "corruption_level": -0.57,
@@ -286,7 +303,7 @@
         "population": 3280819,
         "stringency_index": null,
         "total_infections": 4529.661648509107,
-        "total_tests": 4493.69501944484
+        "total_tests": 10478.481135350656
     },
     "Botswana": {
         "corruption_level": 0.75,
@@ -303,7 +320,7 @@
         "population": 2351627,
         "stringency_index": 100.0,
         "total_infections": 58.682775797352214,
-        "total_tests": 1463.2422573818042
+        "total_tests": 3263.6978568454947
     },
     "Brazil": {
         "corruption_level": -0.42,
@@ -320,7 +337,7 @@
         "population": 212559417,
         "stringency_index": 76.19,
         "total_infections": 1329.4353361911978,
-        "total_tests": 296.31714693684916
+        "total_tests": 1597.445104020021
     },
     "Brunei": {
         "corruption_level": 0.8,
@@ -337,7 +354,7 @@
         "population": 437479,
         "stringency_index": 57.14,
         "total_infections": 8484.978707549391,
-        "total_tests": 24746.330681015548
+        "total_tests": 33089.588300238414
     },
     "Bulgaria": {
         "corruption_level": -0.15,
@@ -354,7 +371,7 @@
         "population": 6948445,
         "stringency_index": 80.95,
         "total_infections": 1788.4577052851394,
-        "total_tests": 2662.7540406522608
+        "total_tests": 7072.805498208592
     },
     "Burma": {
         "corruption_level": -0.59,
@@ -371,7 +388,24 @@
         "population": 54409800,
         "stringency_index": 80.95,
         "total_infections": 10.03495693790457,
-        "total_tests": 59.47457994699484
+        "total_tests": 165.8708541475984
+    },
+    "Burundi": {
+        "corruption_level": -1.45,
+        "gov_healthexp_pct_gdp": 1.80344852,
+        "gov_healthexp_per_capita": 5.37748774,
+        "government_effectiveness": -1.42,
+        "human_freedom": 5.7,
+        "iso_a3": "BDI",
+        "lat": -3.3731,
+        "law_enforcement_ability": -1.5,
+        "long": 29.9189,
+        "max_infections": 0.4204937201785854,
+        "median_age": 17,
+        "population": 11890784,
+        "stringency_index": null,
+        "total_infections": 4.709529666000156,
+        "total_tests": 23.88404330614365
     },
     "Cambodia": {
         "corruption_level": -1.33,
@@ -388,7 +422,7 @@
         "population": 16718965,
         "stringency_index": null,
         "total_infections": 180.15469259012144,
-        "total_tests": 344.99743255638134
+        "total_tests": 740.3568342896824
     },
     "Canada": {
         "corruption_level": 1.87,
@@ -405,7 +439,7 @@
         "population": 37742154,
         "stringency_index": 80.95,
         "total_infections": 8984.648835887852,
-        "total_tests": 12392.933376298555
+        "total_tests": 23778.293099010727
     },
     "Chile": {
         "corruption_level": 1.01,
@@ -422,7 +456,7 @@
         "population": 19116201,
         "stringency_index": 71.43,
         "total_infections": 5350.0169829769,
-        "total_tests": 4806.028143353379
+        "total_tests": 11201.545746458723
     },
     "Colombia": {
         "corruption_level": -0.3,
@@ -439,7 +473,7 @@
         "population": 50882891,
         "stringency_index": 80.95,
         "total_infections": 728.0639773396524,
-        "total_tests": 955.6846917365604
+        "total_tests": 2334.7926516203647
     },
     "Costa Rica": {
         "corruption_level": 0.55,
@@ -456,7 +490,7 @@
         "population": 5094118,
         "stringency_index": 100.0,
         "total_infections": 2088.683458058883,
-        "total_tests": 1784.2146569828183
+        "total_tests": 2719.0182873659382
     },
     "Croatia": {
         "corruption_level": 0.13,
@@ -473,7 +507,7 @@
         "population": 4105267,
         "stringency_index": 100.0,
         "total_infections": 6518.699027371423,
-        "total_tests": 4910.277455765971
+        "total_tests": 9509.734689607278
     },
     "Cuba": {
         "corruption_level": 0.17,
@@ -490,7 +524,7 @@
         "population": 11326616,
         "stringency_index": 61.9,
         "total_infections": 725.6359710614362,
-        "total_tests": 1805.570172061982
+        "total_tests": 4727.360758058718
     },
     "Cyprus": {
         "corruption_level": 0.64,
@@ -507,7 +541,7 @@
         "population": 1207359,
         "stringency_index": null,
         "total_infections": 8280.884144649604,
-        "total_tests": 14844.79761197788
+        "total_tests": 51572.89588266622
     },
     "Czech Republic": {
         "corruption_level": 0.5,
@@ -524,7 +558,7 @@
         "population": 10708981,
         "stringency_index": 90.48,
         "total_infections": 9633.036047033793,
-        "total_tests": 13633.790180410257
+        "total_tests": 24423.238775005764
     },
     "Denmark": {
         "corruption_level": 2.15,
@@ -541,7 +575,7 @@
         "population": 5792202,
         "stringency_index": 80.95,
         "total_infections": 19440.447691568766,
-        "total_tests": 14222.570276381935
+        "total_tests": 42262.16558055123
     },
     "Dominica": {
         "corruption_level": 0.55,
@@ -558,7 +592,7 @@
         "population": 71986,
         "stringency_index": null,
         "total_infections": 4153.585419387103,
-        "total_tests": 4792.598560831272
+        "total_tests": 5320.478982024282
     },
     "Dominican Republic": {
         "corruption_level": -0.75,
@@ -575,7 +609,7 @@
         "population": 10847910,
         "stringency_index": 76.19,
         "total_infections": 3704.1236514683474,
-        "total_tests": 855.0034061860764
+        "total_tests": 3076.81387474638
     },
     "Ecuador": {
         "corruption_level": -0.56,
@@ -592,7 +626,7 @@
         "population": 17643054,
         "stringency_index": 47.62,
         "total_infections": 5364.264032746259,
-        "total_tests": 1478.9389637417648
+        "total_tests": 4458.35511244255
     },
     "Egypt": {
         "corruption_level": -0.59,
@@ -609,7 +643,7 @@
         "population": 102334404,
         "stringency_index": 95.24,
         "total_infections": 301.9707819864764,
-        "total_tests": 244.2971182985538
+        "total_tests": 879.4696258747938
     },
     "El Salvador": {
         "corruption_level": -0.59,
@@ -626,7 +660,7 @@
         "population": 6486205,
         "stringency_index": 85.71,
         "total_infections": 237.58114336503397,
-        "total_tests": 1284.7265851140999
+        "total_tests": 4684.865803655604
     },
     "Equatorial Guinea": {
         "corruption_level": -1.56,
@@ -660,7 +694,7 @@
         "population": 1326535,
         "stringency_index": null,
         "total_infections": 18628.984534897307,
-        "total_tests": 27156.464020926698
+        "total_tests": 42052.41474970506
     },
     "Ethiopia": {
         "corruption_level": -0.49,
@@ -677,7 +711,24 @@
         "population": 114963588,
         "stringency_index": null,
         "total_infections": 8.959358505755752,
-        "total_tests": 46.87571163836675
+        "total_tests": 209.52721134625685
+    },
+    "Fiji": {
+        "corruption_level": 0.38,
+        "gov_healthexp_pct_gdp": 2.21195708,
+        "gov_healthexp_per_capita": 114.9676021,
+        "government_effectiveness": 0.26,
+        "human_freedom": 7.46,
+        "iso_a3": "FJI",
+        "lat": -17.7134,
+        "law_enforcement_ability": -0.13,
+        "long": 178.065,
+        "max_infections": 17.84827847776495,
+        "median_age": 28,
+        "population": 896445,
+        "stringency_index": null,
+        "total_infections": 273.3017641907758,
+        "total_tests": 1123.3260266943314
     },
     "Finland": {
         "corruption_level": 2.21,
@@ -694,7 +745,7 @@
         "population": 5540720,
         "stringency_index": 52.38,
         "total_infections": 8932.593597943951,
-        "total_tests": 8969.953363461787
+        "total_tests": 18679.88275891942
     },
     "France": {
         "corruption_level": 1.32,
@@ -711,7 +762,24 @@
         "population": 65273511,
         "stringency_index": 95.24,
         "total_infections": 30858.260405204797,
-        "total_tests": 5113.973415647888
+        "total_tests": 16855.65833895468
+    },
+    "Gabon": {
+        "corruption_level": -0.85,
+        "gov_healthexp_pct_gdp": 2.01054636,
+        "gov_healthexp_per_capita": 142.3211442,
+        "government_effectiveness": -0.81,
+        "human_freedom": 5.79,
+        "iso_a3": "GAB",
+        "lat": -0.8037,
+        "law_enforcement_ability": -0.71,
+        "long": 11.6094,
+        "max_infections": 35.943198962679276,
+        "median_age": 23,
+        "population": 2225734,
+        "stringency_index": null,
+        "total_infections": 293.3863615328696,
+        "total_tests": 325.28595061224746
     },
     "Gambia": {
         "corruption_level": -0.46,
@@ -728,7 +796,7 @@
         "population": 2416668,
         "stringency_index": null,
         "total_infections": 49.65514501785103,
-        "total_tests": 116.27579791680115
+        "total_tests": 165.9309429346522
     },
     "Georgia": {
         "corruption_level": 0.71,
@@ -745,7 +813,7 @@
         "population": 3989167,
         "stringency_index": null,
         "total_infections": 1109.504816419067,
-        "total_tests": 1260.1628360005986
+        "total_tests": 3986.797243635075
     },
     "Germany": {
         "corruption_level": 1.95,
@@ -762,7 +830,7 @@
         "population": 83783942,
         "stringency_index": 80.95,
         "total_infections": 26883.779233018184,
-        "total_tests": 20628.738141731264
+        "total_tests": 30400.240657093935
     },
     "Ghana": {
         "corruption_level": -0.11,
@@ -779,7 +847,7 @@
         "population": 31072940,
         "stringency_index": 66.67,
         "total_infections": 210.82652623150562,
-        "total_tests": 1632.2562332370223
+        "total_tests": 3766.9110164664175
     },
     "Greece": {
         "corruption_level": -0.07,
@@ -796,7 +864,7 @@
         "population": 10423054,
         "stringency_index": 66.67,
         "total_infections": 3984.244924760056,
-        "total_tests": 4871.029162853805
+        "total_tests": 7731.99486446103
     },
     "Grenada": {
         "corruption_level": 0.38,
@@ -813,7 +881,7 @@
         "population": 112523,
         "stringency_index": null,
         "total_infections": 2124.010202358629,
-        "total_tests": 817.6106218284261
+        "total_tests": 12495.223198812686
     },
     "Guatemala": {
         "corruption_level": -0.82,
@@ -864,7 +932,7 @@
         "population": 786552,
         "stringency_index": 85.71,
         "total_infections": 840.3767328797079,
-        "total_tests": 270.80218472523114
+        "total_tests": 736.1242486192903
     },
     "Haiti": {
         "corruption_level": -1.27,
@@ -881,7 +949,7 @@
         "population": 11402528,
         "stringency_index": null,
         "total_infections": 44.81462356417805,
-        "total_tests": 32.01044540298432
+        "total_tests": 81.99936014189134
     },
     "Honduras": {
         "corruption_level": -0.62,
@@ -898,7 +966,7 @@
         "population": 9904607,
         "stringency_index": 71.43,
         "total_infections": 566.8069414566372,
-        "total_tests": 203.13779234249273
+        "total_tests": 485.63259501361335
     },
     "Hungary": {
         "corruption_level": 0.05,
@@ -915,7 +983,7 @@
         "population": 9660351,
         "stringency_index": 85.71,
         "total_infections": 1920.323599007945,
-        "total_tests": 3984.2237616417874
+        "total_tests": 8690.988557248076
     },
     "Iceland": {
         "corruption_level": 1.84,
@@ -932,7 +1000,7 @@
         "population": 341243,
         "stringency_index": 38.1,
         "total_infections": 101807.21655828838,
-        "total_tests": 109558.2913056092
+        "total_tests": 147712.92011850793
     },
     "India": {
         "corruption_level": -0.19,
@@ -949,7 +1017,7 @@
         "population": 1380004385,
         "stringency_index": 100.0,
         "total_infections": 77.07004496221221,
-        "total_tests": 198.9841503293484
+        "total_tests": 802.3402041581194
     },
     "Indonesia": {
         "corruption_level": -0.25,
@@ -966,7 +1034,7 @@
         "population": 273523615,
         "stringency_index": 66.67,
         "total_infections": 217.1439566561739,
-        "total_tests": 131.61569248783144
+        "total_tests": 427.24281777279083
     },
     "Iran": {
         "corruption_level": -0.96,
@@ -983,7 +1051,7 @@
         "population": 83992949,
         "stringency_index": 71.43,
         "total_infections": 17634.194508398556,
-        "total_tests": 3694.833955645491
+        "total_tests": 6051.555589505495
     },
     "Iraq": {
         "corruption_level": -1.4,
@@ -1000,7 +1068,7 @@
         "population": 40222493,
         "stringency_index": 76.19,
         "total_infections": 578.208814655024,
-        "total_tests": 1146.9950408096286
+        "total_tests": 2567.2700098425025
     },
     "Ireland": {
         "corruption_level": 1.55,
@@ -1017,7 +1085,7 @@
         "population": 4937786,
         "stringency_index": 66.67,
         "total_infections": 26234.8348024803,
-        "total_tests": 18357.62019658203
+        "total_tests": 34302.21560837185
     },
     "Israel": {
         "corruption_level": 0.79,
@@ -1034,7 +1102,7 @@
         "population": 8655535,
         "stringency_index": 100.0,
         "total_infections": 20252.589816805084,
-        "total_tests": 21633.55586916349
+        "total_tests": 46708.262400879896
     },
     "Italy": {
         "corruption_level": 0.24,
@@ -1051,7 +1119,7 @@
         "population": 60461826,
         "stringency_index": 95.24,
         "total_infections": 54660.32401998577,
-        "total_tests": 18481.14874995671
+        "total_tests": 35622.013797598505
     },
     "Jamaica": {
         "corruption_level": -0.16,
@@ -1068,7 +1136,7 @@
         "population": 2961167,
         "stringency_index": null,
         "total_infections": 454.55052011588674,
-        "total_tests": 469.7472314124803
+        "total_tests": 1902.2905496380313
     },
     "Japan": {
         "corruption_level": 1.42,
@@ -1085,7 +1153,7 @@
         "population": 126476461,
         "stringency_index": 66.67,
         "total_infections": 805.5411986899286,
-        "total_tests": 745.0872617316514
+        "total_tests": 1448.8941147712853
     },
     "Jordan": {
         "corruption_level": 0.15,
@@ -1102,7 +1170,7 @@
         "population": 10203134,
         "stringency_index": null,
         "total_infections": 758.4924396758879,
-        "total_tests": 2009.1865891401603
+        "total_tests": 8587.361491086955
     },
     "Kazakhstan": {
         "corruption_level": -0.5,
@@ -1119,7 +1187,7 @@
         "population": 18776707,
         "stringency_index": 61.9,
         "total_infections": 715.9402338226826,
-        "total_tests": 4566.029602528281
+        "total_tests": 16342.641976572355
     },
     "Kenya": {
         "corruption_level": -0.85,
@@ -1136,7 +1204,24 @@
         "population": 53771296,
         "stringency_index": 59.52,
         "total_infections": 53.37420173023168,
-        "total_tests": 179.09183368018506
+        "total_tests": 460.91505772894146
+    },
+    "Kuwait": {
+        "corruption_level": -0.29,
+        "gov_healthexp_pct_gdp": 3.27496898,
+        "gov_healthexp_per_capita": 896.2025296,
+        "government_effectiveness": -0.09,
+        "human_freedom": 6.6,
+        "iso_a3": "KWT",
+        "lat": 29.5,
+        "law_enforcement_ability": 0.21,
+        "long": 47.75,
+        "max_infections": 328.9958181236186,
+        "median_age": 37,
+        "population": 4270571,
+        "stringency_index": null,
+        "total_infections": 3992.4403551656205,
+        "total_tests": 45988.463837739735
     },
     "Kyrgyzstan": {
         "corruption_level": -0.95,
@@ -1153,7 +1238,7 @@
         "population": 6524195,
         "stringency_index": null,
         "total_infections": 696.0245670155475,
-        "total_tests": 4007.6975013775645
+        "total_tests": 8658.232931419127
     },
     "Laos": {
         "corruption_level": -0.98,
@@ -1170,7 +1255,7 @@
         "population": 7275560,
         "stringency_index": 52.38,
         "total_infections": 36.83565251334605,
-        "total_tests": 177.0310464074243
+        "total_tests": 305.5434908103294
     },
     "Latvia": {
         "corruption_level": 0.33,
@@ -1187,7 +1272,7 @@
         "population": 1886198,
         "stringency_index": null,
         "total_infections": 6278.768188705533,
-        "total_tests": 16595.288511598465
+        "total_tests": 34706.854741654905
     },
     "Lebanon": {
         "corruption_level": -1.11,
@@ -1204,7 +1289,7 @@
         "population": 6825445,
         "stringency_index": 95.24,
         "total_infections": 2015.3997285158698,
-        "total_tests": 2654.0394069544186
+        "total_tests": 6008.985494718659
     },
     "Libya": {
         "corruption_level": -1.55,
@@ -1221,7 +1306,7 @@
         "population": 6871292,
         "stringency_index": null,
         "total_infections": 53.41062495961458,
-        "total_tests": 92.26794611551946
+        "total_tests": 320.4637497576875
     },
     "Liechtenstein": {
         "corruption_level": 2.01,
@@ -1255,7 +1340,7 @@
         "population": 2722289,
         "stringency_index": null,
         "total_infections": 6253.560882037139,
-        "total_tests": 17829.480999262018
+        "total_tests": 52907.31439608359
     },
     "Luxembourg": {
         "corruption_level": 2.09,
@@ -1272,7 +1357,24 @@
         "population": 625978,
         "stringency_index": null,
         "total_infections": 98835.74183118257,
-        "total_tests": 49079.99961659995
+        "total_tests": 77221.56369712674
+    },
+    "Madagascar": {
+        "corruption_level": -1.0,
+        "gov_healthexp_pct_gdp": 2.8609236,
+        "gov_healthexp_per_capita": 11.49353953,
+        "government_effectiveness": -1.15,
+        "human_freedom": 6.69,
+        "iso_a3": "MDG",
+        "lat": -18.7669,
+        "law_enforcement_ability": -0.81,
+        "long": 46.8691,
+        "max_infections": 3.972407226054311,
+        "median_age": 20,
+        "population": 27691018,
+        "stringency_index": 92.86,
+        "total_infections": 57.05821288332556,
+        "total_tests": 136.21745506069874
     },
     "Malawi": {
         "corruption_level": -0.74,
@@ -1289,7 +1391,7 @@
         "population": 19129952,
         "stringency_index": 59.52,
         "total_infections": 6.534255809946622,
-        "total_tests": 17.929997942493532
+        "total_tests": 47.41256015697269
     },
     "Malaysia": {
         "corruption_level": 0.31,
@@ -1306,7 +1408,24 @@
         "population": 32365999,
         "stringency_index": 85.71,
         "total_infections": 2757.307135800134,
-        "total_tests": 2693.660096819505
+        "total_tests": 6352.28345647542
+    },
+    "Mali": {
+        "corruption_level": -0.7,
+        "gov_healthexp_pct_gdp": 1.20695298,
+        "gov_healthexp_per_capita": 9.41220796,
+        "government_effectiveness": -1.0,
+        "human_freedom": 6.07,
+        "iso_a3": "MLI",
+        "lat": 17.570692,
+        "law_enforcement_ability": -0.8,
+        "long": -3.996166000000001,
+        "max_infections": 7.308341340822869,
+        "median_age": 16,
+        "population": 20250833,
+        "stringency_index": null,
+        "total_infections": 60.6394808549357,
+        "total_tests": 107.25484724504913
     },
     "Malta": {
         "corruption_level": 0.58,
@@ -1323,7 +1442,7 @@
         "population": 441543,
         "stringency_index": null,
         "total_infections": 13989.577459047025,
-        "total_tests": 47931.91150125809
+        "total_tests": 81994.27915287978
     },
     "Mauritania": {
         "corruption_level": -0.81,
@@ -1340,7 +1459,7 @@
         "population": 4649658,
         "stringency_index": null,
         "total_infections": 30.754950149021713,
-        "total_tests": 153.34461158218517
+        "total_tests": 221.9518080684644
     },
     "Mauritius": {
         "corruption_level": 0.27,
@@ -1357,7 +1476,7 @@
         "population": 1271768,
         "stringency_index": null,
         "total_infections": 3783.7089783671236,
-        "total_tests": 6509.8351271615575
+        "total_tests": 14466.475017456014
     },
     "Mexico": {
         "corruption_level": -0.86,
@@ -1374,7 +1493,7 @@
         "population": 128932753,
         "stringency_index": 76.19,
         "total_infections": 401.2401720763691,
-        "total_tests": 310.9450396983302
+        "total_tests": 727.4412266679825
     },
     "Moldova": {
         "corruption_level": -0.73,
@@ -1391,7 +1510,7 @@
         "population": 4033963,
         "stringency_index": null,
         "total_infections": 5032.768024892643,
-        "total_tests": 1554.550698655392
+        "total_tests": 5068.712826567819
     },
     "Mongolia": {
         "corruption_level": -0.43,
@@ -1408,7 +1527,7 @@
         "population": 3278290,
         "stringency_index": 61.9,
         "total_infections": 124.15009044349341,
-        "total_tests": 328.5249322055096
+        "total_tests": 2516.55588736811
     },
     "Montenegro": {
         "corruption_level": 0.02,
@@ -1425,7 +1544,7 @@
         "population": 628066,
         "stringency_index": null,
         "total_infections": 6634.653046017457,
-        "total_tests": 6168.141564740011
+        "total_tests": 12444.552005680931
     },
     "Morocco": {
         "corruption_level": -0.22,
@@ -1442,7 +1561,7 @@
         "population": 36910560,
         "stringency_index": 71.43,
         "total_infections": 626.7312118808276,
-        "total_tests": 309.74875482788667
+        "total_tests": 1194.129810005592
     },
     "Mozambique": {
         "corruption_level": -0.78,
@@ -1459,7 +1578,7 @@
         "population": 31255435,
         "stringency_index": null,
         "total_infections": 9.56633622280413,
-        "total_tests": 25.371587373523997
+        "total_tests": 78.89827801148823
     },
     "Namibia": {
         "corruption_level": 0.34,
@@ -1476,7 +1595,7 @@
         "population": 2540905,
         "stringency_index": null,
         "total_infections": 129.48142492537107,
-        "total_tests": 142.4689234741165
+        "total_tests": 441.5749506573445
     },
     "Nepal": {
         "corruption_level": -0.67,
@@ -1493,7 +1612,7 @@
         "population": 29136808,
         "stringency_index": null,
         "total_infections": 8.20268301181104,
-        "total_tests": 542.2694208644956
+        "total_tests": 2165.7142402146455
     },
     "Netherlands": {
         "corruption_level": 2.01,
@@ -1510,7 +1629,7 @@
         "population": 17134872,
         "stringency_index": 85.71,
         "total_infections": 24417.748787385164,
-        "total_tests": 8634.321867125707
+        "total_tests": 13767.771361233396
     },
     "New Zealand": {
         "corruption_level": 2.17,
@@ -1527,7 +1646,7 @@
         "population": 4822233,
         "stringency_index": 100.0,
         "total_infections": 4301.3267919654645,
-        "total_tests": 14549.276237792741
+        "total_tests": 31664.998352423034
     },
     "Niger": {
         "corruption_level": -0.58,
@@ -1544,7 +1663,7 @@
         "population": 24206644,
         "stringency_index": null,
         "total_infections": 213.28855003609752,
-        "total_tests": 182.88367441599917
+        "total_tests": 219.31995199334528
     },
     "Nigeria": {
         "corruption_level": -1.04,
@@ -1561,7 +1680,7 @@
         "population": 206139589,
         "stringency_index": 80.95,
         "total_infections": 24.177791486719226,
-        "total_tests": 24.255408794862785
+        "total_tests": 89.91965148431532
     },
     "North Macedonia": {
         "corruption_level": -0.36,
@@ -1578,7 +1697,7 @@
         "population": 2083374,
         "stringency_index": null,
         "total_infections": 5838.126039779704,
-        "total_tests": 4445.673220458737
+        "total_tests": 8332.157356288404
     },
     "Norway": {
         "corruption_level": 2.09,
@@ -1595,7 +1714,24 @@
         "population": 5421241,
         "stringency_index": 76.19,
         "total_infections": 26110.25778046023,
-        "total_tests": 24019.592561924474
+        "total_tests": 33624.21998948211
+    },
+    "Oman": {
+        "corruption_level": 0.25,
+        "gov_healthexp_pct_gdp": 3.82644684,
+        "gov_healthexp_per_capita": 577.8846298,
+        "government_effectiveness": 0.19,
+        "human_freedom": 6.3,
+        "iso_a3": "OMN",
+        "lat": 21.0,
+        "law_enforcement_ability": 0.46,
+        "long": 57.0,
+        "max_infections": 178.19985250535285,
+        "median_age": 31,
+        "population": 5106626,
+        "stringency_index": 85.71,
+        "total_infections": 1693.2902468283362,
+        "total_tests": 7922.8437719934855
     },
     "Pakistan": {
         "corruption_level": -0.79,
@@ -1612,7 +1748,7 @@
         "population": 220892340,
         "stringency_index": 100.0,
         "total_infections": 353.07697858603876,
-        "total_tests": 357.545218634562
+        "total_tests": 962.0569006602944
     },
     "Panama": {
         "corruption_level": -0.57,
@@ -1629,7 +1765,7 @@
         "population": 4314767,
         "stringency_index": 90.48,
         "total_infections": 9973.88735011647,
-        "total_tests": 3906.1205390696646
+        "total_tests": 7986.29450906619
     },
     "Papua New Guinea": {
         "corruption_level": -0.88,
@@ -1646,7 +1782,7 @@
         "population": 8947024,
         "stringency_index": 80.95,
         "total_infections": 4.135453308273232,
-        "total_tests": 18.665424391395398
+        "total_tests": 268.4691580127649
     },
     "Paraguay": {
         "corruption_level": -0.85,
@@ -1663,7 +1799,7 @@
         "population": 7132538,
         "stringency_index": 95.24,
         "total_infections": 324.98950583929593,
-        "total_tests": 545.1075059116405
+        "total_tests": 1509.420629795453
     },
     "Peru": {
         "corruption_level": -0.54,
@@ -1680,7 +1816,7 @@
         "population": 32971854,
         "stringency_index": 80.95,
         "total_infections": 2517.2985419624874,
-        "total_tests": 3317.526518223695
+        "total_tests": 11376.248360192301
     },
     "Philippines": {
         "corruption_level": -0.54,
@@ -1697,7 +1833,7 @@
         "population": 109581078,
         "stringency_index": 90.48,
         "total_infections": 639.5812240503785,
-        "total_tests": 439.5923172064432
+        "total_tests": 1151.3301593912042
     },
     "Poland": {
         "corruption_level": 0.64,
@@ -1714,7 +1850,7 @@
         "population": 37846611,
         "stringency_index": 76.19,
         "total_infections": 2472.6124090740914,
-        "total_tests": 4467.269209388392
+        "total_tests": 9933.465376860295
     },
     "Portugal": {
         "corruption_level": 0.85,
@@ -1731,7 +1867,7 @@
         "population": 10196709,
         "stringency_index": 80.95,
         "total_infections": 24289.99395785444,
-        "total_tests": 20429.532705111033
+        "total_tests": 44131.886082068246
     },
     "Qatar": {
         "corruption_level": 0.72,
@@ -1748,7 +1884,7 @@
         "population": 2881053,
         "stringency_index": 85.71,
         "total_infections": 14975.427387139354,
-        "total_tests": 19569.580983064177
+        "total_tests": 37068.044218554816
     },
     "Romania": {
         "corruption_level": -0.12,
@@ -1765,7 +1901,7 @@
         "population": 19237691,
         "stringency_index": 95.24,
         "total_infections": 4549.50648703111,
-        "total_tests": 4139.21816292818
+        "total_tests": 10347.811491514236
     },
     "Russia": {
         "corruption_level": -0.85,
@@ -1782,7 +1918,7 @@
         "population": 145934462,
         "stringency_index": 85.71,
         "total_infections": 1169.785379412301,
-        "total_tests": 11055.736786832435
+        "total_tests": 29465.2814768317
     },
     "Rwanda": {
         "corruption_level": 0.58,
@@ -1799,7 +1935,7 @@
         "population": 12952218,
         "stringency_index": 95.24,
         "total_infections": 172.24849056740706,
-        "total_tests": 481.5391464226436
+        "total_tests": 2652.0554240208126
     },
     "Saudi Arabia": {
         "corruption_level": 0.36,
@@ -1816,7 +1952,24 @@
         "population": 34813871,
         "stringency_index": 95.24,
         "total_infections": 1792.9922242775012,
-        "total_tests": 4308.627443354403
+        "total_tests": 10471.716862511497
+    },
+    "Senegal": {
+        "corruption_level": -0.02,
+        "gov_healthexp_pct_gdp": 1.90543308,
+        "gov_healthexp_per_capita": 18.18519494,
+        "government_effectiveness": -0.27,
+        "human_freedom": 6.29,
+        "iso_a3": "SEN",
+        "lat": 14.4974,
+        "law_enforcement_ability": -0.21,
+        "long": -14.4524,
+        "max_infections": 18.7530679033658,
+        "median_age": 19,
+        "population": 16743927,
+        "stringency_index": null,
+        "total_infections": 308.23115748175445,
+        "total_tests": 1062.2956012648644
     },
     "Serbia": {
         "corruption_level": -0.37,
@@ -1833,7 +1986,7 @@
         "population": 8737371,
         "stringency_index": null,
         "total_infections": 5355.272198010134,
-        "total_tests": 3373.0970105309707
+        "total_tests": 12184.557574583934
     },
     "Singapore": {
         "corruption_level": 2.17,
@@ -1850,7 +2003,7 @@
         "population": 5850342,
         "stringency_index": 42.86,
         "total_infections": 7175.990736951789,
-        "total_tests": 12423.205344234577
+        "total_tests": 24600.10030182851
     },
     "Slovakia": {
         "corruption_level": 0.36,
@@ -1867,7 +2020,7 @@
         "population": 5459642,
         "stringency_index": 80.95,
         "total_infections": 2348.505634618534,
-        "total_tests": 6311.402835570537
+        "total_tests": 17913.995093451183
     },
     "Slovenia": {
         "corruption_level": 0.87,
@@ -1884,7 +2037,7 @@
         "population": 2078938,
         "stringency_index": 100.0,
         "total_infections": 11920.990428766996,
-        "total_tests": 18344.462413020494
+        "total_tests": 27660.27654504367
     },
     "South Africa": {
         "corruption_level": -0.02,
@@ -1901,7 +2054,7 @@
         "population": 59308690,
         "stringency_index": 100.0,
         "total_infections": 646.9709582187702,
-        "total_tests": 1526.167581850147
+        "total_tests": 4143.5243300770935
     },
     "South Korea": {
         "corruption_level": 0.6,
@@ -1918,7 +2071,7 @@
         "population": 51269185,
         "stringency_index": 80.95,
         "total_infections": 8035.157960868696,
-        "total_tests": 10508.749066325123
+        "total_tests": 12364.561675790243
     },
     "Spain": {
         "corruption_level": 0.61,
@@ -1935,7 +2088,7 @@
         "population": 46754778,
         "stringency_index": 90.48,
         "total_infections": 62546.91231771008,
-        "total_tests": 19895.9344860968
+        "total_tests": 41331.71159533684
     },
     "Sri Lanka": {
         "corruption_level": -0.34,
@@ -1952,7 +2105,24 @@
         "population": 21413249,
         "stringency_index": 95.24,
         "total_infections": 202.2579572114442,
-        "total_tests": 222.66588316420362
+        "total_tests": 1253.5229941051916
+    },
+    "Suriname": {
+        "corruption_level": -0.21,
+        "gov_healthexp_pct_gdp": 4.20666014,
+        "gov_healthexp_per_capita": 246.99040950000003,
+        "government_effectiveness": -0.66,
+        "human_freedom": 7.19,
+        "iso_a3": "SUR",
+        "lat": 3.9193,
+        "law_enforcement_ability": -0.06,
+        "long": -56.0278,
+        "max_infections": 17.04646183638124,
+        "median_age": 29,
+        "population": 586632,
+        "stringency_index": null,
+        "total_infections": 405.70579170587354,
+        "total_tests": 688.6770581898021
     },
     "Sweden": {
         "corruption_level": 2.14,
@@ -1969,7 +2139,7 @@
         "population": 10099265,
         "stringency_index": 52.38,
         "total_infections": 16925.78618344998,
-        "total_tests": 7386.676159106628
+        "total_tests": 11832.544249507266
     },
     "Switzerland": {
         "corruption_level": 2.01,
@@ -1986,7 +2156,7 @@
         "population": 8654622,
         "stringency_index": 80.95,
         "total_infections": 57451.03598978673,
-        "total_tests": 22993.494112163422
+        "total_tests": 32670.404322684455
     },
     "Thailand": {
         "corruption_level": -0.4,
@@ -2003,7 +2173,24 @@
         "population": 69799978,
         "stringency_index": 85.71,
         "total_infections": 702.1921983986872,
-        "total_tests": 1439.7998807392175
+        "total_tests": 3264.4709429564573
+    },
+    "Timor-Leste": {
+        "corruption_level": -0.47,
+        "gov_healthexp_pct_gdp": 2.24196747,
+        "gov_healthexp_per_capita": 44.55055724,
+        "government_effectiveness": -0.98,
+        "human_freedom": 6.41,
+        "iso_a3": "TLS",
+        "lat": -8.874217,
+        "law_enforcement_ability": -1.13,
+        "long": 125.727539,
+        "max_infections": 6.067754058758614,
+        "median_age": 21,
+        "population": 1318445,
+        "stringency_index": null,
+        "total_infections": 32.614178065827545,
+        "total_tests": 503.6235868769649
     },
     "Togo": {
         "corruption_level": -0.73,
@@ -2020,7 +2207,7 @@
         "population": 8278724,
         "stringency_index": null,
         "total_infections": 145.79541484895498,
-        "total_tests": 366.72318101195305
+        "total_tests": 953.1662125709228
     },
     "Trinidad and Tobago": {
         "corruption_level": -0.32,
@@ -2037,7 +2224,7 @@
         "population": 1399488,
         "stringency_index": null,
         "total_infections": 1677.7564366396855,
-        "total_tests": 916.0492980289935
+        "total_tests": 1386.221246627338
     },
     "Tunisia": {
         "corruption_level": -0.05,
@@ -2054,7 +2241,7 @@
         "population": 11818619,
         "stringency_index": 100.0,
         "total_infections": 996.9015838483328,
-        "total_tests": 1111.5511888487142
+        "total_tests": 2065.0466860806664
     },
     "Turkey": {
         "corruption_level": -0.34,
@@ -2071,7 +2258,7 @@
         "population": 84339067,
         "stringency_index": 95.24,
         "total_infections": 7838.028371833897,
-        "total_tests": 5664.2315002133
+        "total_tests": 13461.934550449794
     },
     "US": {
         "corruption_level": 1.32,
@@ -2088,7 +2275,7 @@
         "population": 331002651,
         "stringency_index": 66.67,
         "total_infections": 22725.688079156804,
-        "total_tests": 9864.479907141287
+        "total_tests": 21851.00022053902
     },
     "Uganda": {
         "corruption_level": -1.04,
@@ -2105,7 +2292,7 @@
         "population": 45741007,
         "stringency_index": null,
         "total_infections": 21.46870094049307,
-        "total_tests": 168.18606551447368
+        "total_tests": 857.6986510157068
     },
     "Ukraine": {
         "corruption_level": -0.87,
@@ -2122,7 +2309,7 @@
         "population": 43733762,
         "stringency_index": 95.24,
         "total_infections": 741.5323657726952,
-        "total_tests": 979.1748535147742
+        "total_tests": 3077.530810178187
     },
     "United Arab Emirates": {
         "corruption_level": 1.15,
@@ -2139,7 +2326,7 @@
         "population": 9890402,
         "stringency_index": 95.24,
         "total_infections": 4885.847915989664,
-        "total_tests": 77549.93174190493
+        "total_tests": 121329.74979176781
     },
     "United Kingdom": {
         "corruption_level": 1.83,
@@ -2156,7 +2343,7 @@
         "population": 67886011,
         "stringency_index": 71.43,
         "total_infections": 16476.70828677796,
-        "total_tests": 5876.262194872519
+        "total_tests": 17771.039750737455
     },
     "Uruguay": {
         "corruption_level": 1.27,
@@ -2173,7 +2360,7 @@
         "population": 3473730,
         "stringency_index": 80.95,
         "total_infections": 2648.1620621061506,
-        "total_tests": 3007.7179285666994
+        "total_tests": 6315.689475002376
     },
     "Venezuela": {
         "corruption_level": -1.47,
@@ -2190,7 +2377,7 @@
         "population": 28435940,
         "stringency_index": 85.71,
         "total_infections": 134.40737320447292,
-        "total_tests": 7912.8384713148225
+        "total_tests": 16983.89432527991
     },
     "Vietnam": {
         "corruption_level": -0.49,
@@ -2207,7 +2394,7 @@
         "population": 97338579,
         "stringency_index": 100.0,
         "total_infections": 68.56479793073618,
-        "total_tests": 1396.5480223416862
+        "total_tests": 2681.4034340895814
     },
     "Zambia": {
         "corruption_level": -0.66,
@@ -2224,7 +2411,7 @@
         "population": 18383955,
         "stringency_index": 33.33,
         "total_infections": 43.67939325351917,
-        "total_tests": 92.25435984803053
+        "total_tests": 395.8343022488904
     },
     "Zimbabwe": {
         "corruption_level": -1.24,
@@ -2241,6 +2428,6 @@
         "population": 14862924,
         "stringency_index": 100.0,
         "total_infections": 16.0129998646296,
-        "total_tests": 48.17356261796131
+        "total_tests": 514.1653149810899
     }
 }

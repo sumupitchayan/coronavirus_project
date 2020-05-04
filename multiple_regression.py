@@ -59,59 +59,6 @@ if __name__=='__main__':
     # Setting p to 0.2 allows for a 80% training and 20% test split
     p = 0.2
 
-    def get_kmeans_labels():
-        """ output: returns labels ("High", "Medium", "Low") representing each country's testing levels
-        """
-        with open('infections.json', 'r') as f:
-            infections = json.load(f)
-
-        testing = np.array([infections[k]['total_tests'] for k in infections]).reshape(-1,1)
-        testing = np.log(testing)
-        inertia = []
-        for i in range(1, 11):
-            kmeans = KMeans(n_clusters = i).fit(testing)
-            inertia.append(kmeans.inertia_)
-        data = [[i for i in range(1,11)], inertia]
-
-        kmeans = KMeans(n_clusters = 3).fit(testing)
-
-        # data = [list(infections.keys()), kmeans.labels_, [infections[k]["total_tests"] for k in infections]]
-        # fig = px.scatter(data, x = data[0], y = data[2], log_y = True, color = data[1])
-        # fig.update_traces(textposition='top center')
-        # fig.show()
-
-        # ---------------------------END OF KMEANS----------------------------------
-
-        tot_infections = [infections[k]["total_infections"] for k in infections]
-        countries = list(infections.keys())
-        government_effectiveness = [infections[k]["stringency_index"] for k in infections]
-
-        cats = [None, None, None]
-        cluster_centers = kmeans.cluster_centers_
-        cats[np.argmin(cluster_centers)] = "Low"
-        cats[np.argmax(cluster_centers)] = "High"
-        for s in range(3):
-            if cats[s] == None:
-                cats[s] = "Medium"
-
-        labels = [cats[i] for i in kmeans.labels_]
-        label_names = labels
-
-        # First split into groups by testing using results of KMeans
-
-        groups = {}
-        labels = kmeans.labels_
-        keys = list(infections.keys())
-
-        for i in range(3):
-            g = []
-            for j in range(len(labels)):
-                if labels[j] == i:
-                    g.append(keys[j])
-            groups[cats[i]] = g
-
-        return kmeans.labels_, label_names
-
     #############################################
     # TODO: open csv and read data into X and y #
     #############################################
@@ -123,57 +70,43 @@ if __name__=='__main__':
         #1. Use pandas to load data from the file. Here you can also re-use most of the code from part I.
         #2. Select which independent variables best predict the dependent variable count.
 
-        with open('infections.json', 'r') as f:
-            infections = json.load(f)
+        with open(file_path) as jsonfile:
+            data = json.load(jsonfile)
+        data = pd.DataFrame.from_dict(data,orient='index')
 
-        columns = {}
-        countries_list = list(infections.keys())
-        metric_names = list(infections[countries_list[0]].keys())
-        for metric in metric_names:
-            for country in countries_list:
-                if metric not in columns.keys():
-                    columns[metric] = [infections[country][metric]]
-                else:
-                    columns[metric] += [infections[country][metric]]
-            columns[metric] = np.asarray(columns[metric])
-
-        x_cols = []
-        for var in variables:
-            x_cols.append(columns[var])
-        X = np.column_stack(x_cols)
-
-        y = columns["total_infections"]
+        #choose variables
+        data = data[variables + ['total_infections']].dropna()
+        X = data[variables].to_numpy()
+        y = data['total_infections'].to_numpy()
 
         return X, y
 
 
+    # variables = ["government_effectiveness", "law_enforcement_ability", "corruption_level", "human_freedom"]
+    variables = ["government_effectiveness", "stringency_index", "human_freedom"]
 
-    variables = ["government_effectiveness", "law_enforcement_ability", "corruption_level", "human_freedom"]
     # variables = ["max_infections"]
     X, y = load_file("infections.json", variables)
 
-    labels, label_names = get_kmeans_labels()
-    # print(testing_labels)
+    # THRESHOLDS FOUND TO SEPARATE TESTING GROUPS INTO H/M/L
+    LOW_THRESHOLD = 590
+    HIGH_THRESHOLD = 6200
 
-    for i in range(4):
+    # Dict where key is Testing Group LABEL, and value is list of indices representing data points
+    data_groups = {}
 
-        indices = []
+    # Find the indices of data that belong in each testing group
+    data_groups["LOW"] = np.argwhere(y<LOW_THRESHOLD).tolist()
+    data_groups["MEDIUM"] = np.argwhere(np.logical_and(y>=LOW_THRESHOLD, y<=HIGH_THRESHOLD)).tolist()
+    data_groups["HIGH"] = np.argwhere(y>HIGH_THRESHOLD).tolist()
 
+    # Loops through each testing group to perform the regression:
+    for label, indices_list in data_groups.items():
 
-        # Finds indices for current group (H/L/M)
-        for j in range(0, len(labels)):
-            if labels[j] == i:
-                indices.append(j)
+        # Indices list is plain list of numbers (had to do this because np.argwhere returns list of lists)
+        indices = [item for sublist in indices_list for item in sublist]
 
-        cur_group = "ALL"
-
-        # Performs on all groups
-        if i == 3:
-            indices = range(len(labels))
-        else:
-            cur_group = label_names[indices[0]]
-
-        print('Current Testing Group: ' + cur_group)
+        print('Current Testing Group: ' + label)
         print('Variables used: ' + ", ".join(variables))
         print('Number of countries: ' + str(len(indices)))
 
@@ -187,7 +120,7 @@ if __name__=='__main__':
 
         mse = eval_measures.mse(cur_y, results.predict(cur_X))
 
-        # print(results.summary())
+        print(results.summary())
         print('R-squared = ' + str(results.rsquared))
         print('MSE = ' + str(mse))
         print("-----------------------------------------------")
