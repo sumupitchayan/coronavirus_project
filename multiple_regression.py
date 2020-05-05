@@ -84,8 +84,7 @@ if __name__=='__main__':
 
     # variables = ["government_effectiveness", "law_enforcement_ability", "corruption_level", "human_freedom"]
     variables = ["government_effectiveness", "stringency_index", "human_freedom"]
-
-    # variables = ["max_infections"]
+    # variables = ["total_tests"]
     X, y = load_file("infections.json", variables)
 
     # THRESHOLDS FOUND TO SEPARATE TESTING GROUPS INTO H/M/L
@@ -99,12 +98,15 @@ if __name__=='__main__':
     data_groups["LOW"] = np.argwhere(y<LOW_THRESHOLD).tolist()
     data_groups["MEDIUM"] = np.argwhere(np.logical_and(y>=LOW_THRESHOLD, y<=HIGH_THRESHOLD)).tolist()
     data_groups["HIGH"] = np.argwhere(y>HIGH_THRESHOLD).tolist()
+    data_groups["ALL"] = list(range(len(y)))
 
     # Loops through each testing group to perform the regression:
     for label, indices_list in data_groups.items():
 
         # Indices list is plain list of numbers (had to do this because np.argwhere returns list of lists)
-        indices = [item for sublist in indices_list for item in sublist]
+        indices = indices_list
+        if label != "ALL":
+            indices = [item for sublist in indices_list for item in sublist]
 
         print('Current Testing Group: ' + label)
         print('Variables used: ' + ", ".join(variables))
